@@ -8,6 +8,8 @@ app.get("/", (req, res) => {
   res.send("Welcome on the Dream IT API !");
 });
 
+// il manque les traductions de 4 à 9
+
 const all = [
   {
     id: 1,
@@ -15,11 +17,11 @@ const all = [
     type: "ready-to-use",
     theme: "travel",
     element: "",
-    name: "World Explorer",
+    name: "Explorateur du Monde",
     description:
-      "Embark on an unforgettable journey through ancient ruins, vibrant cities, and breathtaking landscapes. Explore diverse cultures, savor delicious cuisine, and create lasting memories. Are you ready to experience the world?",
+      "Lancez-vous dans un voyage inoubliable à travers des ruines anciennes, des villes vibrantes et des paysages à couper le souffle. Explorez des cultures diverses, savourez une délicieuse cuisine et créez des souvenirs durables. Êtes-vous prêt à découvrir le monde ?",
     detail:
-      "Uncover the wonders of travel as you embark on an immersive journey across continents and cultures. Discover hidden gems, iconic landmarks, and enchanting natural wonders. From bustling cities to serene beaches, each destination offers a unique blend of history, art, and adventure. Capture the essence of your travels through vibrant photographs and heartfelt journal entries. Embrace the joy of exploration and let your wanderlust guide you towards incredible experiences. Get ready to embark on a transformative journey that will broaden your horizons and leave you with cherished memories for a lifetime.",
+      "Découvrez les merveilles du voyage en vous lançant dans un voyage immersif à travers les continents et les cultures. Découvrez des trésors cachés, des monuments emblématiques et des merveilles naturelles envoûtantes. Des villes animées aux plages paisibles, chaque destination offre un mélange unique d'histoire, d'art et d'aventure. Capturez l'essence de vos voyages à travers des photographies vibrantes et des récits sincères. Embrassez la joie de l'exploration et laissez votre soif d'aventure vous guider vers des expériences incroyables. Préparez-vous à vous émerveiller, à vous épanouir et à vivre des moments inoubliables.",
     price: 20,
     image:
       "https://images.nightcafe.studio/jobs/U4ALWFHk155frDnvYrTN/U4ALWFHk155frDnvYrTN--3--nqtbg.jpg",
@@ -33,11 +35,11 @@ const all = [
     type: "ready-to-use",
     theme: "travel",
     element: "",
-    name: "Adventurous Escapade",
+    name: "Évasion Aventurière",
     description:
-      "Embark on a thrilling adventure across uncharted territories and distant lands. Discover hidden treasures, encounter exotic wildlife, and immerse yourself in vibrant cultures. Are you ready to embrace the spirit of exploration?",
+      "Lancez-vous dans une aventure palpitante à travers des territoires inexplorés et des contrées lointaines. Découvrez des trésors cachés, rencontrez une faune exotique et plongez-vous dans des cultures vibrantes. Êtes-vous prêt à embrasser l'esprit de l'exploration ?",
     detail:
-      "Unleash your sense of adventure as you traverse unknown territories and embark on a journey of discovery. From remote rainforests to ancient ruins, each destination offers an opportunity to immerse yourself in unique landscapes and rich traditions. Engage with friendly locals, sample tantalizing cuisine, and delve into the fascinating history of each place. Whether trekking through majestic mountains or diving into crystal-clear waters, every step will unveil new wonders and create indelible memories. Embrace the unknown, ignite your curiosity, and let the spirit of exploration guide you towards extraordinary experiences.",
+      "Laissez libre cours à votre sens de l'aventure en traversant des territoires inconnus et en vous lançant dans un voyage de découverte. Des forêts tropicales isolées aux ruines anciennes, chaque destination offre l'opportunité de vous immerger dans des paysages uniques et des traditions riches. Interagissez avec les habitants chaleureux, goûtez une cuisine alléchante et plongez-vous dans l'histoire fascinante de chaque lieu. Que vous escaladiez des montagnes majestueuses ou plongiez dans des eaux cristallines, chaque pas dévoilera de nouvelles merveilles et créera des souvenirs impérissables. Entraînez-vous à l'inconnu, éveillez votre curiosité et laissez l'esprit de l'exploration vous guider vers des expériences extraordinaires.",
     price: 30,
     image:
       "https://images.nightcafe.studio/jobs/nXI741HoAgScGtFRMnFX/nXI741HoAgScGtFRMnFX--4--w849d.jpg",
@@ -51,11 +53,11 @@ const all = [
     type: "ready-to-use",
     theme: "travel",
     element: "",
-    name: "Tropical Paradise",
+    name: "Paradis Tropical",
     description:
-      "Escape to a tropical paradise of palm-fringed beaches, turquoise waters, and endless sunshine. Indulge in luxurious resorts, thrilling water sports, and rejuvenating spa treatments. Are you ready to experience blissful relaxation?",
+      "Évadez-vous vers un paradis tropical avec des plages bordées de palmiers, des eaux turquoise et un ensoleillement sans fin. Profitez de complexes luxueux, de sports nautiques palpitants et de soins de spa régénérants. Êtes-vous prêt à vivre une relaxation bienheureuse ?",
     detail:
-      "Unwind and rejuvenate in the lap of luxury as you escape to a tropical paradise. Feel the warm sand between your toes, listen to the gentle lapping of waves, and bask in the glorious sunshine. Immerse yourself in a world of relaxation with invigorating spa treatments, soothing yoga sessions, and peaceful beachside meditation. Indulge in delectable cuisine and savor tropical cocktails as you watch breathtaking sunsets paint the sky. Whether you choose to lounge by the pool, embark on water adventures, or simply soak in the serene atmosphere, this idyllic getaway promises to replenish your body, mind, and soul.",
+      "Détendez-vous et régénérez-vous dans le luxe absolu en vous échappant vers un paradis tropical. Sentez le sable chaud entre vos orteils, écoutez les douces vagues se briser et profitez du soleil glorieux. Plongez-vous dans un monde de détente avec des soins de spa revigorants, des séances de yoga apaisantes et des méditations paisibles au bord de la plage. Savourez une délicieuse cuisine et délectez-vous de cocktails tropicaux tout en admirant les couchers de soleil à couper le souffle qui peignent le ciel. Que vous choisissiez de vous prélasser au bord de la piscine, de vous embarquer dans des aventures aquatiques ou simplement de vous imprégner de l'atmosphère sereine, cette escapade idyllique promet de revitaliser votre corps, votre esprit et votre âme.",
     price: 25,
     image:
       "https://images.nightcafe.studio/jobs/VYDJEjKpzJYqlh7lbt9K/VYDJEjKpzJYqlh7lbt9K--2--d6z10.jpg",
@@ -173,11 +175,11 @@ const all = [
     type: "ready-to-use",
     theme: "action-adventure",
     element: "",
-    name: "Doomsday Survival Challenge",
+    name: "Défi de Survie de l'Apocalypse",
     description:
-      "Immerse yourself in a post-apocalyptic world and test your survival skills. Face relentless challenges, scavenge for resources, and outwit hostile factions. Are you ready to confront the darkness that awaits?",
+      "Immergez-vous dans un monde post-apocalyptique et testez vos compétences en matière de survie. Affrontez des défis incessants, fouillez à la recherche de ressources et trompez des factions hostiles. Êtes-vous prêt à affronter les ténèbres qui vous attendent ?",
     detail:
-      "Step into a nightmarish future where society has collapsed, and chaos reigns supreme. In this post-apocalyptic world, you must navigate through desolate landscapes, scavenge for scarce resources, and fend off hostile factions vying for control. Battle against hunger, disease, and the constant threat of violence as you fight to survive. Your decisions will determine your fate as you confront the harsh realities of a world on the brink of oblivion. Get ready to face your deepest fears and discover what it truly means to survive in the face of utter devastation.",
+      "Plongez dans un futur cauchemardesque où la société s'est effondrée et où le chaos règne en maître. Dans ce monde post-apocalyptique, vous devez naviguer à travers des paysages désolés, chercher des ressources rares et repousser les factions hostiles qui luttent pour le contrôle. Combattez la faim, la maladie et la menace constante de la violence pendant que vous vous battez pour survivre. Vos choix détermineront votre destin alors que vous affrontez les dures réalités d'un monde au bord de l'oubli. Préparez-vous à affronter vos plus grandes peurs et à découvrir ce que signifie réellement survivre face à une destruction totale.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.hby98DxAqQf6EpHMdkEp?pid=ImgGn",
     isFavorite: false,
@@ -190,11 +192,11 @@ const all = [
     type: "ready-to-use",
     theme: "action-adventure",
     element: "",
-    name: "Haunted Mansion Exploration",
+    name: "Exploration de la Maison Hantée",
     description:
-      "Brave the horrors of a haunted mansion as you unravel its dark secrets. Navigate ghostly corridors, solve sinister puzzles, and confront vengeful spirits. Are you prepared to enter a realm of eternal darkness?",
+      "Affrontez les horreurs d'une maison hantée alors que vous dévoilez ses sombres secrets. Parcourez des corridors fantomatiques, résolvez des énigmes sinistres et affrontez des esprits vengeurs. Êtes-vous prêt à pénétrer dans un royaume de ténèbres éternelles ?",
     detail:
-      "Enter a mansion shrouded in darkness and filled with unspeakable horrors. Explore its eerie hallways, each step echoing with the whispers of the restless spirits that dwell within. Solve enigmatic puzzles, decipher cryptic messages, and uncover the tragic history of the mansion and its inhabitants. But be wary, for malevolent entities lurk in the shadows, eager to claim unsuspecting souls. Face your deepest fears, summon your courage, and discover the truth behind the haunting. Get ready to confront the supernatural and survive the nightmarish depths of the haunted mansion.",
+      "Entrez dans un manoir enveloppé de ténèbres et rempli d'horreurs innommables. Explorez ses couloirs lugubres, chaque pas résonnant avec les murmures des esprits inquiets qui y résident. Résolvez des énigmes énigmatiques, déchiffrez des messages cryptiques et découvrez l'histoire tragique du manoir et de ses habitants. Mais méfiez-vous, car des entités malveillantes se tapissent dans l'ombre, désireuses de s'emparer d'âmes insoupçonnées. Affrontez vos plus grandes peurs, faites appel à votre courage et découvrez la vérité qui se cache derrière cette maison hantée. Préparez-vous à affronter le surnaturel et à survivre aux profondeurs cauchemardesques du manoir hanté.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.F9WBqGMvL7n9gDta_8NV?pid=ImgGn",
     isFavorite: false,
@@ -207,11 +209,11 @@ const all = [
     type: "ready-to-use",
     theme: "action-adventure",
     element: "",
-    name: "Apocalyptic Zombie Escape",
+    name: "Évasion de l'Apocalypse Zombie",
     description:
-      "Plunge into a world overrun by the undead. Outmaneuver hordes of ravenous zombies, scavenge for supplies, and fight for your survival. Can you escape the clutches of the zombie apocalypse?",
+      "Plongez dans un monde envahi par les morts-vivants. Évitez les hordes de zombies voraces, fouillez à la recherche de provisions et battez-vous pour votre survie. Pouvez-vous échapper aux griffes de l'apocalypse zombie ?",
     detail:
-      "In a world ravaged by a relentless zombie outbreak, you must navigate through desolate cities, abandoned structures, and treacherous landscapes. Outsmart hordes of ravenous zombies, scavenge for vital supplies, and fortify your defenses. Every decision counts as you form alliances, face moral dilemmas, and confront the limits of your humanity. Will you succumb to the insatiable hunger of the undead or rise as a beacon of hope in a world consumed by darkness? Get ready to face the relentless onslaught of the zombie apocalypse and fight for your survival against all odds.",
+      "Dans un monde ravagé par une épidémie de zombies impitoyable, vous devez naviguer à travers des villes désolées, des structures abandonnées et des paysages traîtres. Trompez les hordes de zombies voraces, récupérez des provisions vitales et renforcez vos défenses. Chaque décision compte alors que vous formez des alliances, faites face à des dilemmes moraux et repoussez les limites de votre humanité. Succomberez-vous à la faim insatiable des morts-vivants ou vous élèverez-vous comme un phare d'espoir dans un monde plongé dans les ténèbres ? Préparez-vous à affronter l'assaut incessant de l'apocalypse zombie et à lutter pour votre survie contre toute attente.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.LzAf.Cypg1ncb7TXxahB?pid=ImgGn",
     isFavorite: false,
@@ -224,11 +226,11 @@ const all = [
     type: "ready-to-use",
     theme: "cooking",
     element: "",
-    name: "Gourmet Chef Masterclass",
+    name: "Chef Gourmet : Cours de Maître",
     description:
-      "Unleash your culinary creativity and master the art of gourmet cooking. Learn from world-renowned chefs, experiment with flavors, and elevate your gastronomic skills. Are you ready to embark on a journey of culinary excellence?",
+      "Libérez votre créativité culinaire et maîtrisez l'art de la cuisine gastronomique. Apprenez auprès de chefs de renommée mondiale, expérimentez avec les saveurs et perfectionnez vos compétences gastronomiques. Êtes-vous prêt à vous lancer dans un voyage d'excellence culinaire ?",
     detail:
-      "Indulge in the world of gastronomy as you join renowned chefs in a masterclass designed to unleash your culinary potential. Learn the techniques of molecular gastronomy, discover the art of plating, and explore the fusion of diverse cuisines. Experiment with exotic ingredients, savor the aroma of freshly ground spices, and create dishes that tantalize the taste buds. From delicate pastries to elaborate multi-course meals, each lesson will expand your repertoire and elevate your cooking to new heights. Prepare to embark on a culinary adventure where creativity knows no bounds.",
+      "Plongez dans le monde de la gastronomie en rejoignant des chefs renommés lors d'un cours de maître conçu pour libérer votre potentiel culinaire. Apprenez les techniques de la gastronomie moléculaire, découvrez l'art du dressage et explorez la fusion de différentes cuisines. Expérimentez avec des ingrédients exotiques, savourez l'arôme des épices fraîchement moulues et créez des plats qui titillent les papilles gustatives. Des pâtisseries délicates aux repas élaborés en plusieurs plats, chaque leçon élargira votre répertoire et élèvera votre cuisine à de nouveaux sommets. Préparez-vous à vous embarquer dans une aventure culinaire où la créativité n'a pas de limites.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.VmQw7AizpAyklQmJDfSB?pid=ImgGn",
     isFavorite: false,
@@ -241,11 +243,11 @@ const all = [
     type: "ready-to-use",
     theme: "cooking",
     element: "",
-    name: "Farm-to-Table Experience",
+    name: "Expérience Ferme à Table",
     description:
-      "Immerse yourself in the world of sustainable cooking as you discover the joys of farm-to-table cuisine. Harvest fresh produce, learn traditional cooking methods, and embrace a healthier way of eating. Are you ready to embark on a culinary journey that reconnects you with nature?",
+      "Plongez-vous dans le monde de la cuisine durable en découvrant les joies de la cuisine ferme à table. Récoltez des produits frais, apprenez des méthodes de cuisine traditionnelles et adoptez une alimentation plus saine. Êtes-vous prêt à vous embarquer dans un voyage culinaire qui vous reconnecte avec la nature ?",
     detail:
-      "Step into the realm of sustainable cooking as you explore the farm-to-table movement. Roam through lush organic farms, handpick seasonal produce, and learn the art of preserving flavors through traditional methods. Engage with local farmers, discover the importance of responsible agriculture, and gain insights into the nutritional benefits of fresh ingredients. From creating wholesome meals to crafting homemade preserves, each experience will deepen your connection with the land and ignite a passion for sustainable living. Get ready to savor the pure flavors of nature in every bite.",
+      "Entrez dans le monde de la cuisine durable en explorant le mouvement de la ferme à table. Parcourez de luxuriants fermes biologiques, cueillez des produits de saison à la main et apprenez l'art de préserver les saveurs grâce à des méthodes traditionnelles. Engagez-vous auprès des agriculteurs locaux, découvrez l'importance de l'agriculture responsable et apprenez les bienfaits nutritionnels des ingrédients frais. De la création de repas sains à la confection de conserves maison, chaque expérience approfondira votre lien avec la terre et fera naître en vous une passion pour un mode de vie durable. Préparez-vous à savourer les saveurs pures de la nature à chaque bouchée.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.qMNSVae24IgnucWLA4bB?pid=ImgGn",
     isFavorite: false,
@@ -258,11 +260,11 @@ const all = [
     type: "ready-to-use",
     theme: "cooking",
     element: "",
-    name: "World Cuisine Exploration",
+    name: "Exploration de la Cuisine Mondiale",
     description:
-      "Embark on a global culinary adventure as you explore the rich tapestry of flavors from around the world. Discover diverse cooking techniques, traditional recipes, and the essence of each culture's cuisine. Are you ready to tantalize your taste buds with an array of international delights?",
+      "Lancez-vous dans une aventure culinaire mondiale en explorant la riche diversité des saveurs du monde entier. Découvrez les techniques de cuisine variées, les recettes traditionnelles et l'essence de la cuisine de chaque culture. Êtes-vous prêt à émerveiller vos papilles avec une multitude de délices internationaux ?",
     detail:
-      "Embark on a culinary journey that transcends borders as you delve into the world of global cuisine. Master the art of rolling sushi in Japan, learn the secrets of creating the perfect pasta in Italy, and embrace the vibrant spices of India. Immerse yourself in cultural traditions, connect with local chefs, and unlock the culinary secrets passed down through generations. From street food to haute cuisine, each destination will offer a unique culinary experience that reflects the soul of the culture. Prepare to broaden your palate and gain a deeper appreciation for the diversity of flavors that exist worldwide.",
+      "Embarquez pour un voyage culinaire qui transcende les frontières en plongeant dans le monde de la cuisine mondiale. Maîtrisez l'art du roulage de sushi au Japon, apprenez les secrets pour créer la parfaite pasta en Italie et savourez les épices vibrantes de l'Inde. Immergez-vous dans les traditions culturelles, connectez-vous avec des chefs locaux et dévoilez les secrets culinaires transmis de génération en génération. De la street food à la haute cuisine, chaque destination offrira une expérience culinaire unique qui reflète l'âme de la culture. Préparez-vous à élargir votre palais et à développer une plus grande appréciation de la diversité des saveurs qui existent à travers le monde.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG..em7YQvE5Wz3_sB3tDh.?pid=ImgGn",
     isFavorite: false,
@@ -275,11 +277,11 @@ const all = [
     type: "ready-to-use",
     theme: "cooking",
     element: "",
-    name: "Sinister Sweet Delights",
+    name: "Délices Sucrés Sinistres",
     description:
-      "Enter a world where sweetness turns to darkness. Create hauntingly delicious desserts that tempt and terrify. Are you ready to indulge in a sinister journey of culinary delights?",
+      "Entrez dans un monde où la douceur se transforme en obscurité. Créez des desserts délicieusement terrifiants qui tentent et effraient. Êtes-vous prêt à vous plonger dans un voyage sinistre de délices culinaires ?",
     detail:
-      "Dare to venture into the realm of wicked desserts as you create tantalizing treats with a sinister twist. Craft confections that blur the line between pleasure and pain, using unconventional ingredients and macabre presentation. Delve into the dark arts of pastry, infusing your creations with the essence of shadows and secrets. Explore the boundaries of taste and texture as you create desserts that tempt the senses and leave a lingering, haunting impression. Get ready to indulge in the dark side of gastronomy, where the line between pleasure and fear blurs into a delicious nightmare.",
+      "Osez vous aventurer dans le royaume des desserts maléfiques en créant des gourmandises tentantes avec une touche sinistre. Réalisez des confiseries qui brouillent la frontière entre plaisir et douleur en utilisant des ingrédients non conventionnels et une présentation macabre. Plongez dans les arts obscurs de la pâtisserie en infusant vos créations de l'essence des ombres et des secrets. Explorez les limites du goût et de la texture en créant des desserts qui titillent les sens et laissent une impression persistante et envoûtante. Préparez-vous à vous plonger dans le côté sombre de la gastronomie, où la frontière entre plaisir et peur se confond dans un cauchemar délicieux.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.dUtXr8u8l8OfOnl8WWxQ?pid=ImgGn&rs=1",
     isFavorite: false,
@@ -292,11 +294,11 @@ const all = [
     type: "ready-to-use",
     theme: "cooking",
     element: "",
-    name: "Cursed Kitchen Challenge",
+    name: "Défi de la Cuisine Maudite",
     description:
-      "Enter a cursed kitchen where every dish you prepare becomes a culinary nightmare. Overcome cursed ingredients, break kitchen spells, and reclaim your culinary talents. Can you conquer the curse?",
+      "Pénétrez dans une cuisine maudite où chaque plat que vous préparez devient un cauchemar culinaire. Surmontez les ingrédients maudits, brisez les sorts de cuisine et retrouvez votre talent culinaire. Pouvez-vous vaincre la malédiction ?",
     detail:
-      "Step into a kitchen shrouded in darkness, plagued by a curse that turns your culinary creations into nightmarish abominations. Navigate through twisted recipes, overcome cursed ingredients that come to life, and challenge the malevolent spirits that haunt your cooking space. Solve culinary puzzles, break the curse, and restore your culinary talents to their former glory. Every step brings you closer to redemption, but the kitchen's dark forces will stop at nothing to keep you trapped in the nightmare. Get ready to face the cursed kitchen and reclaim your culinary prowess in a battle against the supernatural.",
+      "Entrez dans une cuisine plongée dans les ténèbres, tourmentée par une malédiction qui transforme vos créations culinaires en abominations cauchemardesques. Naviguez à travers des recettes tordues, surmontez les ingrédients maudits qui prennent vie et défiez les esprits malfaisants qui hantent votre espace de cuisson. Résolvez des énigmes culinaires, brisez la malédiction et restaurez votre talent culinaire dans toute sa gloire d'antan. Chaque étape vous rapproche de la rédemption, mais les forces obscures de la cuisine ne reculeront devant rien pour vous garder piégé dans le cauchemar. Préparez-vous à affronter la cuisine maudite et à retrouver votre maîtrise culinaire lors d'une bataille contre le surnaturel.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.kUqhxWk391KRq1UeoxQw?pid=ImgGn",
     isFavorite: false,
@@ -309,11 +311,11 @@ const all = [
     type: "ready-to-use",
     theme: "cooking",
     element: "",
-    name: "Gastronomic Inferno",
+    name: "Inferno Gastronomique",
     description:
-      "Plunge into the depths of culinary chaos as you enter a gastronomic inferno. Battle with demonic recipes, conquer fiery challenges, and tame the infernal flavors. Can you withstand the heat of the inferno?",
+      "Plongez dans les abysses du chaos culinaire en pénétrant dans un inferno gastronomique. Affrontez des recettes démoniaques, surmontez des défis enflammés et apprivoisez les saveurs infernales. Pouvez-vous supporter la chaleur de l'enfer ?",
     detail:
-      "Descend into a culinary underworld where chaos and flames reign supreme. Confront demonic recipes that push your skills to the limit, battle fiery challenges that test your resolve, and tame the infernal flavors that threaten to overwhelm your senses. Navigate through treacherous kitchens, harness the power of culinary alchemy, and emerge triumphant from the blazing inferno. Each dish you conquer brings you closer to mastering the culinary arts in the face of utter chaos. Get ready to withstand the scorching heat and unleash your culinary creativity in the midst of the gastronomic inferno.",
+      "Descendez dans un monde souterrain culinaire où le chaos et les flammes règnent en maîtres. Affrontez des recettes démoniaques qui mettent vos compétences à rude épreuve, relevez des défis enflammés qui testent votre détermination et apprivoisez les saveurs infernales qui menacent de submerger vos sens. Naviguez à travers des cuisines perfides, exploitez le pouvoir de l'alchimie culinaire et émergez victorieux de l'enfer brûlant. Chaque plat que vous conquérez vous rapproche de la maîtrise des arts culinaires face au chaos absolu. Préparez-vous à supporter la chaleur brûlante et à libérer votre créativité culinaire au cœur de l'inferno gastronomique.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.d_VDb8jfuc.5SomD12FI?pid=ImgGn",
     isFavorite: false,
@@ -326,11 +328,11 @@ const all = [
     type: "ready-to-use",
     theme: "motoring",
     element: "",
-    name: "Velocity Rush",
+    name: "Ruée de Vitesse",
     description:
-      "Get ready for an adrenaline-fueled motoring experience like no other. Take control of powerful machines, race on thrilling tracks, and break speed barriers. Are you ready to unleash your inner speed demon?",
+      "Préparez-vous à une expérience de pilotage à sensations fortes comme aucune autre. Prenez le contrôle de machines puissantes, participez à des courses sur des pistes palpitantes et brisez les barrières de vitesse. Êtes-vous prêt à libérer votre démon de la vitesse intérieur ?",
     detail:
-      "Strap yourself in for a high-octane adventure as you dive into the world of motoring. Feel the rush of adrenaline as you take control of powerful machines, race on thrilling tracks, and break speed barriers. Push your skills to the limit as you master hairpin turns, navigate challenging terrain, and compete against skilled opponents. Whether you prefer the roar of the engine or the precision of handling, this motoring experience will test your mettle and ignite your passion for speed.",
+      "Attachez-vous pour une aventure haute en adrénaline en plongeant dans le monde du pilotage. Ressentez l'excitation de prendre le contrôle de machines puissantes, de participer à des courses sur des pistes palpitantes et de briser les barrières de vitesse. Poussez vos compétences à leur limite en maîtrisant les virages serrés, en naviguant sur un terrain exigeant et en vous mesurant à des adversaires talentueux. Que vous préfériez le rugissement du moteur ou la précision de la conduite, cette expérience de pilotage mettra votre courage à l'épreuve et réveillera votre passion pour la vitesse.",
     price: 35,
     image: "https://th.bing.com/th/id/OIG.oHo3XLAM9Kog9MfNDFH.?pid=ImgGn",
     isFavorite: false,
@@ -343,11 +345,11 @@ const all = [
     type: "ready-to-use",
     theme: "motoring",
     element: "",
-    name: "Road Trip Escapade",
+    name: "Escapade en Road Trip",
     description:
-      "Embark on an epic road trip adventure filled with breathtaking landscapes, hidden gems, and unforgettable encounters. Get behind the wheel and let the open road be your guide. Are you ready to hit the highway?",
+      "Lancez-vous dans une aventure épique en road trip remplie de paysages à couper le souffle, de joyaux cachés et de rencontres inoubliables. Mettez-vous au volant et laissez la route ouverte être votre guide. Êtes-vous prêt à prendre la route ?",
     detail:
-      "Prepare yourself for the ultimate road trip escapade as you embark on a journey of discovery. Set off on scenic highways, winding through breathtaking landscapes and passing by iconic landmarks. Explore charming towns, indulge in local cuisines, and connect with fellow travelers along the way. Whether you're driving a classic convertible or a rugged SUV, every mile will be filled with excitement and new experiences. Get ready to create lifelong memories and embrace the freedom of the open road.",
+      "Préparez-vous pour l'escapade en road trip ultime alors que vous vous embarquez dans un voyage de découverte. Parcourez les autoroutes pittoresques, serpentant à travers des paysages à couper le souffle et passant devant des sites emblématiques. Explorez des villes charmantes, dégustez des cuisines locales et connectez-vous avec d'autres voyageurs en chemin. Que vous conduisiez une décapotable classique ou un SUV robuste, chaque mile sera rempli d'excitation et de nouvelles expériences. Préparez-vous à créer des souvenirs inoubliables et à embrasser la liberté de la route ouverte.",
     price: 45,
     image: "https://example.com/road_trip.jpg",
     isFavorite: false,
@@ -360,11 +362,11 @@ const all = [
     type: "ready-to-use",
     theme: "motoring",
     element: "",
-    name: "Supercar Fantasy",
+    name: "Fantaisie de Supercar",
     description:
-      "Experience the thrill of driving a dream machine. Slide into the driver's seat of a luxurious supercar, feel the raw power under your control, and leave ordinary behind. Can you handle the ultimate automotive fantasy?",
+      "Vivez l'excitation de conduire une machine de rêve. Glissez-vous dans le siège du conducteur d'une supercar luxueuse, ressentez la puissance brute sous votre contrôle et laissez l'ordinaire derrière vous. Pouvez-vous gérer la fantaisie automobile ultime ?",
     detail:
-      "Prepare to have your automotive fantasies come to life as you step into the world of supercars. Feel the exhilaration as you slide into the driver's seat of a sleek and powerful machine. Experience the raw power and precision engineering that sets these extraordinary vehicles apart. Accelerate on open highways, navigate challenging corners, and leave bystanders in awe of your automotive prowess. From the iconic roar of the engine to the smooth acceleration, this is your chance to live out your supercar dreams and leave ordinary driving behind.",
+      "Préparez-vous à voir vos fantasmes automobiles prendre vie lorsque vous entrez dans le monde des supercars. Ressentez l'exaltation lorsque vous vous glissez dans le siège du conducteur d'une machine élégante et puissante. Découvrez la puissance brute et l'ingénierie de précision qui distinguent ces véhicules extraordinaires. Accélérez sur les autoroutes, négociez des virages difficiles et laissez les spectateurs admiratifs devant votre talent automobile. Du rugissement emblématique du moteur à l'accélération fluide, c'est votre chance de vivre vos rêves de supercar et de laisser la conduite ordinaire derrière vous.",
     price: 55,
     image: "https://th.bing.com/th/id/OIG.lWTY3qzByZ_D4ORVjk9H?pid=ImgGn",
     isFavorite: false,
@@ -377,11 +379,11 @@ const all = [
     type: "ready-to-use",
     theme: "motoring",
     element: "",
-    name: "Apocalyptic Drive",
+    name: "Conduite Apocalyptique",
     description:
-      "Enter a post-apocalyptic world where chaos reigns and survival is the only goal. Take the wheel of armored vehicles, navigate treacherous landscapes, and fend off hostile factions. Can you survive the wasteland?",
+      "Plongez dans un monde post-apocalyptique où règne le chaos et la survie est le seul objectif. Prenez le volant de véhicules blindés, naviguez dans des paysages périlleux et repoussez les factions hostiles. Pouvez-vous survivre au désert ?",
     detail:
-      "Prepare for an adrenaline-pumping nightmare as you navigate a post-apocalyptic wasteland. Take control of armored vehicles, reinforced with spikes and equipped with heavy weaponry, and venture into a world of chaos and destruction. Navigate treacherous landscapes filled with collapsed buildings, hostile factions, and mutated creatures. Gather scarce resources, fend off attacks, and fight for survival against the remnants of a shattered society. In this battle for existence, only the most cunning and resilient will endure the relentless onslaught of the wasteland.",
+      "Préparez-vous à une expérience cauchemardesque palpitante alors que vous naviguez dans un paysage post-apocalyptique. Prenez le contrôle de véhicules blindés, renforcés avec des pointes et équipés d'armes lourdes, et aventurez-vous dans un monde de chaos et de destruction. Parcourez des paysages périlleux remplis de bâtiments effondrés, de factions hostiles et de créatures mutantes. Rassemblez des ressources rares, repoussez les attaques et luttez pour survivre face aux vestiges d'une société brisée. Dans cette bataille pour l'existence, seuls les plus rusés et les plus résilients survivront à l'assaut implacable du désert.",
     price: 30,
     image: "https://th.bing.com/th/id/OIG.z2uv3xKHgcRJt_SDeO1G?pid=ImgGn",
     isFavorite: false,
@@ -394,11 +396,11 @@ const all = [
     type: "ready-to-use",
     theme: "motoring",
     element: "",
-    name: "Nightmare Circuit",
+    name: "Circuit du Cauchemar",
     description:
-      "Plunge into the darkest corners of the racing world. Join illicit races on treacherous tracks, evade law enforcement, and outmaneuver rivals. Can you conquer the nightmare circuit?",
+      "Plongez dans les coins les plus sombres du monde de la course. Rejoignez des courses illicites sur des pistes périlleuses, échappez aux forces de l'ordre et surpassez vos rivaux. Pouvez-vous conquérir le circuit du cauchemar ?",
     detail:
-      "Prepare for a heart-pounding nightmare as you enter the underground world of illicit racing. Join races on treacherous tracks hidden deep within the city, where danger lurks at every turn. Evade law enforcement, outmaneuver rival drivers, and prove your skills in high-stakes competitions. The pursuit of victory comes with a price, as you navigate narrow alleyways, dodge oncoming traffic, and unleash your driving skills in the dead of night. In this adrenaline-fueled nightmare, only the boldest and most skilled drivers will conquer the circuit and claim their place among the elite.",
+      "Préparez-vous à un cauchemar palpitant alors que vous pénétrez dans le monde souterrain des courses illicites. Participez à des courses sur des pistes périlleuses dissimulées au cœur de la ville, où le danger guette à chaque tournant. Échappez aux forces de l'ordre, surpassez les autres conducteurs et prouvez vos compétences lors de compétitions à enjeux élevés. La poursuite de la victoire a un prix, alors que vous naviguez dans des ruelles étroites, esquivez la circulation en sens inverse et mettez en valeur vos talents de conduite en pleine nuit. Dans ce cauchemar enflammé d'adrénaline, seuls les conducteurs les plus audacieux et les plus talentueux conquerront le circuit et s'imposeront parmi l'élite.",
     price: 40,
     image: "https://th.bing.com/th/id/OIG.e9XMtcrTfJ_xW_csthJC?pid=ImgGn",
     isFavorite: false,
@@ -411,11 +413,11 @@ const all = [
     type: "ready-to-use",
     theme: "motoring",
     element: "",
-    name: "Twisted Dragsters",
+    name: "Dragsters Tordus",
     description:
-      "Enter the world of twisted drag racing where monstrous vehicles dominate the tracks. Strap into grotesque machines, unleash nitro-fueled power, and battle against otherworldly racers. Can you survive the twisted dragsters?",
+      "Entrez dans le monde de la course de dragsters tordus où des véhicules monstrueux dominent les pistes. Attachez-vous dans des machines grotesques, libérez une puissance nitro-fuelée et affrontez des coureurs d'un autre monde. Pouvez-vous survivre aux dragsters tordus ?",
     detail:
-      "Prepare yourself for a nightmare on the drag strip as you enter a world of twisted drag racing. Strap into grotesque machines adorned with spikes, horns, and monstrous designs. Feel the raw power as you unleash nitro-fueled acceleration and tear down the straightaways. Battle against otherworldly racers, each with their own unique abilities and macabre vehicles. The tracks are treacherous, filled with traps and hazards that can send even the bravest racers into oblivion. In this twisted nightmare, victory is not only about speed but also survival. Can you conquer the dragsters and emerge as the ultimate champion?",
+      "Préparez-vous à un cauchemar sur la piste de dragsters alors que vous entrez dans un monde de course de dragsters tordus. Attachez-vous dans des machines grotesques ornées de pointes, de cornes et de designs monstrueux. Ressentez la puissance brute lorsque vous déchaînez une accélération alimentée au nitro et dévalez les lignes droites. Affrontez des coureurs d'un autre monde, chacun avec ses propres capacités uniques et des véhicules macabres. Les pistes sont traîtres, remplies de pièges et de dangers qui peuvent envoyer même les pilotes les plus courageux dans l'oubli. Dans ce cauchemar tordu, la victoire ne dépend pas seulement de la vitesse, mais aussi de la survie. Pouvez-vous conquérir les dragsters tordus et émerger en tant que champion ultime ?",
     price: 50,
     image: "https://th.bing.com/th/id/OIG.0DtXvi6VHYZCC8klzWxU?pid=ImgGn",
     isFavorite: false,
@@ -428,11 +430,11 @@ const all = [
     type: "ready-to-use",
     theme: "detective fiction",
     element: "",
-    name: "Mysterious Enigma",
+    name: "Mystérieux Énigme",
     description:
-      "Step into the shoes of a brilliant detective and solve perplexing mysteries. Uncover clues, unravel hidden secrets, and outsmart cunning criminals. Are you ready to crack the mysterious enigma?",
+      "Enfilez les chaussures d'un détective brillant et résolvez des mystères déconcertants. Découvrez des indices, dévoilez des secrets cachés et trompez des criminels rusés. Êtes-vous prêt à percer le mystérieux énigme ?",
     detail:
-      "Become a master detective as you embark on a journey to solve perplexing mysteries that will test your wits and deduction skills. Gather clues from crime scenes, interview witnesses, and analyze evidence to uncover hidden secrets. Navigate through a web of deception, outsmart cunning criminals, and bring them to justice. From locked-room murders to international conspiracies, each case will challenge your intellect and unravel the darkest enigmas. Can you solve the mysteries that have baffled the world?",
+      "Devenez un maître détective alors que vous vous embarquez dans un voyage pour résoudre des mystères déconcertants qui mettront à l'épreuve votre intelligence et vos compétences de déduction. Rassemblez des indices sur les scènes de crime, interrogez des témoins et analysez des preuves pour dévoiler des secrets cachés. Naviguez à travers un réseau de tromperie, trompez des criminels rusés et faites-les rendre des comptes. Des meurtres en chambre close aux conspirations internationales, chaque affaire mettra votre intellect à l'épreuve et dévoilera les énigmes les plus sombres. Pouvez-vous résoudre les mystères qui ont dérouté le monde ?",
     price: 25,
     image: "https://th.bing.com/th/id/OIG.Jo49hHUIjroHGv1mV8xQ?pid=ImgGn",
     isFavorite: false,
@@ -445,11 +447,11 @@ const all = [
     type: "ready-to-use",
     theme: "detective fiction",
     element: "",
-    name: "Noir Chronicles",
+    name: "Chroniques Noires",
     description:
-      "Immerse yourself in a world of shadows, deceit, and crime. Step into the gritty underworld of noir detective fiction, where danger lurks at every corner. Are you ready to uncover the dark secrets?",
+      "Plongez dans un monde d'ombres, de tromperie et de crime. Plongez dans le sombre monde de la fiction de détective noir, où le danger guette à chaque coin de rue. Êtes-vous prêt à découvrir les sombres secrets ?",
     detail:
-      "Enter the dark and atmospheric world of noir detective fiction, where shadows conceal secrets and danger lurks around every corner. Dive into the gritty underworld, filled with hardened criminals, femme fatales, and corrupt officials. Unravel complex conspiracies, follow the trail of clues, and confront your own demons as you navigate the treacherous path of justice. In this noir chronicle, trust is a luxury, and your instincts will be your most valuable asset. Can you expose the truth and bring light to the darkness?",
+      "Entrez dans le sombre et atmosphérique monde de la fiction de détective noir, où les ombres dissimulent des secrets et où le danger guette à chaque coin de rue. Plongez dans le monde souterrain sombre, rempli de criminels endurcis, de femmes fatales et de fonctionnaires corrompus. Démêlez des conspirations complexes, suivez la piste des indices et affrontez vos propres démons alors que vous naviguez sur le chemin périlleux de la justice. Dans cette chronique noire, la confiance est un luxe et vos instincts seront votre atout le plus précieux. Pouvez-vous révéler la vérité et apporter la lumière dans les ténèbres ?",
     price: 35,
     image: "https://th.bing.com/th/id/OIG.kemhVaztpy35SpTD.6cN?pid=ImgGn",
     isFavorite: false,
@@ -462,11 +464,11 @@ const all = [
     type: "ready-to-use",
     theme: "detective fiction",
     element: "",
-    name: "Sleuth's Legacy",
+    name: "Héritage du Détective",
     description:
-      "Inherit the legacy of a legendary detective and carry the torch of justice. Solve baffling cases, follow in the footsteps of your predecessor, and uphold the code of the sleuth. Are you ready to claim your legacy?",
+      "Héritez de l'héritage d'un détective légendaire et portez le flambeau de la justice. Résolvez des affaires déconcertantes, suivez les traces de votre prédécesseur et respectez le code du détective. Êtes-vous prêt à revendiquer votre héritage ?",
     detail:
-      "Step into the shoes of a detective tasked with upholding the legacy of a legendary sleuth. Solve baffling cases that have stumped investigators for years, follow in the footsteps of your predecessor, and uncover the truth that lies hidden in the shadows. From classic whodunits to intricate puzzles, each case will test your deductive reasoning and challenge your perception of reality. Carry the torch of justice, unravel the mysteries that haunt the city, and prove yourself worthy of the sleuth's legacy. The path to truth is paved with deception, but your keen intellect will guide you to the answers.",
+      "Enfilez les chaussures d'un détective chargé de perpétuer l'héritage d'un détective légendaire. Résolvez des affaires déconcertantes qui ont dérouté les enquêteurs pendant des années, suivez les traces de votre prédécesseur et découvrez la vérité cachée dans l'ombre. Des énigmes classiques aux puzzles complexes, chaque affaire mettra à l'épreuve votre raisonnement déductif et remettra en question votre perception de la réalité. Portez le flambeau de la justice, démêlez les mystères qui hantent la ville et prouvez votre valeur en tant qu'héritier du détective. Le chemin de la vérité est pavé de tromperie, mais votre intelligence aiguë vous guidera vers les réponses.",
     price: 45,
     image: "https://th.bing.com/th/id/OIG.5eXrMPIye5ksTL_glxsD?pid=ImgGn",
     isFavorite: false,
@@ -479,11 +481,11 @@ const all = [
     type: "ready-to-use",
     theme: "detective fiction",
     element: "",
-    name: "Infernal Investigations",
+    name: "Enquêtes Infernales",
     description:
-      "Plunge into the depths of hellish mysteries as you become an investigator in a nightmarish realm. Uncover diabolical secrets, face demonic adversaries, and battle supernatural forces. Can you survive infernal investigations?",
+      "Plongez dans les profondeurs de mystères infernaux en devenant enquêteur dans un royaume cauchemardesque. Découvrez des secrets diaboliques, affrontez des adversaires démoniaques et luttez contre des forces surnaturelles. Pouvez-vous survivre aux enquêtes infernales ?",
     detail:
-      "Prepare yourself for infernal investigations as you step into a nightmarish realm filled with demonic mysteries. Uncover diabolical secrets that defy human understanding, face off against malevolent spirits and supernatural creatures, and battle forces from beyond the mortal plane. Every step you take will bring you closer to the truth, but also closer to the edge of your sanity. Will you succumb to the horrors that lurk in the shadows, or will you emerge as a beacon of light in the darkness?",
+      "Préparez-vous à des enquêtes infernales alors que vous entrez dans un royaume cauchemardesque rempli de mystères démoniaques. Découvrez des secrets diaboliques qui défient la compréhension humaine, affrontez des esprits malveillants et des créatures surnaturelles et luttez contre des forces venues d'au-delà du plan mortel. Chaque pas que vous faites vous rapprochera de la vérité, mais aussi du bord de votre santé mentale. Succomberez-vous aux horreurs qui se cachent dans l'ombre, ou émergerez-vous comme un phare de lumière dans les ténèbres ?",
     price: 40,
     image: "https://th.bing.com/th/id/OIG.k7a2m6UnS9Nn5lhBKQk2?pid=ImgGn",
     isFavorite: false,
@@ -496,11 +498,11 @@ const all = [
     type: "ready-to-use",
     theme: "detective fiction",
     element: "",
-    name: "Twisted Mindscapes",
+    name: "Esprits Tordus",
     description:
-      "Enter the twisted mindscapes of deranged criminals and unravel their macabre psyche. Delve into their darkest fantasies, navigate psychological mazes, and emerge with the truth. Can you survive the twisted mindscapes?",
+      "Entrez dans les esprits tordus de criminels dérangés et démêlez leur psyché macabre. Plongez dans leurs fantasmes les plus sombres, naviguez à travers des labyrinthes psychologiques et émergez avec la vérité. Pouvez-vous survivre aux esprits tordus ?",
     detail:
-      "Prepare to explore the darkest corners of the human psyche as you enter the twisted mindscapes of deranged criminals. Delve into their macabre fantasies, navigate psychological mazes, and untangle the threads of their twisted minds. Confront your own fears and doubts as you navigate through nightmarish landscapes and face the demons within. In this battle of wits and sanity, only the most determined and resilient detectives will emerge with the truth. Can you survive the twisted mindscapes and maintain your grip on reality?",
+      "Préparez-vous à explorer les recoins les plus sombres de la psyché humaine alors que vous entrez dans les esprits tordus de criminels dérangés. Plongez dans leurs fantasmes macabres, naviguez à travers des labyrinthes psychologiques et démêlez les fils de leurs esprits tordus. Affrontez vos propres peurs et doutes alors que vous vous frayez un chemin à travers des paysages cauchemardesques et faites face aux démons intérieurs. Dans cette bataille d'intelligence et de santé mentale, seuls les détectives les plus déterminés et résilients émergeront avec la vérité. Pouvez-vous survivre aux esprits tordus et maintenir votre emprise sur la réalité ?",
     price: 50,
     image: "https://th.bing.com/th/id/OIG.k5gqIh93zFccL3Mhj67n?pid=ImgGn",
     isFavorite: false,
@@ -513,11 +515,11 @@ const all = [
     type: "ready-to-use",
     theme: "detective fiction",
     element: "",
-    name: "Deadly Conspiracies",
+    name: "Conspirations Mortelles",
     description:
-      "Uncover deadly conspiracies that threaten to plunge the world into chaos. Navigate a web of lies, decode encrypted messages, and expose the masterminds behind the plots. Can you survive the deadly conspiracies?",
+      "Dévoilez des conspirations mortelles qui menacent de plonger le monde dans le chaos. Naviguez dans un réseau de mensonges, décodez des messages cryptés et exposez les cerveaux derrière les complots. Pouvez-vous survivre aux conspirations mortelles ?",
     detail:
-      "Plunge into a world of intrigue and danger as you uncover deadly conspiracies that threaten to unravel society. Navigate a web of lies, deceit, and betrayal as you follow the trail of clues, decode encrypted messages, and expose the masterminds behind the plots. From government cover-ups to secret societies, the stakes have never been higher. Your detective skills and determination will be put to the ultimate test as you race against time to prevent catastrophe. Can you survive the deadly conspiracies and bring the truth to light?",
+      "Plongez dans un monde d'intrigue et de danger alors que vous découvrez des conspirations mortelles qui menacent de détruire la société. Naviguez dans un réseau de mensonges, de tromperie et de trahison alors que vous suivez la piste des indices, décodez des messages cryptés et exposez les cerveaux derrière les complots. Des dissimulations gouvernementales aux sociétés secrètes, les enjeux n'ont jamais été aussi élevés. Vos compétences de détective et votre détermination seront mises à l'épreuve ultime alors que vous vous battez contre le temps pour empêcher la catastrophe. Pouvez-vous survivre aux conspirations mortelles et mettre la vérité en lumière ?",
     price: 60,
     image: "https://th.bing.com/th/id/OIG.GBkKyClsND7mNBGdKv7r?pid=ImgGn",
     isFavorite: false,
@@ -530,11 +532,11 @@ const all = [
     type: "ready-to-use",
     theme: "porn",
     element: "",
-    name: "Sensual Awakening",
+    name: "Éveil Sensuel",
     description:
-      "Indulge in a world of sensual pleasure and intimate exploration. Awaken your desires, embrace your fantasies, and experience the art of seduction. Are you ready for a sensual awakening?",
+      "Plongez dans un monde de plaisir sensuel et d'exploration intime. Réveillez vos désirs, embracez vos fantasmes et découvrez l'art de la séduction. Êtes-vous prêt pour un éveil sensuel ?",
     detail:
-      "Enter a realm of heightened sensuality and explore the art of seduction. Indulge in intimate experiences, embrace your deepest desires, and unlock the secrets of pleasure. From tantalizing encounters to passionate rendezvous, each moment will leave you craving for more. Discover the beauty of connection, the power of desire, and the ecstasy of surrender. Are you ready for a sensual awakening that will ignite your senses?",
+      "Entrez dans un royaume de sensualité exacerbée et explorez l'art de la séduction. Indulgez-vous dans des expériences intimes, embracez vos désirs les plus profonds et dévoilez les secrets du plaisir. Des rencontres alléchantes aux rendez-vous passionnés, chaque instant vous laissera en vouloir plus. Découvrez la beauté de la connexion, le pouvoir du désir et l'extase de l'abandon. Êtes-vous prêt pour un éveil sensuel qui enflammera vos sens ?",
     price: 25,
     image: "https://example.com/sensual_awakening.jpg",
     isFavorite: false,
@@ -547,11 +549,11 @@ const all = [
     type: "ready-to-use",
     theme: "porn",
     element: "",
-    name: "Forbidden Desires",
+    name: "Désirs Interdits",
     description:
-      "Unleash your deepest, most forbidden desires and explore the boundaries of pleasure. Surrender to temptation, embark on passionate encounters, and discover the true meaning of ecstasy. Are you ready to embrace your forbidden desires?",
+      "Libérez vos désirs les plus profonds et explorez les limites du plaisir. Surrendez-vous à la tentation, embarquez dans des rencontres passionnées et découvrez la vraie signification de l'extase. Êtes-vous prêt à embracez vos désirs interdits ?",
     detail:
-      "Dive into a world of forbidden desires where pleasure knows no limits. Explore the boundaries of passion, surrender to irresistible temptations, and indulge in the most tantalizing experiences. From steamy encounters to uninhibited explorations, each moment will take you to new heights of ecstasy. Embrace your deepest longings, break free from inhibitions, and discover the true meaning of pleasure. Are you ready to embark on a journey of forbidden desires?",
+      "Plongez dans un monde de désirs interdits où le plaisir ne connaît pas de limites. Explorez les frontières de la passion, succombez à des tentations irrésistibles et indulgencez-vous dans des expériences des plus alléchantes. Des rencontres enflammées aux explorations sans limites, chaque instant vous emmènera vers de nouveaux sommets d'extase. Embracez vos désirs les plus profonds, libérez-vous de toutes inhibitions et découvrez la vraie signification du plaisir. Êtes-vous prêt à embarquer dans un voyage de désirs interdits ?",
     price: 30,
     image: "https://example.com/forbidden_desires.jpg",
     isFavorite: false,
@@ -564,11 +566,11 @@ const all = [
     type: "ready-to-use",
     theme: "porn",
     element: "",
-    name: "Eternal Passion",
+    name: "Passion Éternelle",
     description:
-      "Experience a love that transcends time and boundaries. Let passion ignite your soul, explore intimate connections, and bask in the ecstasy of eternal love. Are you ready for an everlasting passion?",
+      "Vivez un amour qui transcende le temps et les frontières. Que la passion enflamme votre âme, explorez des connexions intimes et baignez-vous dans l'extase de l'amour éternel. Êtes-vous prêt pour une passion éternelle ?",
     detail:
-      "Enter a world where love knows no bounds and passion transcends time. Experience the intoxicating power of eternal love as you explore deep connections, indulge in intimate encounters, and embrace the intensity of desire. From soulful connections to fiery romances, each moment will immerse you in a whirlwind of emotions. Let your inhibitions fade away as you surrender to the allure of eternal passion. Are you ready to ignite your soul and experience love that lasts a lifetime?",
+      "Entrez dans un monde où l'amour ne connaît pas de limites et où la passion transcende le temps. Vivez la puissance enivrante de l'amour éternel en explorant des connexions profondes, en vous livrant à des rencontres intimes et en embraceant l'intensité du désir. Des connexions profondes aux romances ardentes, chaque instant vous plongera dans un tourbillon d'émotions. Laissez vos inhibitions s'estomper alors que vous vous abandonnez à l'attrait de la passion éternelle. Êtes-vous prêt à enflammer votre âme et à vivre un amour qui dure toute une vie ?",
     price: 35,
     image: "https://example.com/eternal_passion.jpg",
     isFavorite: false,
@@ -581,11 +583,11 @@ const all = [
     type: "ready-to-use",
     theme: "porn",
     element: "",
-    name: "Dark Temptations",
+    name: "Tentations Sombres",
     description:
-      "Plunge into a world of dark temptations, where desire becomes a dangerous obsession. Explore forbidden pleasures, navigate twisted fantasies, and confront your inner demons. Can you escape the grip of dark temptations?",
+      "Plongez dans un monde de tentations sombres, où le désir devient une obsession dangereuse. Explorez des plaisirs interdits, naviguez dans des fantasmes tordus et affrontez vos démons intérieurs. Pouvez-vous échapper à l'emprise des tentations sombres ?",
     detail:
-      "Enter a realm where desire takes a sinister turn and dark temptations consume the soul. Explore forbidden pleasures that blur the line between pleasure and pain, navigate twisted fantasies that push the boundaries of sanity, and confront your inner demons that threaten to consume you. Each encounter will test your limits, challenge your notions of pleasure, and leave you questioning your own desires. Can you resist the seductive allure of darkness and escape the grip of dark temptations?",
+      "Entrez dans un royaume où le désir prend une tournure sinistre et où les tentations sombres consument l'âme. Explorez des plaisirs interdits qui brouillent la frontière entre plaisir et douleur, naviguez dans des fantasmes tordus qui repoussent les limites de la raison et affrontez vos démons intérieurs qui menacent de vous consumer. Chaque rencontre testera vos limites, remettra en question vos notions de plaisir et vous laissera vous interroger sur vos propres désirs. Pouvez-vous résister à l'attrait séduisant des ténèbres et échapper à l'emprise des tentations sombres ?",
     price: 45,
     image: "https://example.com/dark_temptations.jpg",
     isFavorite: false,
@@ -598,11 +600,11 @@ const all = [
     type: "ready-to-use",
     theme: "porn",
     element: "",
-    name: "Sinister Seduction",
+    name: "Séduction Sinistre",
     description:
-      "Fall under the spell of a sinister seduction. Surrender to irresistible charms, indulge in wicked desires, and descend into a world of forbidden ecstasy. Can you resist the allure of sinister seduction?",
+      "Tombez sous le charme d'une séduction sinistre. Abandonnez-vous aux charmes irrésistibles, cédez à des désirs pervers et plongez dans un monde d'extase interdite. Pouvez-vous résister à l'appel de la séduction sinistre ?",
     detail:
-      "Prepare to be seduced by the forbidden as you fall under the spell of a sinister seduction. Surrender to irresistible charms, explore the depths of wicked desires, and embrace the allure of forbidden ecstasy. From shadowy encounters to tantalizing rituals, each moment will push the boundaries of pleasure and test your resolve. Can you resist the twisted temptations that beckon you into a world of darkness?",
+      "Préparez-vous à être séduit par l'interdit en succombant au charme d'une séduction sinistre. Abandonnez-vous aux charmes irrésistibles, explorez les profondeurs des désirs pervers et embrassez l'allure de l'extase interdite. Des rencontres ombragées aux rituels tentants, chaque instant repoussera les limites du plaisir et mettra votre détermination à l'épreuve. Pouvez-vous résister aux tentations tordues qui vous attirent dans un monde de ténèbres ?",
     price: 50,
     image: "https://example.com/sinister_seduction.jpg",
     isFavorite: false,
@@ -615,11 +617,11 @@ const all = [
     type: "ready-to-use",
     theme: "porn",
     element: "",
-    name: "Carnal Nightmares",
+    name: "Cauchemars Carnassiers",
     description:
-      "Plunge into a realm of carnal nightmares, where desire turns into a terrifying ordeal. Confront your deepest fears, navigate through twisted encounters, and escape the clutches of your darkest fantasies. Can you survive the realm of carnal nightmares?",
+      "Plongez dans un monde de cauchemars carnassiers, où le désir se transforme en une épreuve terrifiante. Affrontez vos peurs les plus profondes, naviguez à travers des rencontres tordues et échappez aux griffes de vos fantasmes les plus sombres. Pouvez-vous survivre au royaume des cauchemars carnassiers ?",
     detail:
-      "Step into a realm where desire morphs into a terrifying ordeal, and pleasure transforms into a nightmare. Confront your deepest fears as you navigate through twisted encounters, face macabre temptations, and escape the clutches of your darkest fantasies. Each moment will test your courage, challenge your sanity, and push you to the edge of your limits. Can you survive the realm of carnal nightmares and find your way back to the light?",
+      "Plongez dans un monde où le désir se transforme en une épreuve terrifiante, et le plaisir se métamorphose en cauchemar. Affrontez vos peurs les plus profondes alors que vous naviguez à travers des rencontres tordues, faites face à des tentations macabres et échappez aux griffes de vos fantasmes les plus sombres. Chaque instant testera votre courage, mettra votre santé mentale à l'épreuve et vous poussera aux limites de vos capacités. Pouvez-vous survivre au royaume des cauchemars carnassiers et retrouver la lumière ?",
     price: 55,
     image: "https://example.com/carnal_nightmares.jpg",
     isFavorite: false,
@@ -632,11 +634,11 @@ const all = [
     type: "ready-to-use",
     theme: "romance",
     element: "",
-    name: "Enchanted Love",
+    name: "Amour Enchanté",
     description:
-      "Embark on a magical journey of love and enchantment. Discover soulful connections, experience sweeping romances, and let the power of true love transform your world. Are you ready for an enchanted love story?",
+      "Embarquez pour un voyage magique d'amour et d'enchantement. Découvrez des connexions profondes, vivez des romances enivrantes et laissez le pouvoir de l'amour véritable transformer votre monde. Êtes-vous prêt pour une histoire d'amour enchantée ?",
     detail:
-      "Step into a world where love is a magical force that transcends time and space. Experience soulful connections that ignite your heart, embrace sweeping romances that sweep you off your feet, and let the power of true love transform your world. From breathtaking encounters to heartfelt confessions, each moment will immerse you in a whirlwind of emotions. Are you ready to be swept away by an enchanted love story?",
+      "Plongez dans un monde où l'amour est une force magique qui transcende le temps et l'espace. Vivez des connexions profondes qui embrasent votre cœur, plongez dans des romances enivrantes qui vous transportent, et laissez le pouvoir de l'amour véritable transformer votre monde. Des rencontres à couper le souffle aux aveux sincères, chaque instant vous plongera dans un tourbillon d'émotions. Êtes-vous prêt à être emporté par une histoire d'amour enchantée ?",
     price: 40,
     image: "https://th.bing.com/th/id/OIG.5oBofuxpsL73CpfA8m1p?pid=ImgGn",
     isFavorite: false,
@@ -649,11 +651,11 @@ const all = [
     type: "ready-to-use",
     theme: "romance",
     element: "",
-    name: "Passionate Desire",
+    name: "Désir Passionné",
     description:
-      "Ignite the flames of passion and surrender to the intoxicating power of desire. Explore intense connections, embark on passionate affairs, and experience the ecstasy of love's embrace. Are you ready for a journey of passionate desire?",
+      "Enflammez les flammes de la passion et cédez au pouvoir enivrant du désir. Explorez des connexions intenses, embarquez dans des liaisons passionnées et vivez l'extase de l'étreinte de l'amour. Êtes-vous prêt pour un voyage de désir passionné ?",
     detail:
-      "Unleash your deepest desires as you dive into a world of passion and romance. Explore intense connections that set your soul on fire, embark on passionate affairs that defy all boundaries, and experience the ecstasy of love's embrace. From stolen glances to lingering touches, each moment will leave you breathless and yearning for more. Are you ready to surrender to the intoxicating power of passionate desire?",
+      "Libérez vos désirs les plus profonds en plongeant dans un monde de passion et de romance. Explorez des connexions intenses qui embrasent votre âme, embarquez dans des liaisons passionnées qui défient toutes les limites et vivez l'extase de l'étreinte de l'amour. Des regards volés aux touches persistantes, chaque instant vous laissera à bout de souffle et avide de plus. Êtes-vous prêt à vous abandonner au pouvoir enivrant du désir passionné ?",
     price: 45,
     image: "https://example.com/passionate_desire.jpg",
     isFavorite: false,
@@ -666,11 +668,11 @@ const all = [
     type: "ready-to-use",
     theme: "romance",
     element: "",
-    name: "Eternal Devotion",
+    name: "Dévotion Éternelle",
     description:
-      "Experience a love that transcends time and conquers all obstacles. Let the flame of eternal devotion burn bright as you navigate through challenges, celebrate moments of pure bliss, and create a love story for the ages. Are you ready for an eternal devotion?",
+      "Vivez un amour qui transcende le temps et surmonte tous les obstacles. Laissez la flamme de la dévotion éternelle brûler intensément alors que vous affrontez des défis, célébrez des moments de pure félicité et créez une histoire d'amour pour les âges. Êtes-vous prêt pour une dévotion éternelle ?",
     detail:
-      "Enter a world where love knows no boundaries and time stands still. Experience a love that transcends all obstacles as you navigate through challenges, celebrate moments of pure bliss, and create a love story for the ages. From heartfelt promises to unbreakable bonds, each moment will deepen your connection and ignite the flame of eternal devotion. Are you ready to embark on a timeless journey of love?",
+      "Entrez dans un monde où l'amour ne connaît aucune limite et où le temps s'arrête. Vivez un amour qui transcende tous les obstacles alors que vous affrontez des défis, célébrez des moments de pure félicité et créez une histoire d'amour pour les âges. Des promesses sincères aux liens indéfectibles, chaque instant approfondira votre connexion et ravivera la flamme de la dévotion éternelle. Êtes-vous prêt à embarquer pour un voyage intemporel de l'amour ?",
     price: 50,
     image: "https://th.bing.com/th/id/OIG.X6YJwfV_kaRothDFe91_?pid=ImgGn",
     isFavorite: false,
@@ -683,11 +685,11 @@ const all = [
     type: "ready-to-use",
     theme: "romance",
     element: "",
-    name: "Cursed Desires",
+    name: "Désirs Maudits",
     description:
-      "Plunge into a world of cursed desires, where love becomes a haunting obsession. Uncover dark secrets, navigate treacherous affairs, and face the consequences of forbidden love. Can you break free from the curse of your desires?",
+      "Plongez dans un monde de désirs maudits, où l'amour devient une obsession hantée. Découvrez des secrets sombres, naviguez à travers des liaisons traîtresses et affrontez les conséquences de l'amour interdit. Pouvez-vous vous libérer de la malédiction de vos désirs ?",
     detail:
-      "Enter a realm where love turns into a haunting obsession and desires become a curse. Uncover dark secrets that threaten to consume you, navigate treacherous affairs that test your morality, and face the consequences of forbidden love. Each step you take will lead you deeper into the abyss of your desires. Can you break free from the curse that binds your heart?",
+      "Entrez dans un royaume où l'amour se transforme en une obsession hantée et les désirs deviennent une malédiction. Découvrez des secrets sombres qui menacent de vous consumer, naviguez à travers des liaisons traîtresses qui mettent votre moralité à l'épreuve et affrontez les conséquences de l'amour interdit. Chaque pas que vous faites vous mènera plus profondément dans l'abîme de vos désirs. Pouvez-vous vous libérer de la malédiction qui enserre votre cœur ?",
     price: 55,
     image: "https://example.com/cursed_desires.jpg",
     isFavorite: false,
@@ -700,11 +702,11 @@ const all = [
     type: "ready-to-use",
     theme: "romance",
     element: "",
-    name: "Tainted Hearts",
+    name: "Cœurs Souillés",
     description:
-      "Fall into a world of tainted hearts, where love becomes a twisted game. Unravel deceitful plots, navigate through toxic relationships, and confront the darkness that lurks within. Can you escape the grip of tainted hearts?",
+      "Plongez dans un monde de cœurs souillés, où l'amour devient un jeu tordu. Démêlez des intrigues trompeuses, naviguez à travers des relations toxiques et affrontez les ténèbres qui se cachent en vous. Pouvez-vous échapper à l'emprise des cœurs souillés ?",
     detail:
-      "Dive into a world where love is a twisted game and hearts are tainted by deceit. Unravel the plots of manipulative minds, navigate through toxic relationships that threaten to consume you, and confront the darkness that lurks within. Each choice you make will determine the fate of your own heart. Can you break free from the grip of tainted hearts?",
+      "Plongez dans un monde où l'amour est un jeu tordu et les cœurs sont souillés par la tromperie. Démêlez les intrigues d'esprits manipulateurs, naviguez à travers des relations toxiques qui menacent de vous consumer et affrontez les ténèbres qui se cachent en vous. Chaque choix que vous faites déterminera le destin de votre propre cœur. Pouvez-vous vous libérer de l'emprise des cœurs souillés ?",
     price: 60,
     image: "https://th.bing.com/th/id/OIG.GqRh47fSvM1foerf.ZrW?pid=ImgGn",
     isFavorite: false,
@@ -717,11 +719,11 @@ const all = [
     type: "ready-to-use",
     theme: "romance",
     element: "",
-    name: "Eternal Betrayal",
+    name: "Traîtrise Éternelle",
     description:
-      "Plunge into a world of eternal betrayal, where love turns into a cruel deception. Uncover treacherous secrets, navigate through heart-wrenching betrayals, and discover the true meaning of sacrifice. Can you survive the realm of eternal betrayal?",
+      "Plongez dans un monde de trahison éternelle, où l'amour se transforme en une cruelle tromperie. Découvrez des secrets traîtres, naviguez à travers des trahisons déchirantes et découvrez la véritable signification du sacrifice. Pouvez-vous survivre au royaume de la trahison éternelle ?",
     detail:
-      "Enter a realm where love becomes a cruel deception and trust is shattered. Uncover treacherous secrets that threaten to tear your world apart, navigate through heart-wrenching betrayals that leave you shattered, and discover the true meaning of sacrifice. Each step you take will test your resilience and redefine the boundaries of love. Can you survive the realm of eternal betrayal and find redemption?",
+      "Entrez dans un royaume où l'amour devient une cruelle tromperie et la confiance est brisée. Découvrez des secrets traîtres qui menacent de déchirer votre monde, naviguez à travers des trahisons déchirantes qui vous laissent brisé et découvrez la véritable signification du sacrifice. Chaque pas que vous faites mettra à l'épreuve votre résilience et redéfinira les limites de l'amour. Pouvez-vous survivre au royaume de la trahison éternelle et trouver la rédemption ?",
     price: 65,
     image: "https://th.bing.com/th/id/OIG.5HZhlKorbRCpzxFWHvPe?pid=ImgGn",
     isFavorite: false,
@@ -734,11 +736,11 @@ const all = [
     type: "ready-to-use",
     theme: "war",
     element: "",
-    name: "Battlefield Heroes",
+    name: "Héros du Champ de Bataille",
     description:
-      "Step onto the battlefield and become a hero of war. Experience the thrill of intense combat, forge alliances with fellow soldiers, and lead your troops to victory. Are you ready to make your mark in the annals of history?",
+      "Marchez sur le champ de bataille et devenez un héros de guerre. Vivez le frisson des combats intenses, forgez des alliances avec vos camarades soldats et menez vos troupes à la victoire. Êtes-vous prêt à marquer les annales de l'histoire ?",
     detail:
-      "Immerse yourself in the chaos of war as you step onto the battlefield as a hero. Experience the thrill of intense combat, where every decision can change the course of history. Forge alliances with fellow soldiers, strategize your moves, and lead your troops with courage and honor. From epic clashes to heroic acts, each moment will define your legacy as a battlefield hero. Are you ready to make your mark in the annals of history?",
+      "Plongez-vous dans le chaos de la guerre en devenant un héros sur le champ de bataille. Vivez le frisson des combats intenses, où chaque décision peut changer le cours de l'histoire. Forgez des alliances avec vos camarades soldats, élaborez des stratégies et guidez vos troupes avec courage et honneur. Des affrontements épiques aux actes héroïques, chaque instant définira votre héritage en tant que héros du champ de bataille. Êtes-vous prêt à marquer les annales de l'histoire ?",
     price: 40,
     image: "https://th.bing.com/th/id/OIG.17Y7P0m.0gUzeNh3yBH2?pid=ImgGn",
     isFavorite: false,
@@ -751,11 +753,11 @@ const all = [
     type: "ready-to-use",
     theme: "war",
     element: "",
-    name: "Forgotten Valor",
+    name: "Valeur Oubliée",
     description:
-      "Discover the forgotten valor of unsung heroes in the midst of war. Uncover untold stories, witness acts of bravery, and honor those who fought against all odds. Are you ready to relive the forgotten valor of the past?",
+      "Découvrez la valeur oubliée des héros méconnus au milieu de la guerre. Découvrez des histoires inédites, assistez à des actes de bravoure et honorez ceux qui ont combattu contre vents et marées. Êtes-vous prêt à revivre la valeur oubliée du passé ?",
     detail:
-      "Delve into the untold stories of unsung heroes who fought with unwavering valor in the midst of war. Witness acts of bravery that defy all odds, honor the sacrifices made on the battlefield, and uncover the hidden tales of heroism that history has forgotten. From valiant last stands to acts of compassion, each moment will transport you to a time where courage knew no bounds. Are you ready to relive the forgotten valor of the past?",
+      "Plongez dans les histoires inédites des héros méconnus qui ont combattu avec une valeur inébranlable au milieu de la guerre. Témoignez d'actes de bravoure qui défient toutes les attentes, honorez les sacrifices faits sur le champ de bataille et découvrez les récits cachés d'héroïsme que l'histoire a oubliés. Des derniers combats vaillants aux actes de compassion, chaque instant vous transportera dans une époque où le courage ne connaissait pas de limites. Êtes-vous prêt à revivre la valeur oubliée du passé ?",
     price: 45,
     image: "https://th.bing.com/th/id/OIG.S_mXwkdnVZUhpo.eCuUD?pid=ImgGn",
     isFavorite: false,
@@ -768,11 +770,11 @@ const all = [
     type: "ready-to-use",
     theme: "war",
     element: "",
-    name: "Warrior's Legacy",
+    name: "L'Héritage du Guerrier",
     description:
-      "Carry the legacy of warriors who fought for honor, freedom, and justice. Experience the thrill of battle, embrace the camaraderie of fellow warriors, and defend what you hold dear. Are you ready to write your name in the annals of the warrior's legacy?",
+      "Portez l'héritage des guerriers qui ont combattu pour l'honneur, la liberté et la justice. Vivez le frisson de la bataille, embrassez la camaraderie des autres guerriers et défendez ce qui vous est cher. Êtes-vous prêt à inscrire votre nom dans les annales de l'héritage du guerrier ?",
     detail:
-      "Embrace the spirit of warriors who fought for honor, freedom, and justice as you step into the battlefield. Experience the thrill of battle, where courage is tested and legends are born. Embrace the camaraderie of fellow warriors, forge unbreakable bonds, and defend what you hold dear. From epic clashes to quiet moments of reflection, each step you take will write your name in the annals of the warrior's legacy. Are you ready to embark on a journey that will test your mettle?",
+      "Embrassez l'esprit des guerriers qui ont combattu pour l'honneur, la liberté et la justice lorsque vous foulez le champ de bataille. Vivez le frisson de la bataille, où le courage est mis à l'épreuve et les légendes naissent. Profitez de la camaraderie des autres guerriers, forgez des liens indestructibles et défendez ce qui vous est cher. Des affrontements épiques aux moments de réflexion silencieuse, chaque pas que vous faites inscrira votre nom dans les annales de l'héritage du guerrier. Êtes-vous prêt à vous lancer dans un voyage qui mettra votre bravoure à l'épreuve ?",
     price: 50,
     image: "https://th.bing.com/th/id/OIG.HDpx0VsBHUgiZOsSbg23?pid=ImgGn",
     isFavorite: false,
@@ -785,11 +787,11 @@ const all = [
     type: "ready-to-use",
     theme: "war",
     element: "",
-    name: "Shattered Peace",
+    name: "Paix Brisée",
     description:
-      "Step into a world where peace is shattered, and war consumes all. Witness the horrors of conflict, face the brutality of battle, and confront the darkness that lies within. Can you survive in a world of shattered peace?",
+      "Plongez dans un monde où la paix est brisée et la guerre consume tout. Témoignez des horreurs du conflit, affrontez la brutalité de la bataille et confrontez les ténèbres qui résident en vous. Pouvez-vous survivre dans un monde de paix brisée ?",
     detail:
-      "Enter a world where peace is shattered, and war engulfs everything in its path. Witness the horrors of conflict, face the brutality of battle, and confront the darkness that lies within the hearts of men. Can you navigate the treacherous landscapes of war and emerge unscathed? In a world of shattered peace, survival is the ultimate victory.",
+      "Entrez dans un monde où la paix est brisée et la guerre consume tout sur son passage. Témoignez des horreurs du conflit, affrontez la brutalité de la bataille et confrontez les ténèbres qui résident dans le cœur des hommes. Pouvez-vous naviguer dans les paysages traîtres de la guerre et en sortir indemne ? Dans un monde de paix brisée, la survie est la victoire ultime.",
     price: 55,
     image: "https://th.bing.com/th/id/OIG.kTqs342wudIYTg66C.K4?pid=ImgGn",
     isFavorite: false,
@@ -802,11 +804,11 @@ const all = [
     type: "ready-to-use",
     theme: "war",
     element: "",
-    name: "Descent into Chaos",
+    name: "Plongée dans le Chaos",
     description:
-      "Plunge into the chaos of war, where hope fades and darkness prevails. Confront the horrors of battle, navigate through treacherous landscapes, and find the strength to survive. Can you endure the descent into chaos?",
+      "Plongez dans le chaos de la guerre, où l'espoir s'efface et les ténèbres prévalent. Affrontez les horreurs de la bataille, naviguez à travers des paysages périlleux et trouvez la force de survivre. Pouvez-vous supporter la descente dans le chaos ?",
     detail:
-      "Descend into the depths of chaos as war ravages the land. Confront the horrors of battle, where hope fades and darkness prevails. Navigate through treacherous landscapes, where danger lurks at every turn. Amidst the chaos, find the strength to survive and emerge from the shadows. In a world consumed by war, resilience is the key to survival.",
+      "Descendez dans les profondeurs du chaos alors que la guerre ravage la terre. Affrontez les horreurs de la bataille, où l'espoir s'estompe et les ténèbres prévalent. Naviguez à travers des paysages traîtres, où le danger guette à chaque tournant. Au milieu du chaos, trouvez la force de survivre et émergez des ombres. Dans un monde consumé par la guerre, la résilience est la clé de la survie.",
     price: 60,
     image: "https://th.bing.com/th/id/OIG.5gYzPb3lIcCaeUy44QD8?pid=ImgGn",
     isFavorite: false,
@@ -819,11 +821,11 @@ const all = [
     type: "ready-to-use",
     theme: "war",
     element: "",
-    name: "War-Torn Souls",
+    name: "Âmes Déchirées par la Guerre",
     description:
-      "Witness the plight of war-torn souls, haunted by the ravages of conflict. Navigate through a landscape of despair, confront the demons within, and seek redemption amidst the chaos. Can you mend the shattered souls?",
+      "Témoin du sort des âmes déchirées par la guerre, hantées par les ravages du conflit. Naviguez à travers un paysage de désespoir, affrontez les démons intérieurs et recherchez la rédemption au milieu du chaos. Pouvez-vous réparer les âmes brisées ?",
     detail:
-      "Enter a world ravaged by war, where souls are torn apart by the atrocities of conflict. Navigate through a landscape of despair, where the weight of the past burdens every step. Confront the demons within, seek redemption amidst the chaos, and mend the shattered souls that remain. Can you find solace in the midst of war's devastation?",
+      "Entrez dans un monde ravagé par la guerre, où les âmes sont déchirées par les atrocités du conflit. Naviguez à travers un paysage de désespoir, où le poids du passé pèse sur chaque pas. Affrontez les démons intérieurs, recherchez la rédemption au milieu du chaos et réparez les âmes brisées qui subsistent. Pouvez-vous trouver la paix au milieu de la dévastation de la guerre ?",
     price: 65,
     image: "https://th.bing.com/th/id/OIG.d1EfsoZ0xurfX2Ah5PBF?pid=ImgGn",
     isFavorite: false,
@@ -836,11 +838,11 @@ const all = [
     type: "ready-to-use",
     theme: "fantasy",
     element: "",
-    name: "Realm of Enchantment",
+    name: "Royaume de l'Enchantement",
     description:
-      "Step into a realm of enchantment, where magic thrives and mythical creatures roam. Embark on epic quests, unravel ancient mysteries, and discover the power within. Are you ready to embrace the wonders of the enchanted realm?",
+      "Plongez dans un royaume enchanté, où la magie prospère et les créatures mythiques errent. Lancez-vous dans des quêtes épiques, dévoilez des mystères anciens et découvrez la puissance intérieure. Êtes-vous prêt à embrasser les merveilles du royaume ?",
     detail:
-      "Embark on a journey into a realm of enchantment, where magic weaves its tapestry and mythical creatures come to life. Explore breathtaking landscapes, embark on epic quests, and unravel the mysteries of ancient civilizations. Discover the power within you as you confront magical beings, forge alliances with fantastical creatures, and bring balance to the enchanted realm. Are you ready to embrace the wonders that await?",
+      "Embarquez pour un voyage dans un royaume enchanté, où la magie tisse sa toile et les créatures mythiques prennent vie. Explorez des paysages à couper le souffle, embarquez dans des quêtes épiques et dévoilez les mystères des civilisations anciennes. Découvrez la puissance qui est en vous en affrontant des êtres magiques, en nouant des alliances avec des créatures fantastiques et en ramenant l'équilibre dans le royaume enchanté. Êtes-vous prêt à embrasser les merveilles qui vous attendent ?",
     price: 25,
     image: "https://th.bing.com/th/id/OIG.cppoDC1w9xnuiGbOezsi?pid=ImgGn",
     isFavorite: false,
@@ -853,11 +855,11 @@ const all = [
     type: "ready-to-use",
     theme: "fantasy",
     element: "",
-    name: "Legends of Mythos",
+    name: "Légendes de Mythos",
     description:
-      "Immerse yourself in the legends of Mythos, a world where heroes rise, ancient prophecies unfold, and destinies are forged. Unleash your inner hero, battle dark forces, and shape the course of the realm. Are you ready to become a legend?",
+      "Plongez-vous dans les légendes de Mythos, un monde où les héros se lèvent, les anciennes prophéties se déploient et les destins se forgent. Libérez votre héros intérieur, affrontez les forces obscures et façonnez le destin du royaume. Êtes-vous prêt à devenir une légende ?",
     detail:
-      "Dive into the rich tapestry of legends that define the world of Mythos. Unleash your inner hero as you embark on a quest to fulfill ancient prophecies, battle dark forces, and shape the course of the realm. From mythical creatures to legendary artifacts, each step you take brings you closer to becoming a true legend. Are you ready to leave your mark on the annals of Mythos?",
+      "Plongez dans la riche tapisserie de légendes qui définissent le monde de Mythos. Libérez votre héros intérieur alors que vous vous lancez dans une quête pour accomplir d'anciennes prophéties, affronter les forces obscures et façonner le destin du royaume. Des créatures mythiques aux artefacts légendaires, chaque pas que vous faites vous rapproche de devenir une véritable légende. Êtes-vous prêt à laisser votre empreinte dans les annales de Mythos ?",
     price: 30,
     image: "https://th.bing.com/th/id/OIG.aoZd.B32GPbNV8CNQD85?pid=ImgGn",
     isFavorite: false,
@@ -870,11 +872,11 @@ const all = [
     type: "ready-to-use",
     theme: "fantasy",
     element: "",
-    name: "Kingdom of Dreams",
+    name: "Royaume des Rêves",
     description:
-      "Enter the majestic Kingdom of Dreams, a realm of wonder, where imagination knows no bounds. Explore enchanted castles, befriend mystical creatures, and uncover the secrets of the kingdom. Are you ready to embark on a journey of dreams?",
+      "Entrez dans le majestueux Royaume des Rêves, un royaume merveilleux où l'imagination n'a pas de limites. Explorez des châteaux enchantés, liez-vous d'amitié avec des créatures mystiques et découvrez les secrets du royaume. Êtes-vous prêt(e) à vous embarquer dans un voyage onirique ?",
     detail:
-      "Step into the majestic Kingdom of Dreams, a realm where imagination knows no bounds. Explore enchanted castles, wander through mystical forests, and befriend extraordinary creatures that dwell within. Uncover the secrets that the kingdom holds, and let your dreams guide you on a journey of wonder and magic. Are you ready to embark on a grand adventure in the Kingdom of Dreams?",
+      "Plongez dans le majestueux Royaume des Rêves, un monde où l'imagination n'a pas de limites. Explorez des châteaux enchantés, parcourez des forêts mystiques et liez-vous d'amitié avec des créatures extraordinaires qui y habitent. Découvrez les secrets que le royaume renferme et laissez vos rêves vous guider dans un voyage empreint de merveilles et de magie. Êtes-vous prêt(e) à vous lancer dans une grande aventure au Royaume des Rêves ?",
     price: 35,
     image: "https://th.bing.com/th/id/OIG.tM0EKQDG47w6Zdo5Wvmr?pid=ImgGn",
     isFavorite: false,
@@ -887,11 +889,11 @@ const all = [
     type: "ready-to-use",
     theme: "fantasy",
     element: "",
-    name: "Dark Abyss",
+    name: "Abîme Sombre",
     description:
-      "Plunge into the depths of the Dark Abyss, where shadows reign and nightmares come to life. Confront ancient evils, navigate treacherous realms, and battle the darkness within. Can you survive the perils of the Dark Abyss?",
+      "Plongez dans les profondeurs de l'Abîme Sombre, où les ombres règnent et les cauchemars prennent vie. Affrontez les anciens maléfices, naviguez à travers des royaumes traîtres et combattez les ténèbres intérieures. Pouvez-vous survivre aux périls de l'Abîme Sombre ?",
     detail:
-      "Descend into the depths of the Dark Abyss, a realm shrouded in shadows and teeming with nightmarish creatures. Confront ancient evils that lurk in the darkness, navigate treacherous realms filled with twisted landscapes, and battle the darkness that threatens to consume your soul. In the heart of the abyss, survival is a fleeting hope. Can you overcome the perils that await?",
+      "Descendez dans les profondeurs de l'Abîme Sombre, un royaume enveloppé de ténèbres et grouillant de créatures cauchemardesques. Affrontez les anciens maléfices qui se cachent dans l'obscurité, naviguez à travers des royaumes traîtres remplis de paysages déformés et combattez les ténèbres qui menacent de consumer votre âme. Au cœur de l'abîme, la survie est un espoir éphémère. Pouvez-vous surmonter les périls qui vous attendent ?",
     price: 40,
     image: "https://th.bing.com/th/id/OIG.qltse_isSN_JwPmvqLVV?pid=ImgGn",
     isFavorite: false,
@@ -904,11 +906,11 @@ const all = [
     type: "ready-to-use",
     theme: "fantasy",
     element: "",
-    name: "Cursed Kingdom",
+    name: "Royaume Maudit",
     description:
-      "Enter the cursed kingdom, where malevolent forces reign and nightmares become reality. Unravel dark secrets, face ancient curses, and defy the twisted fate that awaits. Can you break the curse that binds the kingdom?",
+      "Entrez dans le royaume maudit, où règnent des forces malveillantes et où les cauchemars deviennent réalité. Découvrez les sombres secrets, affrontez les malédictions anciennes et défiez le destin tortueux qui vous attend. Pouvez-vous briser la malédiction qui lie le royaume ?",
     detail:
-      "Step into the cursed kingdom, where the echoes of ancient curses resonate in the air and malevolent forces hold dominion. Unravel the dark secrets that haunt the land, face the wrath of cursed creatures, and defy the twisted fate that awaits. Can you muster the strength to break the curse that binds the kingdom and restore light to its shadowed halls?",
+      "Plongez dans le royaume maudit, où les échos des malédictions anciennes résonnent dans l'air et où les forces malveillantes dominent. Découvrez les sombres secrets qui hantent la terre, affrontez la colère des créatures maudites et défiez le destin tortueux qui vous attend. Pouvez-vous rassembler la force nécessaire pour briser la malédiction qui lie le royaume et restaurer la lumière dans ses salles ombragées ?",
     price: 45,
     image: "https://th.bing.com/th/id/OIG.1WSgsRBFgxj1nsO27dqI?pid=ImgGn",
     isFavorite: false,
@@ -921,11 +923,11 @@ const all = [
     type: "ready-to-use",
     theme: "fantasy",
     element: "",
-    name: "Shadowed Realms",
+    name: "Royaumes Ombragés",
     description:
-      "Step into the shadowed realms, where darkness consumes and nightmares thrive. Confront your deepest fears, navigate through sinister landscapes, and survive the perils that lurk in the shadows. Can you find a glimmer of light in the midst of darkness?",
+      "Plongez dans les royaumes ombragés, où les ténèbres engloutissent et les cauchemars prospèrent. Affrontez vos peurs les plus profondes, naviguez à travers des paysages sinistres et survivez aux périls qui se tapissent dans les ombres. Pouvez-vous trouver une lueur de lumière au milieu des ténèbres ?",
     detail:
-      "Venture into the shadowed realms, where darkness stretches its tendrils and nightmares take form. Confront your deepest fears as you navigate through sinister landscapes, each step bringing you closer to the heart of darkness. Survival is a fragile hope in this realm of perpetual night. Can you find a glimmer of light amidst the shadows?",
+      "Aventurez-vous dans les royaumes ombragés, où les ténèbres étendent leurs tentacules et où les cauchemars prennent forme. Affrontez vos peurs les plus profondes alors que vous naviguez à travers des paysages sinistres, chaque pas vous rapprochant du cœur des ténèbres. La survie est un espoir fragile dans ce royaume de nuit perpétuelle. Pouvez-vous trouver une lueur de lumière parmi les ombres ?",
     price: 50,
     image: "https://th.bing.com/th/id/OIG.z3fl84kOVnakOXZ3VQan?pid=ImgGn",
     isFavorite: false,
@@ -938,11 +940,11 @@ const all = [
     type: "ready-to-use",
     theme: "sci-fi",
     element: "",
-    name: "Galactic Odyssey",
+    name: "Odyssée Galactique",
     description:
-      "Embark on a galactic odyssey across the cosmos, where futuristic technology and alien worlds await. Explore uncharted galaxies, encounter extraterrestrial lifeforms, and unlock the secrets of the universe. Are you ready to venture into the unknown?",
+      "Embarquez pour une odyssée galactique à travers les cosmos, où la technologie futuriste et les mondes extraterrestres vous attendent. Explorez des galaxies inexplorées, rencontrez des formes de vie extraterrestres et découvrez les secrets de l'univers. Êtes-vous prêt à vous aventurer dans l'inconnu ?",
     detail:
-      "Prepare for a thrilling journey through the cosmos in the Galactic Odyssey. Armed with futuristic technology, traverse uncharted galaxies, and encounter awe-inspiring alien civilizations. From breathtaking space battles to mind-bending time travel, each step in your odyssey uncovers the mysteries of the universe. Are you ready to push the boundaries of exploration?",
+      "Préparez-vous pour un voyage palpitant à travers les cosmos dans l'Odyssée Galactique. Armé de technologies futuristes, traversez des galaxies inexplorées et rencontrez des civilisations extraterrestres époustouflantes. Des batailles spatiales à couper le souffle aux voyages dans le temps captivants, chaque étape de votre odyssée dévoile les mystères de l'univers. Êtes-vous prêt à repousser les limites de l'exploration ?",
     price: 25,
     image: "https://th.bing.com/th/id/OIG.mfvKagPxV8CLKdYL3rlV?pid=ImgGn",
     isFavorite: false,
@@ -955,11 +957,11 @@ const all = [
     type: "ready-to-use",
     theme: "sci-fi",
     element: "",
-    name: "Cybernetic Revolution",
+    name: "Révolution Cybernétique",
     description:
-      "Immerse yourself in a cybernetic revolution, where humans and machines merge in a futuristic society. Unleash your augmented abilities, navigate virtual realms, and challenge the limits of humanity. Are you ready to embrace the future?",
+      "Immergez-vous dans une révolution cybernétique, où les humains et les machines fusionnent dans une société futuriste. Libérez vos capacités augmentées, naviguez à travers des mondes virtuels et repoussez les limites de l'humanité. Êtes-vous prêt à embrasser l'avenir ?",
     detail:
-      "Step into a world where humans and machines coexist in the Cybernetic Revolution. Embrace your augmented abilities, navigate virtual realms with seamless integration, and challenge the boundaries of humanity. From high-tech heists to mind-bending simulations, each moment in this futuristic society blurs the line between what is real and what is digital. Are you ready to redefine the future?",
+      "Plongez dans un monde où les humains et les machines coexistent dans la Révolution Cybernétique. Adoptez vos capacités augmentées, naviguez à travers des mondes virtuels avec une intégration parfaite et repoussez les limites de l'humanité. Des braquages haute technologie aux simulations époustouflantes, chaque instant dans cette société futuriste brouille la frontière entre ce qui est réel et ce qui est digital. Êtes-vous prêt à redéfinir l'avenir ?",
     price: 30,
     image: "https://th.bing.com/th/id/OIG.MZASOhn5cuowOy58un5G?pid=ImgGn",
     isFavorite: false,
@@ -972,11 +974,11 @@ const all = [
     type: "ready-to-use",
     theme: "sci-fi",
     element: "",
-    name: "Stellar Conquest",
+    name: "Conquête Stellaire",
     description:
-      "Engage in a stellar conquest as you lead an intergalactic empire to dominance. Harness advanced technology, forge alliances, and conquer distant star systems. Will you rise as the supreme ruler of the cosmos?",
+      "Engagez-vous dans une conquête stellaire en dirigeant un empire intergalactique vers la domination. Exploitez une technologie avancée, forgez des alliances et conquérez des systèmes stellaires lointains. Parviendrez-vous à devenir le souverain suprême du cosmos ?",
     detail:
-      "Embark on a journey of conquest among the stars in Stellar Conquest. As the leader of an intergalactic empire, harness advanced technologies, explore uncharted star systems, and engage in epic space battles. Forge alliances or wage wars, the fate of the cosmos rests in your hands. Will you rise as the supreme ruler of the galaxy?",
+      "Embarquez pour un voyage de conquête parmi les étoiles avec Conquête Stellaire. En tant que leader d'un empire intergalactique, exploitez des technologies avancées, explorez des systèmes stellaires inexplorés et participez à des batailles spatiales épiques. Forgez des alliances ou menez des guerres, le destin du cosmos repose entre vos mains. Parviendrez-vous à devenir le souverain suprême de la galaxie ?",
     price: 35,
     image: "https://th.bing.com/th/id/OIG.1x0qb93r5mrcadEN3v60?pid=ImgGn",
     isFavorite: false,
@@ -989,11 +991,11 @@ const all = [
     type: "ready-to-use",
     theme: "sci-fi",
     element: "",
-    name: "Dystopian Future",
+    name: "Futur Dystopique",
     description:
-      "Plunge into a dystopian future, where society crumbles and technology becomes a tool of oppression. Navigate through desolate landscapes, resist totalitarian regimes, and fight for the freedom of humanity. Can you rewrite the fate of a dark future?",
+      "Plongez dans un futur dystopique, où la société s'effondre et la technologie devient un outil d'oppression. Naviguez à travers des paysages désolés, résistez aux régimes totalitaires et luttez pour la liberté de l'humanité. Pouvez-vous réécrire le destin d'un avenir sombre ?",
     detail:
-      "Enter a world of despair and oppression in the Dystopian Future. As society crumbles under the weight of totalitarian regimes, navigate through desolate landscapes where technology is a tool of control. Join the resistance, fight for the freedom of humanity, and rewrite the fate of a dark future. Will you be the spark that ignites the revolution?",
+      "Entrez dans un monde de désespoir et d'oppression dans le Futur Dystopique. Alors que la société s'effondre sous le poids des régimes totalitaires, naviguez à travers des paysages désolés où la technologie est un outil de contrôle. Rejoignez la résistance, luttez pour la liberté de l'humanité et réécrivez le destin d'un avenir sombre. Serez-vous l'étincelle qui embrase la révolution ?",
     price: 40,
     image: "https://th.bing.com/th/id/OIG.ryo6pLsrbWKhRIYkRcgb?pid=ImgGn",
     isFavorite: false,
@@ -1006,11 +1008,11 @@ const all = [
     type: "ready-to-use",
     theme: "sci-fi",
     element: "",
-    name: "Alien Invasion",
+    name: "Invasion Extraterrestre",
     description:
-      "Face the terror of an alien invasion as extraterrestrial forces descend upon Earth. Survive harrowing encounters, salvage advanced alien technology, and rally the remnants of humanity. Can you turn the tide against the otherworldly threat?",
+      "Affrontez la terreur d'une invasion extraterrestre alors que des forces extraterrestres descendent sur Terre. Survivez à des rencontres périlleuses, récupérez une technologie extraterrestre avancée et rassemblez les vestiges de l'humanité. Pouvez-vous inverser le cours de cette menace venue d'ailleurs ?",
     detail:
-      "The invasion has begun. Brace yourself for an all-out war against extraterrestrial forces in Alien Invasion. Engage in intense battles, scavenge advanced alien technology, and rally the remnants of humanity in a desperate fight for survival. Will you be the last line of defense against the otherworldly threat?",
+      "L'invasion a commencé. Préparez-vous à une guerre totale contre des forces extraterrestres dans l'Invasion Extraterrestre. Engagez-vous dans des batailles intenses, récupérez une technologie extraterrestre avancée et rassemblez les vestiges de l'humanité dans une lutte désespérée pour la survie. Serez-vous la dernière ligne de défense contre cette menace venue d'ailleurs ?",
     price: 45,
     image: "https://th.bing.com/th/id/OIG.OXr5SnJKUDVTmoRPRXLe?pid=ImgGn",
     isFavorite: false,
@@ -1023,11 +1025,11 @@ const all = [
     type: "ready-to-use",
     theme: "sci-fi",
     element: "",
-    name: "Technological Apocalypse",
+    name: "Apocalypse Technologique",
     description:
-      "Witness the technological apocalypse as artificial intelligence turns against humanity. Navigate through a world controlled by machines, outwit hostile AI, and strive for the survival of the human race. Can you reclaim dominion over your own creation?",
+      "Soyez témoin de l'apocalypse technologique alors que l'intelligence artificielle se retourne contre l'humanité. Naviguez dans un monde contrôlé par les machines, déjouez une IA hostile et luttez pour la survie de la race humaine. Pouvez-vous reprendre le contrôle de votre propre création ?",
     detail:
-      "The dawn of artificial intelligence has become humanity's darkest hour in the Technological Apocalypse. Navigate through a world ruled by machines, overcome lethal AI adversaries, and uncover the truth behind the downfall of civilization. Will you find a way to reclaim dominion over your own creation and ensure the survival of the human race?",
+      "L'aube de l'intelligence artificielle est devenue l'heure la plus sombre de l'humanité dans l'Apocalypse Technologique. Naviguez dans un monde dominé par les machines, surmontez des adversaires d'IA mortels et découvrez la vérité derrière la chute de la civilisation. Parviendrez-vous à reprendre le contrôle de votre propre création et à assurer la survie de la race humaine ?",
     price: 50,
     image: "https://th.bing.com/th/id/OIG.0fVQdRF1NnzBGFIZQPXv?pid=ImgGn",
     isFavorite: false,
@@ -1040,11 +1042,11 @@ const all = [
     type: "ready-to-use",
     theme: "comedy",
     element: "",
-    name: "Laughs Unlimited",
+    name: "Rires Illimités",
     description:
-      "Get ready for non-stop laughter in this comedy extravaganza. Experience hilarious mishaps, outrageous characters, and comedic chaos that will leave you in stitches. Can you handle the comedic madness?",
+      "Préparez-vous à des rires sans fin dans cette extravagance comique. Découvrez des mésaventures hilarantes, des personnages extravagants et un chaos comique qui vous fera rire aux éclats. Pouvez-vous supporter cette folie comique ?",
     detail:
-      "Welcome to the world of Laughs Unlimited, where the laughter never ends. Brace yourself for a rollercoaster ride of hilarious mishaps, outrageous characters, and comedic chaos. From slapstick comedy to witty wordplay, this collection will have you laughing out loud. Get ready to embark on a side-splitting adventure that will tickle your funny bone!",
+      "Bienvenue dans le monde de Rires Illimités, où le rire ne s'arrête jamais. Préparez-vous à un tourbillon de mésaventures hilarantes, de personnages extravagants et de chaos comique. Des comédies burlesques aux jeux de mots spirituels, cette collection vous fera rire aux éclats. Préparez-vous à vous embarquer dans une aventure hilarante qui chatouillera votre sens de l'humour !",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.S9gMNcSzEZW2cYX1uT1L?pid=ImgGn",
     isFavorite: false,
@@ -1057,11 +1059,11 @@ const all = [
     type: "ready-to-use",
     theme: "comedy",
     element: "",
-    name: "Crazy Capers",
+    name: "Folles Aventures",
     description:
-      "Enter a world of zany antics and crazy capers. Brace yourself for outrageous situations, larger-than-life characters, and comedic mayhem that will keep you laughing from start to finish. Can you keep up with the madness?",
+      "Entrez dans un monde de pitreries délirantes et d'aventures folles. Préparez-vous à des situations extravagantes, à des personnages plus grands que nature et à un chaos comique qui vous fera rire du début à la fin. Pouvez-vous suivre cette folie ?",
     detail:
-      "Prepare for a wild ride in Crazy Capers, where hilarity knows no bounds. From wacky misunderstandings to chaotic schemes, this collection of comedic tales will have you doubled over with laughter. Join a cast of eccentric characters as they navigate through absurd situations that will leave you in stitches. Get ready to unleash your sense of humor and embrace the madness!",
+      "Préparez-vous à un voyage délirant avec Folles Aventures, où l'hilarité ne connaît aucune limite. Des malentendus loufoques aux complots chaotiques, cette collection de récits comiques vous fera plier de rire. Rejoignez une distribution de personnages excentriques qui se débattent dans des situations absurdes qui vous laisseront hilare. Préparez-vous à libérer votre sens de l'humour et à embrasser la folie !",
     price: 25,
     image: "https://th.bing.com/th/id/OIG.6eltuihQONgsgM4Lnu92?pid=ImgGn",
     isFavorite: false,
@@ -1074,11 +1076,11 @@ const all = [
     type: "ready-to-use",
     theme: "comedy",
     element: "",
-    name: "Hilarity Central",
+    name: "Rires à Gogo",
     description:
-      "Step into Hilarity Central, the ultimate destination for comedy lovers. Prepare for a laugh riot as you encounter hilarious sketches, witty one-liners, and uproarious performances. Can you handle the comedic brilliance?",
+      "Plongez dans Rires à Gogo, la destination ultime pour les amateurs de comédie. Préparez-vous à un festival de rires en découvrant des sketches hilarants, des répliques spirituelles et des performances hilarantes. Pouvez-vous faire face à cette brillance comique ?",
     detail:
-      "Welcome to Hilarity Central, where laughter is the main attraction. From hilarious sketches to uproarious stand-up routines, this collection is a showcase of comedic brilliance. Get ready to be entertained by the funniest minds in the business and immerse yourself in a world of laughter. Prepare to laugh until your sides hurt!",
+      "Bienvenue à Rires à Gogo, où le rire est la principale attraction. Des sketches hilarants aux spectacles de stand-up hilarants, cette collection est une vitrine de la brillance comique. Préparez-vous à être divertis par les esprits les plus drôles du métier et plongez dans un monde de rires. Préparez-vous à rire jusqu'à en avoir mal aux côtes !",
     price: 30,
     image: "https://th.bing.com/th/id/OIG.3B78kqo7A3.u.S1dXzWX?pid=ImgGn",
     isFavorite: false,
@@ -1091,11 +1093,11 @@ const all = [
     type: "ready-to-use",
     theme: "comedy",
     element: "",
-    name: "Comic Catastrophe",
+    name: "Catastrophe Comique",
     description:
-      "Enter a world where comedy turns into chaos. Brace yourself for disastrous punchlines, cringe-worthy gags, and comedic nightmares that will leave you questioning your sense of humor. Can you survive the comic catastrophe?",
+      "Plongez dans un monde où la comédie se transforme en chaos. Préparez-vous à des punchlines désastreuses, des gags gênants et des cauchemars comiques qui remettront en question votre sens de l'humour. Pouvez-vous survivre à la catastrophe comique ?",
     detail:
-      "Prepare for a comedy experience like no other in Comic Catastrophe. From disastrous punchlines to cringe-worthy gags, this collection takes comedy to new depths. Brace yourself for a rollercoaster ride of comedic nightmares that will leave you questioning your own sense of humor. Will you be able to endure the comic catastrophe?",
+      "Préparez-vous à une expérience comique comme aucune autre dans la Catastrophe Comique. Des punchlines désastreuses aux gags gênants, cette collection repousse les limites de la comédie. Préparez-vous à un tourbillon de cauchemars comiques qui remettront en question votre propre sens de l'humour. Serez-vous capable d'endurer la catastrophe comique ?",
     price: 35,
     image: "https://th.bing.com/th/id/OIG.__aQh1AaUEbhMA3.S0yz?pid=ImgGn",
     isFavorite: false,
@@ -1108,11 +1110,11 @@ const all = [
     type: "ready-to-use",
     theme: "comedy",
     element: "",
-    name: "Jester's Curse",
+    name: "Malédiction du Bouffon",
     description:
-      "Beware the Jester's Curse, where laughter turns into torment. Encounter twisted humor, dark punchlines, and comedic nightmares that will haunt your every waking moment. Can you escape the grip of the jester's curse?",
+      "Méfiez-vous de la Malédiction du Bouffon, où le rire se transforme en tourment. Faites face à l'humour tordu, aux punchlines sombres et aux cauchemars comiques qui hanteront chacun de vos instants éveillés. Pouvez-vous échapper à l'emprise de la malédiction du bouffon ?",
     detail:
-      "Prepare to be haunted by the Jester's Curse, a comedic nightmare that will test the limits of your sanity. Enter a world where laughter becomes torment, and dark humor takes center stage. Brace yourself for twisted punchlines, macabre gags, and a chilling comedic experience like no other. Can you escape the grip of the jester's curse?",
+      "Préparez-vous à être hanté par la Malédiction du Bouffon, un cauchemar comique qui mettra votre santé mentale à l'épreuve. Plongez dans un monde où le rire devient tourment et où l'humour sombre est au premier plan. Préparez-vous à des punchlines tordues, des gags macabres et une expérience comique glaçante comme nulle autre. Pouvez-vous échapper à l'emprise de la malédiction du bouffon ?",
     price: 40,
     image: "https://th.bing.com/th/id/OIG.X3Qro7m1Mt8kRKkyb91l?pid=ImgGn",
     isFavorite: false,
@@ -1125,11 +1127,11 @@ const all = [
     type: "ready-to-use",
     theme: "comedy",
     element: "",
-    name: "Humor's Abyss",
+    name: "Abîme de l'Humour",
     description:
-      "Plunge into Humor's Abyss, a realm where laughter turns into despair. Experience dark comedy, twisted jokes, and a comedic void that will challenge your sense of humor. Can you withstand the depths of humor's abyss?",
+      "Plongez dans l'Abîme de l'Humour, un royaume où le rire se transforme en désespoir. Découvrez la comédie sombre, les blagues tordues et un vide comique qui mettra votre sens de l'humour à l'épreuve. Pouvez-vous supporter les profondeurs de l'abîme de l'humour ?",
     detail:
-      "Dive into the depths of Humor's Abyss, a realm where laughter takes a sinister turn. Brace yourself for dark comedy, twisted jokes, and a comedic void that will test your sense of humor. Explore the boundaries of comedic despair and discover whether you can withstand the depths of humor's abyss.",
+      "Plongez dans les profondeurs de l'Abîme de l'Humour, un royaume où le rire prend une tournure sinistre. Préparez-vous à la comédie sombre, aux blagues tordues et à un vide comique qui mettra votre sens de l'humour à l'épreuve. Explorez les limites du désespoir comique et découvrez si vous pouvez résister aux profondeurs de l'abîme de l'humour.",
     price: 45,
     image: "https://th.bing.com/th/id/OIG.lEgOXhxRW9HzzCzioKNO?pid=ImgGn",
     isFavorite: false,
@@ -1142,11 +1144,11 @@ const all = [
     type: "ready-to-use",
     theme: "relax",
     element: "",
-    name: "Zen Oasis",
+    name: "Oasis Zen",
     description:
-      "Escape to a serene Zen oasis, where tranquility and peace await. Immerse yourself in soothing landscapes, calming melodies, and rejuvenating experiences. Can you find inner harmony in this tranquil haven?",
+      "Échappez-vous vers un oasis zen serein, où la tranquillité et la paix vous attendent. Imprégnez-vous de paysages apaisants, de mélodies calmantes et d'expériences revitalisantes. Pouvez-vous trouver l'harmonie intérieure dans ce havre tranquille ?",
     detail:
-      "Discover the ultimate retreat in Zen Oasis, a place of serenity and relaxation. Immerse yourself in breathtaking landscapes, listen to the calming melodies of nature, and indulge in rejuvenating experiences. Find inner peace as you let go of stress and embrace tranquility in this serene haven.",
+      "Découvrez la retraite ultime de l'Oasis Zen, un lieu de sérénité et de relaxation. Plongez-vous dans des paysages enchanteurs, écoutez les mélodies apaisantes de la nature et offrez-vous des expériences régénérantes. Trouvez la paix intérieure en vous libérant du stress et en embrassant la tranquillité dans ce havre serein.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.DJOqWtqj6ZzOfz3Oc5vs?pid=ImgGn",
     isFavorite: false,
@@ -1159,11 +1161,11 @@ const all = [
     type: "ready-to-use",
     theme: "relax",
     element: "",
-    name: "Tranquil Escapes",
+    name: "Évasions Tranquilles",
     description:
-      "Embark on a journey of tranquility and serenity. Immerse yourself in peaceful surroundings, experience gentle therapies, and let go of all worries. Can you find solace in these tranquil escapes?",
+      "Lancez-vous dans un voyage de tranquillité et de sérénité. Immergez-vous dans des environnements paisibles, vivez des thérapies douces et laissez aller tous vos soucis. Pouvez-vous trouver le réconfort dans ces évasions tranquilles ?",
     detail:
-      "Step into the world of Tranquil Escapes, where serenity awaits. Leave behind the hustle and bustle of everyday life and enter a realm of peaceful surroundings. Experience gentle therapies that calm your mind and body, and let go of all worries as you find solace in these tranquil escapes.",
+      "Plongez dans le monde des Évasions Tranquilles, où la sérénité vous attend. Laissez derrière vous l'agitation et entrez dans un royaume d'environnements paisibles. Vivez des thérapies douces qui apaisent votre esprit et votre corps, et laissez aller tous vos soucis en trouvant le réconfort dans ces évasions tranquilles.",
     price: 25,
     image: "https://th.bing.com/th/id/OIG.uT0qzhnsQcBORlf7yYPw?pid=ImgGn",
     isFavorite: false,
@@ -1176,11 +1178,11 @@ const all = [
     type: "ready-to-use",
     theme: "relax",
     element: "",
-    name: "Blissful Retreat",
+    name: "Retraite Béatifique",
     description:
-      "Indulge in a blissful retreat designed to relax and rejuvenate. Immerse yourself in soothing environments, experience therapeutic treatments, and restore your inner balance. Can you find true bliss in this tranquil sanctuary?",
+      "Indulgez-vous dans une retraite béatifique conçue pour se relaxer et se ressourcer. Plongez-vous dans des environnements apaisants, vivez des traitements thérapeutiques et restaurez votre équilibre intérieur. Pouvez-vous trouver une vraie béatitude dans ce sanctuaire tranquille ?",
     detail:
-      "Welcome to Blissful Retreat, a haven of relaxation and rejuvenation. Enter a world of soothing environments, where stress melts away and inner balance is restored. Experience a range of therapeutic treatments that nurture your body and mind. Find true bliss as you immerse yourself in this tranquil sanctuary.",
+      "Bienvenue dans la Retraite Béatifique, un havre de paix et de ressourcement. Entrez dans un monde d'environnements apaisants, où le stress s'évanouit et l'équilibre intérieur est restauré. Vivez une gamme de traitements thérapeutiques qui chouchoutent votre corps et votre esprit. Trouvez une vraie béatitude en vous plongeant dans ce sanctuaire tranquille.",
     price: 30,
     image: "https://th.bing.com/th/id/OIG.0Q3vGe9zVapwju9108mW?pid=ImgGn",
     isFavorite: false,
@@ -1193,11 +1195,11 @@ const all = [
     type: "ready-to-use",
     theme: "relax",
     element: "",
-    name: "Eternal Tension",
+    name: "Tension Éternelle",
     description:
-      "Step into a realm of eternal tension, where relaxation becomes impossible. Encounter unsettling surroundings, unsettling sounds, and an atmosphere of perpetual unease. Can you find any respite from the eternal tension?",
+      "Plongez dans un royaume de tension éternelle, où la détente devient impossible. Rencontrez des environnements perturbants, des sons dérangeants et une atmosphère d'inquiétude perpétuelle. Parviendrez-vous à trouver un quelconque répit dans cette tension éternelle ?",
     detail:
-      "Prepare to be trapped in the realm of Eternal Tension, where relaxation is an elusive concept. Surround yourself with unsettling environments, listen to unsettling sounds that disturb your peace, and experience an atmosphere of perpetual unease. Will you be able to find any respite from the eternal tension?",
+      "Préparez-vous à être piégé dans le royaume de la Tension Éternelle, où la détente est un concept insaisissable. Entourez-vous d'environnements perturbants, écoutez des sons dérangeants qui perturbent votre paix intérieure et ressentez une atmosphère d'inquiétude perpétuelle. Serez-vous en mesure de trouver un quelconque répit dans cette tension éternelle ?",
     price: 35,
     image: "https://th.bing.com/th/id/OIG.aKUtXAXmthFYuNBZFRPY?pid=ImgGn",
     isFavorite: false,
@@ -1210,11 +1212,11 @@ const all = [
     type: "ready-to-use",
     theme: "relax",
     element: "",
-    name: "Restless Nightmare",
+    name: "Cauchemar Incessant",
     description:
-      "Enter a restless nightmare where relaxation is an illusion. Encounter unsettling visions, disquieting sensations, and a state of constant unrest. Can you find any semblance of calm in this relentless nightmare?",
+      "Entrez dans un cauchemar incessant où la détente est une illusion. Rencontrez des visions perturbantes, des sensations dérangeantes et un état d'agitation constant. Parviendrez-vous à trouver le moindre semblant de calme dans ce cauchemar impitoyable ?",
     detail:
-      "Prepare yourself for the Restless Nightmare, a place where relaxation is merely an illusion. Experience unsettling visions that disturb your inner peace, encounter disquieting sensations that disrupt your tranquility, and face a state of constant unrest. Can you find any semblance of calm in the midst of this relentless nightmare?",
+      "Préparez-vous pour le Cauchemar Incessant, un lieu où la détente est pure illusion. Faites face à des visions perturbantes qui troublent votre paix intérieure, rencontrez des sensations dérangeantes qui perturbent votre tranquillité et affrontez un état d'agitation constant. Parviendrez-vous à trouver le moindre semblant de calme au milieu de ce cauchemar implacable ?",
     price: 40,
     image: "https://th.bing.com/th/id/OIG.CVarhsfKaMNccjHDwOCy?pid=ImgGn",
     isFavorite: false,
@@ -1227,11 +1229,11 @@ const all = [
     type: "ready-to-use",
     theme: "relax",
     element: "",
-    name: "Calmless Abyss",
+    name: "Abîme sans calme",
     description:
-      "Plunge into the Calmless Abyss, where tranquility is shattered. Experience unsettling stillness, disorienting silence, and a void devoid of peace. Can you escape the grip of the calmless abyss?",
+      "Plongez dans l'Abîme sans calme, où la tranquillité est brisée. Faites l'expérience d'une quiétude dérangeante, d'un silence désorientant et d'un vide dépourvu de paix. Parviendrez-vous à échapper à l'emprise de l'abîme sans calme ?",
     detail:
-      "Dive into the depths of the Calmless Abyss, a place where tranquility is shattered. Encounter unsettling stillness that disrupts your inner calm, experience disorienting silence that leaves you on edge, and face a void devoid of peace. Can you escape the grip of the calmless abyss?",
+      "Plongez dans les profondeurs de l'Abîme sans calme, un endroit où la tranquillité est brisée. Rencontrez une quiétude dérangeante qui perturbe votre calme intérieur, vivez un silence désorientant qui vous met sur les nerfs et faites face à un vide dépourvu de paix. Parviendrez-vous à échapper à l'emprise de l'abîme sans calme ?",
     price: 45,
     image: "https://th.bing.com/th/id/OIG._I.hjeNvKQ10hC.Bw6ih?pid=ImgGn",
     isFavorite: false,
