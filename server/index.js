@@ -8,8 +8,6 @@ app.get("/", (req, res) => {
   res.send("Welcome on the Dream IT API !");
 });
 
-// il manque les traductions de 4 à 9
-
 const all = [
   {
     id: 1,
@@ -71,11 +69,11 @@ const all = [
     type: "ready-to-use",
     theme: "travel",
     element: "",
-    name: "Dark Odyssey",
+    name: "Odyssée sombre",
     description:
-      "Embark on a nightmarish journey through haunted realms and cursed landscapes. Face sinister creatures, unravel chilling mysteries, and navigate treacherous paths. Can you survive the horrors that lurk in the shadows?",
+      "Embarquez pour un voyage cauchemardesque à travers des royaumes hantés et des paysages maudits. Faites face à des créatures sinistres, dévoilez des mystères glaçants et parcourez des chemins traîtres. Pouvez-vous survivre aux horreurs qui se cachent dans l'ombre ?",
     detail:
-      "Prepare yourself for a bone-chilling odyssey as you venture into the darkest corners of haunted realms and cursed landscapes. From eerie ghost towns to desolate graveyards, each step will test your courage and resilience. Confront sinister creatures that hunger for your fear, unravel chilling mysteries that whisper from the shadows, and navigate treacherous paths that lead to unspeakable horrors. Only the strongest will survive the nightmarish onslaught. Will you be consumed by darkness or emerge as a true survivor? Brace yourself for a heart-pounding adventure that will push your sanity to the edge.",
+      "Préparez-vous à une odyssée glaçante alors que vous vous aventurez dans les coins les plus sombres de royaumes hantés et de paysages maudits. Des villes fantomatiques inquiétantes aux cimetières désolés, chaque pas testera votre courage et votre résilience. Affrontez des créatures sinistres qui se nourrissent de votre peur, dévoilez des mystères glaçants qui chuchotent depuis les ombres et parcourez des chemins traîtres menant à des horreurs innommables. Seuls les plus forts survivront à cette attaque cauchemardesque. Serez-vous consumé par les ténèbres ou émergerez-vous en tant que véritable survivant ? Préparez-vous à une aventure palpitante qui poussera votre santé mentale à son maximum.",
     price: 35,
     image:
       "https://images.nightcafe.studio/jobs/QJU3BCmXdBidpavW5Pwp/QJU3BCmXdBidpavW5Pwp--1--4tbse.jpg",
@@ -89,11 +87,11 @@ const all = [
     type: "ready-to-use",
     theme: "travel",
     element: "",
-    name: "Twisted Expeditions",
+    name: "Expéditions Tordues",
     description:
-      "Embark on a harrowing expedition through twisted dimensions and distorted realities. Navigate mazes of madness, encounter otherworldly entities, and unravel mind-bending enigmas. Will you succumb to the madness or emerge as a beacon of sanity?",
+      "Embarquez pour une expédition éprouvante à travers des dimensions tordues et des réalités déformées. Naviguez à travers des labyrinthes de folie, rencontrez des entités d'un autre monde et dévoilez des énigmes à vous briser l'esprit. Succomberez-vous à la folie ou deviendrez-vous un phare de lucidité ?",
     detail:
-      "Venture into the depths of twisted dimensions where reality bends and distorts with every step. Navigate through labyrinths of madness, where walls shift and corridors lead to unknown realms. Encounter otherworldly entities that exist beyond human comprehension and face mind-bending enigmas that challenge the very fabric of your sanity. Will you succumb to the horrors that lurk in the shadows or emerge as a beacon of light in the abyss? Prepare for a nightmarish odyssey that will test the limits of your courage and resilience.",
+      "Aventurez-vous dans les profondeurs de dimensions tordues où la réalité se plie et se déforme à chaque pas. Naviguez à travers des labyrinthes de folie où les murs se déplacent et les couloirs mènent à des royaumes inconnus. Rencontrez des entités d'un autre monde qui existent au-delà de la compréhension humaine et faites face à des énigmes à vous briser l'esprit qui remettent en question la trame même de votre santé mentale. Succomberez-vous aux horreurs qui se cachent dans les ombres ou émergerez-vous en tant que phare de lumière dans l'abîme ? Préparez-vous à une odyssée cauchemardesque qui mettra vos courage et résilience à l'épreuve.",
     price: 20,
     image:
       "https://images.nightcafe.studio/jobs/9ROBVObkhxf9Ozg2iOGd/9ROBVObkhxf9Ozg2iOGd--1--emik8.jpg",
@@ -107,11 +105,11 @@ const all = [
     type: "ready-to-use",
     theme: "travel",
     element: "",
-    name: "Cursed Journeys",
+    name: "Voyages Maudits",
     description:
-      "Embark on cursed journeys to haunted destinations where malevolent forces reign supreme. Confront vengeful spirits, solve ancient curses, and survive paranormal encounters. Will you break free from the curse or become trapped in eternal darkness?",
+      "Embarquez pour des voyages maudits vers des destinations hantées où règnent des forces malveillantes. Confrontez des esprits vengeurs, résolvez des malédictions anciennes et survivez à des rencontres paranormales. Parviendrez-vous à vous libérer de la malédiction ou serez-vous piégé dans les ténèbres éternelles ?",
     detail:
-      "Prepare for cursed journeys to haunted destinations where the line between the living and the dead is blurred. Confront vengeful spirits seeking retribution, decipher ancient curses that bind souls to eternal torment, and survive chilling encounters with the paranormal. Each step will bring you closer to the heart of darkness as you unravel the secrets that shroud these accursed realms. Will you break free from the curse that ensnares your soul or succumb to the malevolent forces that lurk in the shadows? Brace yourself for a terrifying adventure where survival hinges on your ability to confront the supernatural.",
+      "Préparez-vous à des voyages maudits vers des destinations hantées où la frontière entre les vivants et les morts est floue. Affrontez des esprits vengeurs en quête de rétribution, déchiffrez des malédictions anciennes qui lient les âmes à un tourment éternel et survivez à des rencontres glaçantes avec le paranormal. Chaque pas vous rapprochera du cœur des ténèbres alors que vous dévoilez les secrets qui enveloppent ces royaumes maudits. Parviendrez-vous à vous libérer de la malédiction qui emprisonne votre âme ou succomberez-vous aux forces malveillantes qui se tapissent dans l'ombre ? Préparez-vous à une aventure terrifiante où la survie dépend de votre capacité à affronter le surnaturel.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.MLBxrbg6SIL1kmVL6NUh?pid=ImgGn",
     isFavorite: false,
@@ -124,11 +122,11 @@ const all = [
     type: "ready-to-use",
     theme: "action-adventure",
     element: "",
-    name: "Pirate Adventure",
+    name: "Aventure de Pirates",
     description:
-      "Join Captain Jack Sparrow on a thrilling pirate adventure filled with treacherous seas, hidden treasures, and epic battles. Can you survive the pirate's life and claim the ultimate prize ?",
+      "Rejoignez le capitaine Jack Sparrow dans une aventure palpitante de pirates remplie de mers traîtres, de trésors cachés et de batailles épiques. Pourrez-vous survivre à la vie de pirate et réclamer le prix ultime ?",
     detail:
-      "Embark on a thrilling pirate adventure with Captain Jack Sparrow, a charismatic and cunning pirate leading a loyal crew of skilled sailors, swordsmen, and navigators. Together, they set sail on the legendary Black Pearl, navigating treacherous seas with towering waves and unpredictable currents. Their quest takes them to Skull Island, a remote and perilous land shrouded in legends and guarded by supernatural creatures. However, their journey is obstructed by Captain Blackbeard, a ruthless and cunning adversary who seeks to claim the ultimate treasure. As alliances shift and betrayals unfold, epic battles on land and sea ensue amidst an atmosphere of dark storm clouds, thunder, lightning, and torrential rain. Will Captain Jack Sparrow overcome the challenges and outwit Captain Blackbeard to secure the treasure? Find out in this swashbuckling tale of bravery, treachery, and unexpected alliances.",
+      "Embarquez pour une aventure palpitante de pirates avec le capitaine Jack Sparrow, un pirate charismatique et rusé qui dirige un équipage loyal de marins, d'épéistes et de navigateurs talentueux. Ensemble, ils prennent la mer sur le légendaire Black Pearl, naviguant sur des mers traîtres avec des vagues déferlantes et des courants imprévisibles. Leur quête les mène à l'île du Crâne, une terre reculée et périlleuse entourée de légendes et gardée par des créatures surnaturelles. Cependant, leur voyage est entravé par le capitaine Barbe Noire, un pirate impitoyable qui cherche également à réclamer le trésor ultime. Dans une série de batailles épiques et de confrontations dangereuses, Jack Sparrow et son équipage doivent lutter pour leur survie et trouver un moyen de s'emparer du trésor tant convoité. Serez-vous prêt à vivre l'aventure de votre vie en tant que pirate intrépide ?",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.PZr5jFSU3njNRl0zZLLw?pid=ImgGn",
     isFavorite: false,
@@ -141,11 +139,11 @@ const all = [
     type: "ready-to-use",
     theme: "action-adventure",
     element: "",
-    name: "Secret Agent Mission",
+    name: "Mission Agent Secret",
     description:
-      "Step into the shoes of a secret agent on a high-stakes mission to save the world. Uncover hidden clues, outsmart enemies, and stop a diabolical plot. Are you ready to become the ultimate spy?",
+      "Enfilez les chaussures d'un agent secret lors d'une mission à haut risque pour sauver le monde. Découvrez des indices cachés, trompez vos ennemis et arrêtez un complot diabolique. Êtes-vous prêt à devenir l'espion ultime ?",
     detail:
-      "Become a master of espionage as you embark on a thrilling secret agent mission. Navigate through intricate mazes, infiltrate enemy hideouts, and decode encrypted messages. Utilize state-of-the-art gadgets, showcase your combat skills, and engage in adrenaline-pumping chase sequences. With the fate of the world hanging in the balance, it's up to you to outwit the cunning villains and bring them to justice. Prepare for heart-pounding action, suspenseful plot twists, and the ultimate test of your spy abilities.",
+      "Devenez un maître de l'espionnage en vous lançant dans une mission palpitante en tant qu'agent secret. Naviguez à travers des labyrinthes complexes, infiltrez les repaires ennemis et décodez des messages cryptés. Utilisez des gadgets dernier cri, montrez vos compétences en combat et participez à des courses-poursuites à couper le souffle. Avec le sort du monde en jeu, il vous incombe de déjouer les méchants rusés et de les traduire en justice. Préparez-vous à une action palpitante, à des rebondissements haletants et au test ultime de vos capacités d'espion.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.47M3LewiZOI5w1BM24DJ?pid=ImgGn",
     isFavorite: false,
@@ -158,11 +156,11 @@ const all = [
     type: "ready-to-use",
     theme: "action-adventure",
     element: "",
-    name: "Ninja Warrior Training",
+    name: "Entraînement Ninja Warrior",
     description:
-      "Embark on a rigorous training program to become a skilled ninja warrior. Learn ancient martial arts techniques, overcome physical challenges, and unlock your inner strength. Are you ready to embrace the way of the ninja?",
+      "Lancez-vous dans un programme d'entraînement intensif pour devenir un ninja guerrier compétent. Apprenez les techniques ancestrales d'arts martiaux, surmontez des défis physiques et libérez votre force intérieure. Êtes-vous prêt à embrasser la voie du ninja ?",
     detail:
-      "Immerse yourself in the ancient art of ninjutsu as you train to become a formidable warrior. Master stealthy movements, hone your combat skills, and navigate through obstacle courses designed to test your agility and endurance. Learn the secrets of camouflage, the art of swordsmanship, and the ability to harness your inner energy. Face off against fellow trainees in friendly sparring sessions and participate in thrilling missions that push your skills to the limit. As you progress on your journey, you'll uncover the true essence of being a ninja and discover the power that lies within you.",
+      "Immergez-vous dans l'art ancien du ninjutsu tout en vous entraînant pour devenir un redoutable guerrier. Maîtrisez les mouvements furtifs, perfectionnez vos compétences en combat et parcourez des parcours d'obstacles conçus pour tester votre agilité et votre endurance. Apprenez les secrets du camouflage, l'art de l'escrime et la capacité à exploiter votre énergie intérieure. Affrontez d'autres stagiaires lors de sessions amicales d'entraînement et participez à des missions palpitantes qui mettent vos compétences à l'épreuve. Au fur et à mesure de votre progression dans votre voyage, vous découvrirez l'essence véritable d'être un ninja et découvrirez le pouvoir qui sommeille en vous.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.pWe7zt2e5BGy6k7t1ZRn?pid=ImgGn",
     isFavorite: false,
