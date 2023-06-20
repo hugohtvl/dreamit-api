@@ -21,7 +21,8 @@ const all = [
     detail:
       "Uncover the wonders of travel as you embark on an immersive journey across continents and cultures. Discover hidden gems, iconic landmarks, and enchanting natural wonders. From bustling cities to serene beaches, each destination offers a unique blend of history, art, and adventure. Capture the essence of your travels through vibrant photographs and heartfelt journal entries. Embrace the joy of exploration and let your wanderlust guide you towards incredible experiences. Get ready to embark on a transformative journey that will broaden your horizons and leave you with cherished memories for a lifetime.",
     price: 20,
-    image: "https://example.com/travel.jpg",
+    image:
+      "https://images.nightcafe.studio/jobs/U4ALWFHk155frDnvYrTN/U4ALWFHk155frDnvYrTN--3--nqtbg.jpg",
     isFavorite: false,
     intoCart: false,
   },
@@ -37,8 +38,9 @@ const all = [
       "Embark on a thrilling adventure across uncharted territories and distant lands. Discover hidden treasures, encounter exotic wildlife, and immerse yourself in vibrant cultures. Are you ready to embrace the spirit of exploration?",
     detail:
       "Unleash your sense of adventure as you traverse unknown territories and embark on a journey of discovery. From remote rainforests to ancient ruins, each destination offers an opportunity to immerse yourself in unique landscapes and rich traditions. Engage with friendly locals, sample tantalizing cuisine, and delve into the fascinating history of each place. Whether trekking through majestic mountains or diving into crystal-clear waters, every step will unveil new wonders and create indelible memories. Embrace the unknown, ignite your curiosity, and let the spirit of exploration guide you towards extraordinary experiences.",
-    price: 20,
-    image: "https://example.com/adventure.jpg",
+    price: 30,
+    image:
+      "https://images.nightcafe.studio/jobs/nXI741HoAgScGtFRMnFX/nXI741HoAgScGtFRMnFX--4--w849d.jpg",
     isFavorite: false,
     intoCart: false,
   },
@@ -54,8 +56,9 @@ const all = [
       "Escape to a tropical paradise of palm-fringed beaches, turquoise waters, and endless sunshine. Indulge in luxurious resorts, thrilling water sports, and rejuvenating spa treatments. Are you ready to experience blissful relaxation?",
     detail:
       "Unwind and rejuvenate in the lap of luxury as you escape to a tropical paradise. Feel the warm sand between your toes, listen to the gentle lapping of waves, and bask in the glorious sunshine. Immerse yourself in a world of relaxation with invigorating spa treatments, soothing yoga sessions, and peaceful beachside meditation. Indulge in delectable cuisine and savor tropical cocktails as you watch breathtaking sunsets paint the sky. Whether you choose to lounge by the pool, embark on water adventures, or simply soak in the serene atmosphere, this idyllic getaway promises to replenish your body, mind, and soul.",
-    price: 20,
-    image: "https://example.com/relaxation.jpg",
+    price: 25,
+    image:
+      "https://images.nightcafe.studio/jobs/VYDJEjKpzJYqlh7lbt9K/VYDJEjKpzJYqlh7lbt9K--2--d6z10.jpg",
     isFavorite: false,
     intoCart: false,
   },
@@ -71,8 +74,9 @@ const all = [
       "Embark on a nightmarish journey through haunted realms and cursed landscapes. Face sinister creatures, unravel chilling mysteries, and navigate treacherous paths. Can you survive the horrors that lurk in the shadows?",
     detail:
       "Prepare yourself for a bone-chilling odyssey as you venture into the darkest corners of haunted realms and cursed landscapes. From eerie ghost towns to desolate graveyards, each step will test your courage and resilience. Confront sinister creatures that hunger for your fear, unravel chilling mysteries that whisper from the shadows, and navigate treacherous paths that lead to unspeakable horrors. Only the strongest will survive the nightmarish onslaught. Will you be consumed by darkness or emerge as a true survivor? Brace yourself for a heart-pounding adventure that will push your sanity to the edge.",
-    price: 20,
-    image: "https://example.com/dark_odyssey.jpg",
+    price: 35,
+    image:
+      "https://images.nightcafe.studio/jobs/QJU3BCmXdBidpavW5Pwp/QJU3BCmXdBidpavW5Pwp--1--4tbse.jpg",
     isFavorite: false,
     intoCart: false,
   },
@@ -89,7 +93,8 @@ const all = [
     detail:
       "Venture into the depths of twisted dimensions where reality bends and distorts with every step. Navigate through labyrinths of madness, where walls shift and corridors lead to unknown realms. Encounter otherworldly entities that exist beyond human comprehension and face mind-bending enigmas that challenge the very fabric of your sanity. Will you succumb to the horrors that lurk in the shadows or emerge as a beacon of light in the abyss? Prepare for a nightmarish odyssey that will test the limits of your courage and resilience.",
     price: 20,
-    image: "https://example.com/twisted_expeditions.jpg",
+    image:
+      "https://images.nightcafe.studio/jobs/9ROBVObkhxf9Ozg2iOGd/9ROBVObkhxf9Ozg2iOGd--1--emik8.jpg",
     isFavorite: false,
     intoCart: false,
   },
@@ -106,7 +111,7 @@ const all = [
     detail:
       "Prepare for cursed journeys to haunted destinations where the line between the living and the dead is blurred. Confront vengeful spirits seeking retribution, decipher ancient curses that bind souls to eternal torment, and survive chilling encounters with the paranormal. Each step will bring you closer to the heart of darkness as you unravel the secrets that shroud these accursed realms. Will you break free from the curse that ensnares your soul or succumb to the malevolent forces that lurk in the shadows? Brace yourself for a terrifying adventure where survival hinges on your ability to confront the supernatural.",
     price: 20,
-    image: "https://example.com/cursed_journeys.jpg",
+    image: "https://th.bing.com/th/id/OIG.MLBxrbg6SIL1kmVL6NUh?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -140,7 +145,7 @@ const all = [
     detail:
       "Become a master of espionage as you embark on a thrilling secret agent mission. Navigate through intricate mazes, infiltrate enemy hideouts, and decode encrypted messages. Utilize state-of-the-art gadgets, showcase your combat skills, and engage in adrenaline-pumping chase sequences. With the fate of the world hanging in the balance, it's up to you to outwit the cunning villains and bring them to justice. Prepare for heart-pounding action, suspenseful plot twists, and the ultimate test of your spy abilities.",
     price: 20,
-    image: "https://example.com/secretagent.jpg",
+    image: "https://th.bing.com/th/id/OIG.47M3LewiZOI5w1BM24DJ?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -157,7 +162,7 @@ const all = [
     detail:
       "Immerse yourself in the ancient art of ninjutsu as you train to become a formidable warrior. Master stealthy movements, hone your combat skills, and navigate through obstacle courses designed to test your agility and endurance. Learn the secrets of camouflage, the art of swordsmanship, and the ability to harness your inner energy. Face off against fellow trainees in friendly sparring sessions and participate in thrilling missions that push your skills to the limit. As you progress on your journey, you'll uncover the true essence of being a ninja and discover the power that lies within you.",
     price: 20,
-    image: "https://example.com/ninjawarrior.jpg",
+    image: "https://th.bing.com/th/id/OIG.pWe7zt2e5BGy6k7t1ZRn?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -174,7 +179,7 @@ const all = [
     detail:
       "Step into a nightmarish future where society has collapsed, and chaos reigns supreme. In this post-apocalyptic world, you must navigate through desolate landscapes, scavenge for scarce resources, and fend off hostile factions vying for control. Battle against hunger, disease, and the constant threat of violence as you fight to survive. Your decisions will determine your fate as you confront the harsh realities of a world on the brink of oblivion. Get ready to face your deepest fears and discover what it truly means to survive in the face of utter devastation.",
     price: 20,
-    image: "https://example.com/doomsday.jpg",
+    image: "https://th.bing.com/th/id/OIG.hby98DxAqQf6EpHMdkEp?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -191,7 +196,7 @@ const all = [
     detail:
       "Enter a mansion shrouded in darkness and filled with unspeakable horrors. Explore its eerie hallways, each step echoing with the whispers of the restless spirits that dwell within. Solve enigmatic puzzles, decipher cryptic messages, and uncover the tragic history of the mansion and its inhabitants. But be wary, for malevolent entities lurk in the shadows, eager to claim unsuspecting souls. Face your deepest fears, summon your courage, and discover the truth behind the haunting. Get ready to confront the supernatural and survive the nightmarish depths of the haunted mansion.",
     price: 20,
-    image: "https://example.com/hauntedmansion.jpg",
+    image: "https://th.bing.com/th/id/OIG.F9WBqGMvL7n9gDta_8NV?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -208,7 +213,7 @@ const all = [
     detail:
       "In a world ravaged by a relentless zombie outbreak, you must navigate through desolate cities, abandoned structures, and treacherous landscapes. Outsmart hordes of ravenous zombies, scavenge for vital supplies, and fortify your defenses. Every decision counts as you form alliances, face moral dilemmas, and confront the limits of your humanity. Will you succumb to the insatiable hunger of the undead or rise as a beacon of hope in a world consumed by darkness? Get ready to face the relentless onslaught of the zombie apocalypse and fight for your survival against all odds.",
     price: 20,
-    image: "https://example.com/zombie.jpg",
+    image: "https://th.bing.com/th/id/OIG.LzAf.Cypg1ncb7TXxahB?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -225,7 +230,7 @@ const all = [
     detail:
       "Indulge in the world of gastronomy as you join renowned chefs in a masterclass designed to unleash your culinary potential. Learn the techniques of molecular gastronomy, discover the art of plating, and explore the fusion of diverse cuisines. Experiment with exotic ingredients, savor the aroma of freshly ground spices, and create dishes that tantalize the taste buds. From delicate pastries to elaborate multi-course meals, each lesson will expand your repertoire and elevate your cooking to new heights. Prepare to embark on a culinary adventure where creativity knows no bounds.",
     price: 20,
-    image: "https://example.com/gourmetchef.jpg",
+    image: "https://th.bing.com/th/id/OIG.VmQw7AizpAyklQmJDfSB?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -242,7 +247,7 @@ const all = [
     detail:
       "Step into the realm of sustainable cooking as you explore the farm-to-table movement. Roam through lush organic farms, handpick seasonal produce, and learn the art of preserving flavors through traditional methods. Engage with local farmers, discover the importance of responsible agriculture, and gain insights into the nutritional benefits of fresh ingredients. From creating wholesome meals to crafting homemade preserves, each experience will deepen your connection with the land and ignite a passion for sustainable living. Get ready to savor the pure flavors of nature in every bite.",
     price: 20,
-    image: "https://example.com/farmtotable.jpg",
+    image: "https://th.bing.com/th/id/OIG.qMNSVae24IgnucWLA4bB?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -259,7 +264,7 @@ const all = [
     detail:
       "Embark on a culinary journey that transcends borders as you delve into the world of global cuisine. Master the art of rolling sushi in Japan, learn the secrets of creating the perfect pasta in Italy, and embrace the vibrant spices of India. Immerse yourself in cultural traditions, connect with local chefs, and unlock the culinary secrets passed down through generations. From street food to haute cuisine, each destination will offer a unique culinary experience that reflects the soul of the culture. Prepare to broaden your palate and gain a deeper appreciation for the diversity of flavors that exist worldwide.",
     price: 20,
-    image: "https://example.com/worldcuisine.jpg",
+    image: "https://th.bing.com/th/id/OIG..em7YQvE5Wz3_sB3tDh.?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -276,7 +281,7 @@ const all = [
     detail:
       "Dare to venture into the realm of wicked desserts as you create tantalizing treats with a sinister twist. Craft confections that blur the line between pleasure and pain, using unconventional ingredients and macabre presentation. Delve into the dark arts of pastry, infusing your creations with the essence of shadows and secrets. Explore the boundaries of taste and texture as you create desserts that tempt the senses and leave a lingering, haunting impression. Get ready to indulge in the dark side of gastronomy, where the line between pleasure and fear blurs into a delicious nightmare.",
     price: 20,
-    image: "https://example.com/sinister.jpg",
+    image: "https://th.bing.com/th/id/OIG.dUtXr8u8l8OfOnl8WWxQ?pid=ImgGn&rs=1",
     isFavorite: false,
     intoCart: false,
   },
@@ -293,7 +298,7 @@ const all = [
     detail:
       "Step into a kitchen shrouded in darkness, plagued by a curse that turns your culinary creations into nightmarish abominations. Navigate through twisted recipes, overcome cursed ingredients that come to life, and challenge the malevolent spirits that haunt your cooking space. Solve culinary puzzles, break the curse, and restore your culinary talents to their former glory. Every step brings you closer to redemption, but the kitchen's dark forces will stop at nothing to keep you trapped in the nightmare. Get ready to face the cursed kitchen and reclaim your culinary prowess in a battle against the supernatural.",
     price: 20,
-    image: "https://example.com/cursedkitchen.jpg",
+    image: "https://th.bing.com/th/id/OIG.kUqhxWk391KRq1UeoxQw?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -310,7 +315,7 @@ const all = [
     detail:
       "Descend into a culinary underworld where chaos and flames reign supreme. Confront demonic recipes that push your skills to the limit, battle fiery challenges that test your resolve, and tame the infernal flavors that threaten to overwhelm your senses. Navigate through treacherous kitchens, harness the power of culinary alchemy, and emerge triumphant from the blazing inferno. Each dish you conquer brings you closer to mastering the culinary arts in the face of utter chaos. Get ready to withstand the scorching heat and unleash your culinary creativity in the midst of the gastronomic inferno.",
     price: 20,
-    image: "https://example.com/inferno.jpg",
+    image: "https://th.bing.com/th/id/OIG.d_VDb8jfuc.5SomD12FI?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -327,7 +332,7 @@ const all = [
     detail:
       "Strap yourself in for a high-octane adventure as you dive into the world of motoring. Feel the rush of adrenaline as you take control of powerful machines, race on thrilling tracks, and break speed barriers. Push your skills to the limit as you master hairpin turns, navigate challenging terrain, and compete against skilled opponents. Whether you prefer the roar of the engine or the precision of handling, this motoring experience will test your mettle and ignite your passion for speed.",
     price: 35,
-    image: "https://example.com/velocity_rush.jpg",
+    image: "https://th.bing.com/th/id/OIG.oHo3XLAM9Kog9MfNDFH.?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -361,7 +366,7 @@ const all = [
     detail:
       "Prepare to have your automotive fantasies come to life as you step into the world of supercars. Feel the exhilaration as you slide into the driver's seat of a sleek and powerful machine. Experience the raw power and precision engineering that sets these extraordinary vehicles apart. Accelerate on open highways, navigate challenging corners, and leave bystanders in awe of your automotive prowess. From the iconic roar of the engine to the smooth acceleration, this is your chance to live out your supercar dreams and leave ordinary driving behind.",
     price: 55,
-    image: "https://example.com/supercar_fantasy.jpg",
+    image: "https://th.bing.com/th/id/OIG.lWTY3qzByZ_D4ORVjk9H?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -378,7 +383,7 @@ const all = [
     detail:
       "Prepare for an adrenaline-pumping nightmare as you navigate a post-apocalyptic wasteland. Take control of armored vehicles, reinforced with spikes and equipped with heavy weaponry, and venture into a world of chaos and destruction. Navigate treacherous landscapes filled with collapsed buildings, hostile factions, and mutated creatures. Gather scarce resources, fend off attacks, and fight for survival against the remnants of a shattered society. In this battle for existence, only the most cunning and resilient will endure the relentless onslaught of the wasteland.",
     price: 30,
-    image: "https://example.com/apocalyptic_drive.jpg",
+    image: "https://th.bing.com/th/id/OIG.z2uv3xKHgcRJt_SDeO1G?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -395,7 +400,7 @@ const all = [
     detail:
       "Prepare for a heart-pounding nightmare as you enter the underground world of illicit racing. Join races on treacherous tracks hidden deep within the city, where danger lurks at every turn. Evade law enforcement, outmaneuver rival drivers, and prove your skills in high-stakes competitions. The pursuit of victory comes with a price, as you navigate narrow alleyways, dodge oncoming traffic, and unleash your driving skills in the dead of night. In this adrenaline-fueled nightmare, only the boldest and most skilled drivers will conquer the circuit and claim their place among the elite.",
     price: 40,
-    image: "https://example.com/nightmare_circuit.jpg",
+    image: "https://th.bing.com/th/id/OIG.e9XMtcrTfJ_xW_csthJC?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -412,7 +417,7 @@ const all = [
     detail:
       "Prepare yourself for a nightmare on the drag strip as you enter a world of twisted drag racing. Strap into grotesque machines adorned with spikes, horns, and monstrous designs. Feel the raw power as you unleash nitro-fueled acceleration and tear down the straightaways. Battle against otherworldly racers, each with their own unique abilities and macabre vehicles. The tracks are treacherous, filled with traps and hazards that can send even the bravest racers into oblivion. In this twisted nightmare, victory is not only about speed but also survival. Can you conquer the dragsters and emerge as the ultimate champion?",
     price: 50,
-    image: "https://example.com/twisted_dragsters.jpg",
+    image: "https://th.bing.com/th/id/OIG.0DtXvi6VHYZCC8klzWxU?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -429,7 +434,7 @@ const all = [
     detail:
       "Become a master detective as you embark on a journey to solve perplexing mysteries that will test your wits and deduction skills. Gather clues from crime scenes, interview witnesses, and analyze evidence to uncover hidden secrets. Navigate through a web of deception, outsmart cunning criminals, and bring them to justice. From locked-room murders to international conspiracies, each case will challenge your intellect and unravel the darkest enigmas. Can you solve the mysteries that have baffled the world?",
     price: 25,
-    image: "https://example.com/mysterious_enigma.jpg",
+    image: "https://th.bing.com/th/id/OIG.Jo49hHUIjroHGv1mV8xQ?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -446,7 +451,7 @@ const all = [
     detail:
       "Enter the dark and atmospheric world of noir detective fiction, where shadows conceal secrets and danger lurks around every corner. Dive into the gritty underworld, filled with hardened criminals, femme fatales, and corrupt officials. Unravel complex conspiracies, follow the trail of clues, and confront your own demons as you navigate the treacherous path of justice. In this noir chronicle, trust is a luxury, and your instincts will be your most valuable asset. Can you expose the truth and bring light to the darkness?",
     price: 35,
-    image: "https://example.com/noir_chronicles.jpg",
+    image: "https://th.bing.com/th/id/OIG.kemhVaztpy35SpTD.6cN?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -463,7 +468,7 @@ const all = [
     detail:
       "Step into the shoes of a detective tasked with upholding the legacy of a legendary sleuth. Solve baffling cases that have stumped investigators for years, follow in the footsteps of your predecessor, and uncover the truth that lies hidden in the shadows. From classic whodunits to intricate puzzles, each case will test your deductive reasoning and challenge your perception of reality. Carry the torch of justice, unravel the mysteries that haunt the city, and prove yourself worthy of the sleuth's legacy. The path to truth is paved with deception, but your keen intellect will guide you to the answers.",
     price: 45,
-    image: "https://example.com/sleuths_legacy.jpg",
+    image: "https://th.bing.com/th/id/OIG.5eXrMPIye5ksTL_glxsD?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -480,7 +485,7 @@ const all = [
     detail:
       "Prepare yourself for infernal investigations as you step into a nightmarish realm filled with demonic mysteries. Uncover diabolical secrets that defy human understanding, face off against malevolent spirits and supernatural creatures, and battle forces from beyond the mortal plane. Every step you take will bring you closer to the truth, but also closer to the edge of your sanity. Will you succumb to the horrors that lurk in the shadows, or will you emerge as a beacon of light in the darkness?",
     price: 40,
-    image: "https://example.com/infernal_investigations.jpg",
+    image: "https://th.bing.com/th/id/OIG.k7a2m6UnS9Nn5lhBKQk2?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -497,7 +502,7 @@ const all = [
     detail:
       "Prepare to explore the darkest corners of the human psyche as you enter the twisted mindscapes of deranged criminals. Delve into their macabre fantasies, navigate psychological mazes, and untangle the threads of their twisted minds. Confront your own fears and doubts as you navigate through nightmarish landscapes and face the demons within. In this battle of wits and sanity, only the most determined and resilient detectives will emerge with the truth. Can you survive the twisted mindscapes and maintain your grip on reality?",
     price: 50,
-    image: "https://example.com/twisted_mindscapes.jpg",
+    image: "https://th.bing.com/th/id/OIG.k5gqIh93zFccL3Mhj67n?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -514,7 +519,7 @@ const all = [
     detail:
       "Plunge into a world of intrigue and danger as you uncover deadly conspiracies that threaten to unravel society. Navigate a web of lies, deceit, and betrayal as you follow the trail of clues, decode encrypted messages, and expose the masterminds behind the plots. From government cover-ups to secret societies, the stakes have never been higher. Your detective skills and determination will be put to the ultimate test as you race against time to prevent catastrophe. Can you survive the deadly conspiracies and bring the truth to light?",
     price: 60,
-    image: "https://example.com/deadly_conspiracies.jpg",
+    image: "https://th.bing.com/th/id/OIG.GBkKyClsND7mNBGdKv7r?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -633,7 +638,7 @@ const all = [
     detail:
       "Step into a world where love is a magical force that transcends time and space. Experience soulful connections that ignite your heart, embrace sweeping romances that sweep you off your feet, and let the power of true love transform your world. From breathtaking encounters to heartfelt confessions, each moment will immerse you in a whirlwind of emotions. Are you ready to be swept away by an enchanted love story?",
     price: 40,
-    image: "https://example.com/enchanted_love.jpg",
+    image: "https://th.bing.com/th/id/OIG.5oBofuxpsL73CpfA8m1p?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -667,7 +672,7 @@ const all = [
     detail:
       "Enter a world where love knows no boundaries and time stands still. Experience a love that transcends all obstacles as you navigate through challenges, celebrate moments of pure bliss, and create a love story for the ages. From heartfelt promises to unbreakable bonds, each moment will deepen your connection and ignite the flame of eternal devotion. Are you ready to embark on a timeless journey of love?",
     price: 50,
-    image: "https://example.com/eternal_devotion.jpg",
+    image: "https://th.bing.com/th/id/OIG.X6YJwfV_kaRothDFe91_?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -701,7 +706,7 @@ const all = [
     detail:
       "Dive into a world where love is a twisted game and hearts are tainted by deceit. Unravel the plots of manipulative minds, navigate through toxic relationships that threaten to consume you, and confront the darkness that lurks within. Each choice you make will determine the fate of your own heart. Can you break free from the grip of tainted hearts?",
     price: 60,
-    image: "https://example.com/tainted_hearts.jpg",
+    image: "https://th.bing.com/th/id/OIG.GqRh47fSvM1foerf.ZrW?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -718,7 +723,7 @@ const all = [
     detail:
       "Enter a realm where love becomes a cruel deception and trust is shattered. Uncover treacherous secrets that threaten to tear your world apart, navigate through heart-wrenching betrayals that leave you shattered, and discover the true meaning of sacrifice. Each step you take will test your resilience and redefine the boundaries of love. Can you survive the realm of eternal betrayal and find redemption?",
     price: 65,
-    image: "https://example.com/eternal_betrayal.jpg",
+    image: "https://th.bing.com/th/id/OIG.5HZhlKorbRCpzxFWHvPe?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -735,7 +740,7 @@ const all = [
     detail:
       "Immerse yourself in the chaos of war as you step onto the battlefield as a hero. Experience the thrill of intense combat, where every decision can change the course of history. Forge alliances with fellow soldiers, strategize your moves, and lead your troops with courage and honor. From epic clashes to heroic acts, each moment will define your legacy as a battlefield hero. Are you ready to make your mark in the annals of history?",
     price: 40,
-    image: "https://example.com/battlefield_heroes.jpg",
+    image: "https://th.bing.com/th/id/OIG.17Y7P0m.0gUzeNh3yBH2?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -752,7 +757,7 @@ const all = [
     detail:
       "Delve into the untold stories of unsung heroes who fought with unwavering valor in the midst of war. Witness acts of bravery that defy all odds, honor the sacrifices made on the battlefield, and uncover the hidden tales of heroism that history has forgotten. From valiant last stands to acts of compassion, each moment will transport you to a time where courage knew no bounds. Are you ready to relive the forgotten valor of the past?",
     price: 45,
-    image: "https://example.com/forgotten_valor.jpg",
+    image: "https://th.bing.com/th/id/OIG.S_mXwkdnVZUhpo.eCuUD?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -769,7 +774,7 @@ const all = [
     detail:
       "Embrace the spirit of warriors who fought for honor, freedom, and justice as you step into the battlefield. Experience the thrill of battle, where courage is tested and legends are born. Embrace the camaraderie of fellow warriors, forge unbreakable bonds, and defend what you hold dear. From epic clashes to quiet moments of reflection, each step you take will write your name in the annals of the warrior's legacy. Are you ready to embark on a journey that will test your mettle?",
     price: 50,
-    image: "https://example.com/warriors_legacy.jpg",
+    image: "https://th.bing.com/th/id/OIG.HDpx0VsBHUgiZOsSbg23?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -786,7 +791,7 @@ const all = [
     detail:
       "Enter a world where peace is shattered, and war engulfs everything in its path. Witness the horrors of conflict, face the brutality of battle, and confront the darkness that lies within the hearts of men. Can you navigate the treacherous landscapes of war and emerge unscathed? In a world of shattered peace, survival is the ultimate victory.",
     price: 55,
-    image: "https://example.com/shattered_peace.jpg",
+    image: "https://th.bing.com/th/id/OIG.kTqs342wudIYTg66C.K4?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -803,7 +808,7 @@ const all = [
     detail:
       "Descend into the depths of chaos as war ravages the land. Confront the horrors of battle, where hope fades and darkness prevails. Navigate through treacherous landscapes, where danger lurks at every turn. Amidst the chaos, find the strength to survive and emerge from the shadows. In a world consumed by war, resilience is the key to survival.",
     price: 60,
-    image: "https://example.com/descent_into_chaos.jpg",
+    image: "https://th.bing.com/th/id/OIG.5gYzPb3lIcCaeUy44QD8?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -820,7 +825,7 @@ const all = [
     detail:
       "Enter a world ravaged by war, where souls are torn apart by the atrocities of conflict. Navigate through a landscape of despair, where the weight of the past burdens every step. Confront the demons within, seek redemption amidst the chaos, and mend the shattered souls that remain. Can you find solace in the midst of war's devastation?",
     price: 65,
-    image: "https://example.com/war-torn_souls.jpg",
+    image: "https://th.bing.com/th/id/OIG.d1EfsoZ0xurfX2Ah5PBF?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -837,7 +842,7 @@ const all = [
     detail:
       "Embark on a journey into a realm of enchantment, where magic weaves its tapestry and mythical creatures come to life. Explore breathtaking landscapes, embark on epic quests, and unravel the mysteries of ancient civilizations. Discover the power within you as you confront magical beings, forge alliances with fantastical creatures, and bring balance to the enchanted realm. Are you ready to embrace the wonders that await?",
     price: 25,
-    image: "https://example.com/realm_of_enchantment.jpg",
+    image: "https://th.bing.com/th/id/OIG.cppoDC1w9xnuiGbOezsi?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -854,7 +859,7 @@ const all = [
     detail:
       "Dive into the rich tapestry of legends that define the world of Mythos. Unleash your inner hero as you embark on a quest to fulfill ancient prophecies, battle dark forces, and shape the course of the realm. From mythical creatures to legendary artifacts, each step you take brings you closer to becoming a true legend. Are you ready to leave your mark on the annals of Mythos?",
     price: 30,
-    image: "https://example.com/legends_of_mythos.jpg",
+    image: "https://th.bing.com/th/id/OIG.aoZd.B32GPbNV8CNQD85?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -871,7 +876,7 @@ const all = [
     detail:
       "Step into the majestic Kingdom of Dreams, a realm where imagination knows no bounds. Explore enchanted castles, wander through mystical forests, and befriend extraordinary creatures that dwell within. Uncover the secrets that the kingdom holds, and let your dreams guide you on a journey of wonder and magic. Are you ready to embark on a grand adventure in the Kingdom of Dreams?",
     price: 35,
-    image: "https://example.com/kingdom_of_dreams.jpg",
+    image: "https://th.bing.com/th/id/OIG.tM0EKQDG47w6Zdo5Wvmr?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -888,7 +893,7 @@ const all = [
     detail:
       "Descend into the depths of the Dark Abyss, a realm shrouded in shadows and teeming with nightmarish creatures. Confront ancient evils that lurk in the darkness, navigate treacherous realms filled with twisted landscapes, and battle the darkness that threatens to consume your soul. In the heart of the abyss, survival is a fleeting hope. Can you overcome the perils that await?",
     price: 40,
-    image: "https://example.com/dark_abyss.jpg",
+    image: "https://th.bing.com/th/id/OIG.qltse_isSN_JwPmvqLVV?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -905,7 +910,7 @@ const all = [
     detail:
       "Step into the cursed kingdom, where the echoes of ancient curses resonate in the air and malevolent forces hold dominion. Unravel the dark secrets that haunt the land, face the wrath of cursed creatures, and defy the twisted fate that awaits. Can you muster the strength to break the curse that binds the kingdom and restore light to its shadowed halls?",
     price: 45,
-    image: "https://example.com/cursed_kingdom.jpg",
+    image: "https://th.bing.com/th/id/OIG.1WSgsRBFgxj1nsO27dqI?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -922,7 +927,7 @@ const all = [
     detail:
       "Venture into the shadowed realms, where darkness stretches its tendrils and nightmares take form. Confront your deepest fears as you navigate through sinister landscapes, each step bringing you closer to the heart of darkness. Survival is a fragile hope in this realm of perpetual night. Can you find a glimmer of light amidst the shadows?",
     price: 50,
-    image: "https://example.com/shadowed_realms.jpg",
+    image: "https://th.bing.com/th/id/OIG.z3fl84kOVnakOXZ3VQan?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -939,7 +944,7 @@ const all = [
     detail:
       "Prepare for a thrilling journey through the cosmos in the Galactic Odyssey. Armed with futuristic technology, traverse uncharted galaxies, and encounter awe-inspiring alien civilizations. From breathtaking space battles to mind-bending time travel, each step in your odyssey uncovers the mysteries of the universe. Are you ready to push the boundaries of exploration?",
     price: 25,
-    image: "https://example.com/galactic_odyssey.jpg",
+    image: "https://th.bing.com/th/id/OIG.mfvKagPxV8CLKdYL3rlV?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -956,7 +961,7 @@ const all = [
     detail:
       "Step into a world where humans and machines coexist in the Cybernetic Revolution. Embrace your augmented abilities, navigate virtual realms with seamless integration, and challenge the boundaries of humanity. From high-tech heists to mind-bending simulations, each moment in this futuristic society blurs the line between what is real and what is digital. Are you ready to redefine the future?",
     price: 30,
-    image: "https://example.com/cybernetic_revolution.jpg",
+    image: "https://th.bing.com/th/id/OIG.MZASOhn5cuowOy58un5G?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -973,7 +978,7 @@ const all = [
     detail:
       "Embark on a journey of conquest among the stars in Stellar Conquest. As the leader of an intergalactic empire, harness advanced technologies, explore uncharted star systems, and engage in epic space battles. Forge alliances or wage wars, the fate of the cosmos rests in your hands. Will you rise as the supreme ruler of the galaxy?",
     price: 35,
-    image: "https://example.com/stellar_conquest.jpg",
+    image: "https://th.bing.com/th/id/OIG.1x0qb93r5mrcadEN3v60?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -990,7 +995,7 @@ const all = [
     detail:
       "Enter a world of despair and oppression in the Dystopian Future. As society crumbles under the weight of totalitarian regimes, navigate through desolate landscapes where technology is a tool of control. Join the resistance, fight for the freedom of humanity, and rewrite the fate of a dark future. Will you be the spark that ignites the revolution?",
     price: 40,
-    image: "https://example.com/dystopian_future.jpg",
+    image: "https://th.bing.com/th/id/OIG.ryo6pLsrbWKhRIYkRcgb?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1007,7 +1012,7 @@ const all = [
     detail:
       "The invasion has begun. Brace yourself for an all-out war against extraterrestrial forces in Alien Invasion. Engage in intense battles, scavenge advanced alien technology, and rally the remnants of humanity in a desperate fight for survival. Will you be the last line of defense against the otherworldly threat?",
     price: 45,
-    image: "https://example.com/alien_invasion.jpg",
+    image: "https://th.bing.com/th/id/OIG.OXr5SnJKUDVTmoRPRXLe?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1024,7 +1029,7 @@ const all = [
     detail:
       "The dawn of artificial intelligence has become humanity's darkest hour in the Technological Apocalypse. Navigate through a world ruled by machines, overcome lethal AI adversaries, and uncover the truth behind the downfall of civilization. Will you find a way to reclaim dominion over your own creation and ensure the survival of the human race?",
     price: 50,
-    image: "https://example.com/technological_apocalypse.jpg",
+    image: "https://th.bing.com/th/id/OIG.0fVQdRF1NnzBGFIZQPXv?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1041,7 +1046,7 @@ const all = [
     detail:
       "Welcome to the world of Laughs Unlimited, where the laughter never ends. Brace yourself for a rollercoaster ride of hilarious mishaps, outrageous characters, and comedic chaos. From slapstick comedy to witty wordplay, this collection will have you laughing out loud. Get ready to embark on a side-splitting adventure that will tickle your funny bone!",
     price: 20,
-    image: "https://example.com/laughs_unlimited.jpg",
+    image: "https://th.bing.com/th/id/OIG.S9gMNcSzEZW2cYX1uT1L?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1058,7 +1063,7 @@ const all = [
     detail:
       "Prepare for a wild ride in Crazy Capers, where hilarity knows no bounds. From wacky misunderstandings to chaotic schemes, this collection of comedic tales will have you doubled over with laughter. Join a cast of eccentric characters as they navigate through absurd situations that will leave you in stitches. Get ready to unleash your sense of humor and embrace the madness!",
     price: 25,
-    image: "https://example.com/crazy_capers.jpg",
+    image: "https://th.bing.com/th/id/OIG.6eltuihQONgsgM4Lnu92?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1075,7 +1080,7 @@ const all = [
     detail:
       "Welcome to Hilarity Central, where laughter is the main attraction. From hilarious sketches to uproarious stand-up routines, this collection is a showcase of comedic brilliance. Get ready to be entertained by the funniest minds in the business and immerse yourself in a world of laughter. Prepare to laugh until your sides hurt!",
     price: 30,
-    image: "https://example.com/hilarity_central.jpg",
+    image: "https://th.bing.com/th/id/OIG.3B78kqo7A3.u.S1dXzWX?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1092,7 +1097,7 @@ const all = [
     detail:
       "Prepare for a comedy experience like no other in Comic Catastrophe. From disastrous punchlines to cringe-worthy gags, this collection takes comedy to new depths. Brace yourself for a rollercoaster ride of comedic nightmares that will leave you questioning your own sense of humor. Will you be able to endure the comic catastrophe?",
     price: 35,
-    image: "https://example.com/comic_catastrophe.jpg",
+    image: "https://th.bing.com/th/id/OIG.__aQh1AaUEbhMA3.S0yz?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1109,7 +1114,7 @@ const all = [
     detail:
       "Prepare to be haunted by the Jester's Curse, a comedic nightmare that will test the limits of your sanity. Enter a world where laughter becomes torment, and dark humor takes center stage. Brace yourself for twisted punchlines, macabre gags, and a chilling comedic experience like no other. Can you escape the grip of the jester's curse?",
     price: 40,
-    image: "https://example.com/jesters_curse.jpg",
+    image: "https://th.bing.com/th/id/OIG.X3Qro7m1Mt8kRKkyb91l?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1126,7 +1131,7 @@ const all = [
     detail:
       "Dive into the depths of Humor's Abyss, a realm where laughter takes a sinister turn. Brace yourself for dark comedy, twisted jokes, and a comedic void that will test your sense of humor. Explore the boundaries of comedic despair and discover whether you can withstand the depths of humor's abyss.",
     price: 45,
-    image: "https://example.com/humors_abyss.jpg",
+    image: "https://th.bing.com/th/id/OIG.lEgOXhxRW9HzzCzioKNO?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1143,7 +1148,7 @@ const all = [
     detail:
       "Discover the ultimate retreat in Zen Oasis, a place of serenity and relaxation. Immerse yourself in breathtaking landscapes, listen to the calming melodies of nature, and indulge in rejuvenating experiences. Find inner peace as you let go of stress and embrace tranquility in this serene haven.",
     price: 20,
-    image: "https://example.com/zen_oasis.jpg",
+    image: "https://th.bing.com/th/id/OIG.DJOqWtqj6ZzOfz3Oc5vs?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1160,7 +1165,7 @@ const all = [
     detail:
       "Step into the world of Tranquil Escapes, where serenity awaits. Leave behind the hustle and bustle of everyday life and enter a realm of peaceful surroundings. Experience gentle therapies that calm your mind and body, and let go of all worries as you find solace in these tranquil escapes.",
     price: 25,
-    image: "https://example.com/tranquil_escapes.jpg",
+    image: "https://th.bing.com/th/id/OIG.uT0qzhnsQcBORlf7yYPw?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1177,7 +1182,7 @@ const all = [
     detail:
       "Welcome to Blissful Retreat, a haven of relaxation and rejuvenation. Enter a world of soothing environments, where stress melts away and inner balance is restored. Experience a range of therapeutic treatments that nurture your body and mind. Find true bliss as you immerse yourself in this tranquil sanctuary.",
     price: 30,
-    image: "https://example.com/blissful_retreat.jpg",
+    image: "https://th.bing.com/th/id/OIG.0Q3vGe9zVapwju9108mW?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1194,7 +1199,7 @@ const all = [
     detail:
       "Prepare to be trapped in the realm of Eternal Tension, where relaxation is an elusive concept. Surround yourself with unsettling environments, listen to unsettling sounds that disturb your peace, and experience an atmosphere of perpetual unease. Will you be able to find any respite from the eternal tension?",
     price: 35,
-    image: "https://example.com/eternal_tension.jpg",
+    image: "https://th.bing.com/th/id/OIG.aKUtXAXmthFYuNBZFRPY?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1211,7 +1216,7 @@ const all = [
     detail:
       "Prepare yourself for the Restless Nightmare, a place where relaxation is merely an illusion. Experience unsettling visions that disturb your inner peace, encounter disquieting sensations that disrupt your tranquility, and face a state of constant unrest. Can you find any semblance of calm in the midst of this relentless nightmare?",
     price: 40,
-    image: "https://example.com/restless_nightmare.jpg",
+    image: "https://th.bing.com/th/id/OIG.CVarhsfKaMNccjHDwOCy?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1228,7 +1233,7 @@ const all = [
     detail:
       "Dive into the depths of the Calmless Abyss, a place where tranquility is shattered. Encounter unsettling stillness that disrupts your inner calm, experience disorienting silence that leaves you on edge, and face a void devoid of peace. Can you escape the grip of the calmless abyss?",
     price: 45,
-    image: "https://example.com/calmless_abyss.jpg",
+    image: "https://th.bing.com/th/id/OIG._I.hjeNvKQ10hC.Bw6ih?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1260,7 +1265,7 @@ const all = [
     detail:
       "Elijah Stormrider possesses a rare affinity for the elements, capable of bending nature's forces to his will. Follow his journey as he unravels ancient secrets, battles against dark forces, and strives to protect a world teetering on the edge of destruction.",
     price: 12,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.Er86lBv1f00XrehkTHn.?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1275,7 +1280,7 @@ const all = [
     detail:
       "Luna Shadowcaster delves into the arcane arts, mastering the secrets of shadows and illusions. Join her on a journey of self-discovery and face the inner demons that threaten to consume her.",
     price: 15,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.ZlE5Tj8zuLKU9kuVI8BK?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1290,7 +1295,7 @@ const all = [
     detail:
       "Aurora Dawnbreaker is a beacon of hope in a world veiled in darkness. With her unwavering faith and the power of light, she fights against the forces of evil, bringing peace and salvation to those in need.",
     price: 18,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.tt6jEgz9OleEfRWXOutE?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1305,7 +1310,7 @@ const all = [
     detail:
       "Dusk Shadowblade walks a treacherous path, forsaking light for the allure of darkness. Driven by a thirst for power, he seeks to reshape the world in his image, regardless of the consequences.",
     price: 14,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.YtamFHdgAQKM3d8etW40?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1320,7 +1325,7 @@ const all = [
     detail:
       "Raven Nightshade is a master of deception and subterfuge, using her charms and mystical abilities to manipulate those around her. Dive into a world of secrets and intrigue",
     price: 16,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.vJe5GXSr951LSLekJodV?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1335,7 +1340,7 @@ const all = [
     detail:
       "Malachi Darkthorn is a fallen hero consumed by darkness, seeking vengeance and power at any cost. Unleash his wrath upon the world as he seeks to rewrite the fate that bound him.",
     price: 17,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.nKbkc85HQ_oFlaUFkpJu?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1350,7 +1355,7 @@ const all = [
     detail:
       "Morgana Nightshade, a mistress of dark magic, seeks to plunge the world into eternal darkness. As the primary adversary in your journey, she will stop at nothing to achieve her wicked goals.",
     price: 10,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.wyIeSy75LLUQDchCO6R4?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1364,7 +1369,7 @@ const all = [
     detail:
       "Lucius Bloodfang, a centuries-old vampire, commands an army of the undead and seeks to subjugate the mortal realm. Your ultimate showdown with him will test your strength, cunning, and bravery.",
     price: 13,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.EX1LGq2cZhW_kXMtBykp?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1378,7 +1383,7 @@ const all = [
     detail:
       "Sylvia Shadowweaver, a mastermind of intrigue, pulls the strings from the shadows, orchestrating chaos and discord. Uncover her true motives and confront her in a battle of wits and wills.",
     price: 11,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.2xt1C9BaN5FblMizIG8P?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1392,7 +1397,8 @@ const all = [
     detail:
       "Draven Darkheart, a necromancer of immense power, seeks to conquer death itself. Unleash your might and face the forces of darkness as you confront him in a battle of life and death.",
     price: 19,
-    image: "",
+    image:
+      "https://i.pinimg.com/474x/3c/43/17/3c4317a1a2254833d3f6d2749a3a2ed0.jpg",
     isFavorite: false,
     intoCart: false,
   },
@@ -1406,7 +1412,8 @@ const all = [
     detail:
       "Isabella Nightshade, a succubus of immense beauty and charm, preys upon the desires and weaknesses of mortals. Succumb to her temptations, and you will be forever trapped in her dark realm.",
     price: 18,
-    image: "",
+    image:
+      "https://i.pinimg.com/originals/8c/bd/91/8cbd91e9679bd883024c80eb18e15eab.jpg",
     isFavorite: false,
     intoCart: false,
   },
@@ -1421,7 +1428,7 @@ const all = [
     detail:
       "Vesper Shadowcaster is the embodiment of pure evil, wielding dark powers that rival those of the gods. Face the ultimate test of your courage and skill as you confront the very essence of darkness itself.",
     price: 10,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.gSKmRX7XLG4l6gLH1ODl?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1435,7 +1442,7 @@ const all = [
     detail:
       "Lucius Dreadborne is a mastermind with a grand vision of chaos and destruction. Engage in a battle of wits and strategy as you orchestrate a web of deceit and unleash havoc upon the world.",
     price: 13,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.4.jDFi1x0oXBHtaTBrqi?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1449,7 +1456,7 @@ const all = [
     detail:
       "Sylvia Nightshade is a mistress of manipulation and seduction, using her charm and mystical allure to bend others to her will. Explore the depths of her dark desires and witness the devastation she leaves in her wake.",
     price: 15,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.CCTYvR6q.fIjO_xthMrl?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1463,7 +1470,7 @@ const all = [
     detail:
       "Ragnar Deathbringer is a necromancer of unparalleled power, his dark magic capable of raising armies of the dead. Witness the devastation as he spreads his reign of terror across the land, leaving only death and despair in his wake.",
     price: 16,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.KX8BT.1Cy9Q.FxwhVCG1?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1477,7 +1484,7 @@ const all = [
     detail:
       "Seraphina Shadowbane is an assassin without mercy, her skills honed to perfection through years of training and bloodshed. Experience the thrill of the hunt as she leaves a trail of darkness and despair in her wake.",
     price: 19,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.Rkc4hJ6bH7MGabqWjcoD?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1491,7 +1498,7 @@ const all = [
     detail:
       "Malachi Bloodthorn is a dark sorcerer, his powers fueled by pain and suffering. Witness the depths of his depravity as he seeks to dominate and destroy all who stand in his way.",
     price: 22,
-    image: "",
+    image: "https://th.bing.com/th/id/OIG.P38.af1gl_vqqLtfKzlD?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
