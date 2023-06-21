@@ -1242,292 +1242,266 @@ const all = [
     id: 73,
     mode: "dream",
     type: "custom",
-    theme: "",
     element: "vehicle",
-    name: "Pirate ship",
-    description:
-      "Sail aboard the legendary Black Pearl on a high-stakes pirate adventure. Navigate treacherous waters, uncover hidden riches, and face formidable foes. Can you conquer the seas and become a true pirate of the Black Pearl?",
-    detail:
-      "The Black Pearl, a legendary ship that strikes fear into the hearts of sailors and pirates alike, is a sight to behold. With its sleek and menacing silhouette, it cuts through the waves with unparalleled grace and speed. The ship's ebony hull, weathered by countless battles and journeys, exudes an air of mystery and danger. Its towering masts, adorned with tattered black sails, seem to dance with the wind, guiding the vessel towards its next conquest. The deck is adorned with intricately carved wooden figures, depicting mythical creatures and fierce pirates, adding an aura of ancient legends to the ship's presence. The Black Pearl's cannons, meticulously maintained and gleaming with power, stand ready to unleash devastation upon any who dare to challenge its supremacy. From bow to stern, the ship exudes an indomitable spirit, embodying the very essence of piracy on the high seas.",
+    name: "Navire pirate",
+    description: "Naviguez à bord du légendaire Black Pearl lors d'une aventure pirate à haut risque. Naviguez sur des eaux traîtres, découvrez des trésors cachés et affrontez des ennemis redoutables. Pouvez-vous conquérir les mers et devenir un véritable pirate du Black Pearl ?",
+    detail: "Le Black Pearl, un navire légendaire qui inspire la peur aux marins et aux pirates, est un spectacle à voir. Avec sa silhouette élancée et menaçante, il fend les vagues avec une grâce et une vitesse inégalées. La coque ébène du navire, usée par d'innombrables batailles et voyages, dégage une atmosphère de mystère et de danger. Ses mâts imposants, ornés de voiles noires déchirées, semblent danser avec le vent, guidant le navire vers sa prochaine conquête. Le pont est orné de figures en bois finement sculptées, représentant des créatures mythiques et de féroces pirates, ajoutant une aura de légendes anciennes à la présence du navire. Les canons du Black Pearl, entretenus avec soin et étincelants de puissance, sont prêts à déchaîner la destruction sur quiconque oserait défier sa suprématie. De la proue à la poupe, le navire dégage un esprit indomptable, incarnant l'essence même de la piraterie en haute mer.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.nGjYDy2LTb4O7V7Z1rc9?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
-
   {
     id: 74,
     mode: "dream",
-    type: "Protagonist",
+    type: "custom",
+    element: "Protagonist",
     name: "Elijah Stormrider",
-    description:
-      "Harness the power of the elements with Elijah Stormrider, a charismatic and enigmatic protagonist. Unleash thunderstorms, control the winds, and discover the true extent of your elemental mastery.",
-    detail:
-      "Elijah Stormrider possesses a rare affinity for the elements, capable of bending nature's forces to his will. Follow his journey as he unravels ancient secrets, battles against dark forces, and strives to protect a world teetering on the edge of destruction.",
+    description: "Maîtrisez le pouvoir des éléments avec Elijah Stormrider, un protagoniste charismatique et énigmatique. Déchaînez les tempêtes, contrôlez les vents et découvrez l'étendue réelle de votre maîtrise élémentaire.",
+    detail: "Elijah Stormrider possède une affinité rare avec les éléments, capable de plier les forces de la nature à sa volonté. Suivez son parcours alors qu'il dévoile d'anciens secrets, lutte contre les forces obscures et s'efforce de protéger un monde au bord de la destruction.",
     price: 12,
     image: "https://th.bing.com/th/id/OIG.Er86lBv1f00XrehkTHn.?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
-
   {
     id: 75,
     mode: "dream",
-    type: "Protagonist",
+    type: "custom",
+    element: "Protagonist",
     name: "Luna Shadowcaster",
-    description:
-      "Embrace the darkness within with Luna Shadowcaster, a mysterious and formidable protagonist. Harness shadow magic, manipulate illusions, and walk the line between light and dark.",
-    detail:
-      "Luna Shadowcaster delves into the arcane arts, mastering the secrets of shadows and illusions. Join her on a journey of self-discovery and face the inner demons that threaten to consume her.",
+    description: "Embrassez les ténèbres intérieures avec Luna Shadowcaster, une protagoniste mystérieuse et redoutable. Maîtrisez la magie des ombres, manipulez les illusions et marchez sur la ligne entre lumière et obscurité.",
+    detail: "Luna Shadowcaster plonge dans les arts arcaniques, maîtrisant les secrets des ombres et des illusions. Rejoignez-la dans un voyage de découverte de soi et affrontez les démons intérieurs qui menacent de la consumer.",
     price: 15,
     image: "https://th.bing.com/th/id/OIG.ZlE5Tj8zuLKU9kuVI8BK?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
-
   {
     id: 76,
     mode: "dream",
-    type: "Protagonist",
+    type: "custom",
+    element: "Protagonist",
     name: "Aurora Dawnbreaker",
-    description:
-      "Embrace the radiant light with Aurora Dawnbreaker, a noble and righteous protagonist. Channel divine energy, banish darkness, and uphold justice in a world plagued by evil.",
-    detail:
-      "Aurora Dawnbreaker is a beacon of hope in a world veiled in darkness. With her unwavering faith and the power of light, she fights against the forces of evil, bringing peace and salvation to those in need.",
+    description: "Embrassez la lumière radieuse avec Aurora Dawnbreaker, une protagoniste noble et droite. Canalisez l'énergie divine, bannissez les ténèbres et faites respecter la justice dans un monde en proie au mal.",
+    detail: "Aurora Dawnbreaker est un phare d'espoir dans un monde voilé de ténèbres. Avec sa foi inébranlable et le pouvoir de la lumière, elle lutte contre les forces du mal, apportant paix et salut à ceux dans le besoin.",
     price: 18,
     image: "https://th.bing.com/th/id/OIG.tt6jEgz9OleEfRWXOutE?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
-
   {
     id: 77,
-    mode: "nightmare",
-    type: "Protagonist",
+    mode: "dream",
+    type: "custom",
+    element: "Protagonist",
     name: "Dusk Shadowblade",
-    description:
-      "Embrace the shadows that consume your soul with Dusk Shadowblade, a tormented and relentless protagonist. Embody darkness, wield forbidden powers, and plunge the world into eternal night.",
-    detail:
-      "Dusk Shadowblade walks a treacherous path, forsaking light for the allure of darkness. Driven by a thirst for power, he seeks to reshape the world in his image, regardless of the consequences.",
+    description: "Embrassez les ombres qui consument votre âme avec Dusk Shadowblade, un protagoniste tourmenté et implacable. Incarnez les ténèbres, maniez des pouvoirs interdits et plongez le monde dans une nuit éternelle.",
+    detail: "Dusk Shadowblade marche sur un chemin périlleux, abandonnant la lumière pour l'attrait de l'obscurité. Animé par une soif de pouvoir, il cherche à remodeler le monde à son image, peu importe les conséquences.",
     price: 14,
     image: "https://th.bing.com/th/id/OIG.YtamFHdgAQKM3d8etW40?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
-
   {
     id: 78,
-    mode: "nightmare",
-    type: "Protagonist",
+    mode: "dream",
+    type: "custom",
+    element: "Protagonist",
     name: "Raven Nightshade",
-    description:
-      "Embrace the allure of darkness with Raven Nightshade, a seductive and cunning protagonist. Manipulate shadows, weave enchantments, and revel in the chaos and intrigue of the night.",
-    detail:
-      "Raven Nightshade is a master of deception and subterfuge, using her charms and mystical abilities to manipulate those around her. Dive into a world of secrets and intrigue",
+    description: "Embrassez l'attrait de l'obscurité avec Raven Nightshade, une protagoniste séduisante et rusée. Manipulez les ombres, tissez des enchantements et plongez dans le chaos et l'intrigue de la nuit.",
+    detail: "Raven Nightshade est une maîtresse de la tromperie et de la subversion, utilisant ses charmes et ses capacités mystiques pour manipuler ceux qui l'entourent. Plongez dans un monde de secrets et d'intrigue.",
     price: 16,
-    image: "https://th.bing.com/th/id/OIG.vJe5GXSr951LSLekJodV?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.Hz3eZ0qzvcLgN4ZUnie0?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
 
   {
     id: 79,
     mode: "nightmare",
-    type: "Protagonist",
+    type: "custom",
+    element: "Protagonist",
     name: "Malachi Darkthorn",
-    description:
-      "Embrace the darkness that dwells within with Malachi Darkthorn, a tormented and enigmatic protagonist. Control dark magic, summon shadowy minions, and sow chaos in the mortal realm.",
-    detail:
-      "Malachi Darkthorn is a fallen hero consumed by darkness, seeking vengeance and power at any cost. Unleash his wrath upon the world as he seeks to rewrite the fate that bound him.",
+    description: "Embrassez les ténèbres qui résident en vous avec Malachi Darkthorn, un protagoniste tourmenté et énigmatique. Contrôlez la magie noire, invoquez des serviteurs obscurs et semez le chaos dans le royaume des mortels.",
+    detail: "Malachi Darkthorn est un héros déchu consumé par les ténèbres, cherchant vengeance et pouvoir à tout prix. Libérez sa colère sur le monde alors qu'il tente de réécrire le destin qui l'a lié.",
     price: 17,
     image: "https://th.bing.com/th/id/OIG.nKbkc85HQ_oFlaUFkpJu?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
-
   {
     id: 80,
     mode: "dream",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Morgana Nightshade",
-    description:
-      "Beware the malevolent presence of Morgana Nightshade, a dark sorceress with nefarious intentions. Unleash devastating spells, summon dark minions, and test your mettle against her formidable power.",
-    detail:
-      "Morgana Nightshade, a mistress of dark magic, seeks to plunge the world into eternal darkness. As the primary adversary in your journey, she will stop at nothing to achieve her wicked goals.",
+    description: "Méfiez-vous de la présence malfaisante de Morgana Nightshade, une sombre sorcière aux intentions néfastes. Déchaînez des sorts dévastateurs, invoquez des serviteurs sombres et mettez votre courage à l'épreuve face à son pouvoir redoutable.",
+    detail: "Morgana Nightshade, une maîtresse de la magie noire, cherche à plonger le monde dans les ténèbres éternelles. En tant qu'adversaire principal de votre voyage, elle ne reculera devant rien pour atteindre ses objectifs maléfiques.",
     price: 10,
     image: "https://th.bing.com/th/id/OIG.wyIeSy75LLUQDchCO6R4?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
   {
     id: 81,
     mode: "dream",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Lucius Bloodfang",
-    description:
-      "Prepare to face the fearsome Lucius Bloodfang, a vampire lord thirsty for power and dominance. Engage in epic battles, evade his deadly fangs, and challenge his reign of terror.",
-    detail:
-      "Lucius Bloodfang, a centuries-old vampire, commands an army of the undead and seeks to subjugate the mortal realm. Your ultimate showdown with him will test your strength, cunning, and bravery.",
+    description: "Préparez-vous à affronter le redoutable Lucius Bloodfang, un seigneur vampire assoiffé de pouvoir et de domination. Engagez des batailles épiques, évitez ses crocs mortels et défiez son règne de terreur.",
+    detail: "Lucius Bloodfang, un vampire séculaire, commande une armée de morts-vivants et cherche à asservir le royaume des mortels. Votre confrontation ultime avec lui mettra à l'épreuve votre force, votre ruse et votre bravoure.",
     price: 13,
     image: "https://th.bing.com/th/id/OIG.EX1LGq2cZhW_kXMtBykp?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
   {
     id: 82,
     mode: "dream",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Sylvia Shadowweaver",
-    description:
-      "Beware the enigmatic Sylvia Shadowweaver, a mistress of manipulation and deception. Unravel her intricate schemes, outsmart her cunning traps, and bring an end to her reign of chaos.",
-    detail:
-      "Sylvia Shadowweaver, a mastermind of intrigue, pulls the strings from the shadows, orchestrating chaos and discord. Uncover her true motives and confront her in a battle of wits and wills.",
+    description: "Méfiez-vous de l'énigmatique Sylvia Shadowweaver, une maîtresse de la manipulation et de la tromperie. Démêlez ses intrigues complexes, surpassez ses pièges rusés et mettez fin à son règne de chaos.",
+    detail: "Sylvia Shadowweaver, une génie de l'intrigue, tire les ficelles depuis les ombres, orchestrant le chaos et la discorde. Découvrez ses véritables motivations et affrontez-la dans un combat d'intelligence et de volonté.",
     price: 11,
     image: "https://th.bing.com/th/id/OIG.2xt1C9BaN5FblMizIG8P?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
   {
     id: 83,
     mode: "nightmare",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Draven Darkheart",
-    description:
-      "Beware the malevolent presence of Draven Darkheart, a necromancer with an insatiable hunger for souls. Confront his undead minions, decipher his dark rituals, and put an end to his reign of terror.",
-    detail:
-      "Draven Darkheart, a necromancer of immense power, seeks to conquer death itself. Unleash your might and face the forces of darkness as you confront him in a battle of life and death.",
+    description: "Méfiez-vous de la présence malfaisante de Draven Darkheart, un nécromancien insatiable assoiffé d'âmes. Confrontez ses sbires morts-vivants, déchiffrez ses rituels sombres et mettez fin à son règne de terreur.",
+    detail: "Draven Darkheart, un nécromancien d'un pouvoir immense, cherche à conquérir la mort elle-même. Déchaînez votre puissance et affrontez les forces des ténèbres en le confrontant dans un combat entre la vie et la mort.",
     price: 19,
-    image:
-      "https://i.pinimg.com/474x/3c/43/17/3c4317a1a2254833d3f6d2749a3a2ed0.jpg",
+    image: "https://i.pinimg.com/474x/3c/43/17/3c4317a1a2254833d3f6d2749a3a2ed0.jpg",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
   {
     id: 84,
     mode: "nightmare",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Isabella Nightshade",
-    description:
-      "Beware the enchanting yet deadly Isabella Nightshade, a seductive succubus with a thirst for souls. Resist her allure, navigate her illusions, and break free from her clutches.",
-    detail:
-      "Isabella Nightshade, a succubus of immense beauty and charm, preys upon the desires and weaknesses of mortals. Succumb to her temptations, and you will be forever trapped in her dark realm.",
+    description: "Méfiez-vous de l'enchanteresse mais mortelle Isabella Nightshade, une succube séductrice assoiffée d'âmes. Résistez à son charme, déjouez ses illusions et échappez à son emprise.",
+    detail: "Isabella Nightshade, une succube d'une beauté et d'un charme immenses, se repaît des désirs et des faiblesses des mortels. Succombez à ses tentations et vous serez piégé à jamais dans son sombre royaume.",
     price: 18,
-    image:
-      "https://i.pinimg.com/originals/8c/bd/91/8cbd91e9679bd883024c80eb18e15eab.jpg",
+    image: "https://i.pinimg.com/originals/8c/bd/91/8cbd91e9679bd883024c80eb18e15eab.jpg",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
-
   {
     id: 85,
     mode: "dream",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Vesper Shadowcaster",
-    description:
-      "Confront the ultimate darkness with Vesper Shadowcaster, a formidable and malevolent antagonist. Command shadowy minions, unleash devastating curses, and plunge the world into eternal night.",
-    detail:
-      "Vesper Shadowcaster is the embodiment of pure evil, wielding dark powers that rival those of the gods. Face the ultimate test of your courage and skill as you confront the very essence of darkness itself.",
+    description: "Affrontez les ténèbres ultimes avec Vesper Shadowcaster, un antagoniste redoutable et malveillant. Commandez des sbires obscurs, déchaînez des malédictions dévastatrices et plongez le monde dans une nuit éternelle.",
+    detail: "Vesper Shadowcaster est l'incarnation du pur mal, maîtrisant des pouvoirs sombres qui rivalisent avec ceux des dieux. Faites face au test ultime de votre courage et de vos compétences en affrontant l'essence même des ténèbres.",
     price: 10,
-    image: "https://th.bing.com/th/id/OIG.gSKmRX7XLG4l6gLH1ODl?pid=ImgGn",
+    image: "https://i.pinimg.com/736x/17/5d/92/175d92d0e1c0ef5bc0481e5a15b68637.jpg",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
   {
     id: 86,
     mode: "dream",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Lucius Dreadborne",
-    description:
-      "Embrace the allure of villainy with Lucius Dreadborne, a cunning and manipulative antagonist. Scheme in the shadows, unleash chaos, and outwit your adversaries at every turn.",
-    detail:
-      "Lucius Dreadborne is a mastermind with a grand vision of chaos and destruction. Engage in a battle of wits and strategy as you orchestrate a web of deceit and unleash havoc upon the world.",
+    description: "Embrassez l'attrait de la malveillance avec Lucius Dreadborne, un antagoniste rusé et manipulateur. Conspirez dans les ombres, déchaînez le chaos et trompez vos adversaires à chaque tournant.",
+    detail: "Lucius Dreadborne est un cerveau machiavélique doté d'une vision grandiose de chaos et de destruction. Engagez-vous dans une bataille d'intelligence et de stratégie en orchestrant un réseau de tromperie et en déclenchant le chaos dans le monde.",
     price: 13,
     image: "https://th.bing.com/th/id/OIG.4.jDFi1x0oXBHtaTBrqi?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
   {
     id: 87,
     mode: "dream",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Sylvia Nightshade",
-    description:
-      "Embrace the dark beauty and power of Sylvia Nightshade, a seductive and treacherous antagonist. Manipulate minds, weave enchantments, and revel in the chaos and destruction you unleash.",
-    detail:
-      "Sylvia Nightshade is a mistress of manipulation and seduction, using her charm and mystical allure to bend others to her will. Explore the depths of her dark desires and witness the devastation she leaves in her wake.",
+    description: "Plongez dans la beauté sombre et le pouvoir de Sylvia Nightshade, une antagoniste séduisante et perfide. Manipulez les esprits, tissez des enchantements et profitez du chaos et de la destruction que vous déclenchez.",
+    detail: "Sylvia Nightshade est une maîtresse de la manipulation et de la séduction, utilisant son charme et son attrait mystique pour plier les autres à sa volonté. Explorez les profondeurs de ses désirs sombres et assistez à la dévastation qu'elle laisse derrière elle.",
     price: 15,
     image: "https://th.bing.com/th/id/OIG.CCTYvR6q.fIjO_xthMrl?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
   {
     id: 88,
     mode: "nightmare",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Ragnar Deathbringer",
-    description:
-      "Embrace the embodiment of death with Ragnar Deathbringer, a merciless and unstoppable antagonist. Command an undead horde, wield necromantic powers, and bring about the end of all life.",
-    detail:
-      "Ragnar Deathbringer is a necromancer of unparalleled power, his dark magic capable of raising armies of the dead. Witness the devastation as he spreads his reign of terror across the land, leaving only death and despair in his wake.",
+    description: "Embrassez l'incarnation de la mort avec Ragnar Deathbringer, un antagoniste impitoyable et implacable. Commandez une horde de morts-vivants, maniez des pouvoirs nécromantiques et provoquez la fin de toute vie.",
+    detail: "Ragnar Deathbringer est un nécromancien d'un pouvoir inégalé, sa magie noire capable de lever des armées de morts. Soyez témoin de la dévastation qu'il répand dans son règne de terreur à travers le pays, ne laissant derrière lui que mort et désespoir.",
     price: 16,
     image: "https://th.bing.com/th/id/OIG.KX8BT.1Cy9Q.FxwhVCG1?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
   {
     id: 89,
     mode: "nightmare",
-    type: "Antagonist",
+    type: "custom",
+    element: "Antagonist",
     name: "Seraphina Shadowbane",
-    description:
-      "Embrace the shadows that consume your soul with Seraphina Shadowbane, a ruthless and vengeful antagonist. Master the arts of assassination, sow discord, and strike fear into the hearts of your enemies.",
-    detail:
-      "Seraphina Shadowbane is an assassin without mercy, her skills honed to perfection through years of training and bloodshed. Experience the thrill of the hunt as she leaves a trail of darkness and despair in her wake.",
-    price: 19,
-    image: "https://th.bing.com/th/id/OIG.Rkc4hJ6bH7MGabqWjcoD?pid=ImgGn",
+    description: "Embrassez les ombres qui consument votre âme avec Seraphina Shadowbane, une antagoniste impitoyable et vengeresse. Maîtrisez les arts de l'ombre, invoquez des créatures cauchemardesques et plongez le monde dans l'obscurité éternelle.",
+    detail: "Seraphina Shadowbane est une experte dans l'art de manipuler les ombres, utilisant des pouvoirs interdits pour détruire ses ennemis. Suivez son parcours de vengeance et découvrez les secrets sinistres qu'elle cache dans les ténèbres.",
+    price: 14,
+    image: "https://th.bing.com/th/id/OIG.bPu0pUcSfxz-kEPfCNAhIA?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
   {
     id: 90,
     mode: "nightmare",
-    type: "Antagonist",
-    name: "Malachi Bloodthorn",
-    description:
-      "Embrace the embodiment of pure malevolence with Malachi Bloodthorn, a sadistic and tyrannical antagonist. Revel in the suffering of others, wield forbidden magics, and plunge the world into an eternal nightmare.",
-    detail:
-      "Malachi Bloodthorn is a dark sorcerer, his powers fueled by pain and suffering. Witness the depths of his depravity as he seeks to dominate and destroy all who stand in his way.",
-    price: 22,
-    image: "https://th.bing.com/th/id/OIG.P38.af1gl_vqqLtfKzlD?pid=ImgGn",
+    type: "custom",
+    element: "Antagonist",
+    name: "Malachi Voidbringer",
+    description: "Embrassez le vide qui consume tout avec Malachi Voidbringer, un antagoniste mystérieux et énigmatique. Maîtrisez les énergies sombres, manipulez la réalité et dévoilez l'essence même de l'existence.",
+    detail: "Malachi Voidbringer est un sorcier doté du pouvoir de modeler la réalité selon sa volonté, utilisant les forces du vide pour remodeler le monde. Plongez dans les profondeurs de ses connaissances arcaniques et assistez au chaos qui suit son sillage.",
+    price: 21,
+    image: "https://th.bing.com/th/id/OIG.9YbAVXt0omnLqmc9v6N7OQ?pid=ImgGn",
     isFavorite: false,
-    intoCart: false,
+    intoCart: false
   },
-
+  
   {
     id: 91,
     mode: "dream",
-    type: "Location",
-    name: "Enchanted Forest",
+    type: "custom",
+    element: "Location",
+    name: "Forêt Enchantée",
     description:
-      "Step into the mystical Enchanted Forest, where ancient trees whisper secrets and magical creatures roam freely. Lose yourself in the beauty and wonder of this ethereal realm.",
+      "Plongez dans la mystérieuse Forêt Enchantée, où les arbres anciens chuchotent des secrets et les créatures magiques errent en toute liberté. Perdez-vous dans la beauté et l'émerveillement de ce royaume éthéré.",
     detail:
-      "The Enchanted Forest is a place of pure enchantment and natural splendor. Sunlight filters through the dense canopy of towering trees, casting a soft glow on the lush vegetation below. Sparkling streams meander through the forest, their waters imbued with mystical energy. Fairy rings dot the landscape, inviting curious visitors to enter a realm of enchantment. From hidden groves to serene meadows, the Enchanted Forest is a sanctuary of tranquility and awe-inspiring beauty.",
+      "La Forêt Enchantée est un lieu d'enchantement pur et de splendeur naturelle. La lumière du soleil filtre à travers la dense canopée des arbres majestueux, projetant une douce lueur sur la végétation luxuriante en contrebas. Des ruisseaux scintillants serpentent à travers la forêt, leurs eaux imprégnées d'une énergie mystique. Des cercles de fées parsèment le paysage, invitant les visiteurs curieux à entrer dans un royaume d'enchantement. Des bosquets cachés aux prairies sereines, la Forêt Enchantée est un sanctuaire de tranquillité et de beauté inspirante.",
     price: 15,
-    image: "https://example.com/enchanted-forest.jpg",
+    image: "https://th.bing.com/th/id/OIG.sm12UcOghg3Vu4VOKin6?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
+  
   {
     id: 92,
     mode: "dream",
-    type: "Location",
-    name: "Lost City of Atlantis",
+    type: "custom",
+    element: "Location",
+    name: "Cité Perdue d'Atlantis",
     description:
-      "Discover the fabled Lost City of Atlantis, a majestic underwater utopia filled with ancient ruins and untold treasures. Dive into the depths and uncover the secrets of this legendary civilization.",
+      "Découvrez la légendaire Cité Perdue d'Atlantis, une majestueuse utopie sous-marine remplie de ruines anciennes et de trésors inexplorés. Plongez dans les profondeurs et dévoilez les secrets de cette civilisation légendaire.",
     detail:
-      "Hidden beneath the ocean waves, the Lost City of Atlantis lies shrouded in mystery and wonder. Ancient ruins, adorned with intricate carvings and statues, bear witness to a once-great civilization. Coral reefs teeming with vibrant marine life surround the submerged city, creating a mesmerizing spectacle. Glowing crystals illuminate the underwater streets and buildings, casting an otherworldly glow. As you explore the depths, you'll encounter sunken temples, grand palaces, and remnants of advanced technology that hint at the city's extraordinary past.",
-    price: 18,
-    image: "https://example.com/atlantis.jpg",
+      "Cachée sous les vagues de l'océan, la Cité Perdue d'Atlantis est enveloppée de mystère et d'émerveillement. Des ruines antiques, ornées de sculptures et de statues complexes, témoignent d'une civilisation jadis grandiose. Des récifs coralliens grouillant de vie marine entourent les vestiges de cette cité engloutie, créant un paysage sous-marin d'une beauté captivante. Plongez dans les profondeurs de l'océan et explorez les merveilles cachées de l'Atlantide, là où la réalité et le mythe se rencontrent.",
+    price: 25,
+    image: "https://th.bing.com/th/id/OIG.iSb9oZQuNJmiXeYJ%2fmw2Ow?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1535,402 +1509,425 @@ const all = [
   {
     id: 93,
     mode: "dream",
-    type: "Location",
-    name: "Starry Observatory",
+    type: "custom",
+    element: "Location",
+    name: "Observatoire Étoilé",
     description:
-      "Embark on a celestial journey at the Starry Observatory. Gaze at distant galaxies, witness breathtaking meteor showers, and unravel the mysteries of the universe.",
+      "Embarquez pour un voyage céleste à l'Observatoire Étoilé. Contemplez des galaxies lointaines, assistez à des pluies de météores à couper le souffle et découvrez les mystères de l'univers.",
     detail:
-      "Perched atop a secluded mountain peak, the Starry Observatory offers a window to the cosmos. With state-of-the-art telescopes and expert astronomers, you'll witness the wonders of the night sky like never before. The vast expanse of stars twinkles overhead, forming intricate constellations that tell ancient tales. Nebulas swirl with vibrant colors, painting the universe with their ethereal beauty. From mesmerizing meteor showers to awe-inspiring views of distant galaxies, the Starry Observatory is a sanctuary for stargazers and dreamers alike.",
+      "Perché au sommet d'un pic montagneux isolé, l'Observatoire Étoilé offre une fenêtre sur le cosmos. Avec des télescopes de pointe et des astronomes experts, vous découvrirez les merveilles du ciel nocturne comme jamais auparavant. L'immensité des étoiles scintille au-dessus de vous, formant des constellations complexes qui racontent des contes anciens. Les nébuleuses tourbillonnent de couleurs vives, peignant l'univers de leur beauté éthérée. Des pluies de météores captivantes aux vues impressionnantes des galaxies lointaines, l'Observatoire Étoilé est un sanctuaire pour les amateurs d'observation des étoiles et les rêveurs.",
     price: 12,
-    image: "https://example.com/starry-observatory.jpg",
+    image: "https://th.bing.com/th/id/OIG.vzmGD6Gm4tw5DbiX9xN_?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
-
   {
     id: 94,
     mode: "nightmare",
-    type: "Location",
-    name: "Abandoned Asylum",
+    type: "custom",
+    element: "Location",
+    name: "Asile Abandonné",
     description:
-      "Enter the eerie Abandoned Asylum, a place of darkness and despair. Traverse its haunted halls, confront restless spirits, and uncover the sinister secrets that lie within.",
+      "Entrez dans l'Asile Abandonné, un lieu de ténèbres et de désespoir. Parcourez ses couloirs hantés, affrontez des esprits agités et découvrez les sinistres secrets qui s'y cachent.",
     detail:
-      "The Abandoned Asylum stands as a haunting monument to forgotten souls. Its crumbling walls and broken windows exude an aura of decay and malevolence. Ghostly whispers echo through the halls, and shadows dance in the flickering light. As you venture deeper into the asylum, you'll encounter rooms filled with remnants of the past, from rusty beds to discarded medical equipment. Restless spirits lurk in every corner, their tormented presence sending chills down your spine. The Abandoned Asylum is a place where nightmares come to life, a chilling reminder of the darkness that resides within.",
+      "L'Asile Abandonné est un monument hanté dédié aux âmes oubliées. Ses murs en ruine et ses fenêtres brisées dégagent une aura de dégradation et de malveillance. Des chuchotements spectraux résonnent à travers les couloirs, et les ombres dansent dans la lumière vacillante. À mesure que vous vous aventurez plus profondément dans l'asile, vous découvrirez des pièces remplies de vestiges du passé, des lits rouillés aux équipements médicaux abandonnés. Des esprits agités se cachent dans chaque recoin, leur présence tourmentée vous glaçant le sang. L'Asile Abandonné est un lieu où les cauchemars prennent vie, un rappel glaçant de l'obscurité qui réside en chacun de nous.",
     price: 17,
-    image: "https://example.com/abandoned-asylum.jpg",
+    image: "https://th.bing.com/th/id/OIG.FnMWUFepMM09e.FglmaW?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
-
   {
     id: 95,
     mode: "nightmare",
-    type: "Location",
-    name: "Cursed Manor",
+    type: "custom",
+    element: "Location",
+    name: "Manoir Maudit",
     description:
-      "Explore the Cursed Manor, a foreboding residence steeped in dark magic and tragic history. Uncover its cursed artifacts, encounter vengeful spirits, and try to escape its clutches.",
+      "Explorez le Manoir Maudit, un lieu infesté de fantômes et de présences maléfiques. Affrontez vos pires peurs et tentez de survivre à l'horreur qui se cache dans chaque pièce sombre.",
     detail:
-      "The Cursed Manor stands as a testament to a bygone era, now consumed by an ancient curse. Its decaying walls and overgrown gardens harbor secrets best left undisturbed. Haunting melodies drift through the air, echoing the tragedies that unfolded within its walls. Ghostly apparitions manifest, their mournful gazes a constant reminder of the past. As you navigate the labyrinthine halls, you'll come across cursed artifacts, each with its own malevolent power. The Cursed Manor is a place of darkness and despair, where escape seems almost impossible.",
-    price: 16,
-    image: "https://example.com/cursed-manor.jpg",
-    isFavorite: false,
+      "Le Manoir Maudit est une demeure délabrée qui cache des secrets obscurs depuis des siècles. À votre arrivée, vous serez accueilli par une atmosphère oppressante et une aura de terreur. Les couloirs sombres sont habités par des esprits tourmentés qui errent sans relâche. Des murmures inquiétants résonnent dans les pièces vides, et des ombres effrayantes dansent dans la lueur des bougies. Chaque pas que vous ferez sera une épreuve, car le manoir est rempli de pièges mortels et de rencontres surnaturelles. Des spectres vengeurs aux créatures maléfiques, vous devrez rassembler votre courage pour survivre à cette expérience cauchemardesque.",
+    price: 25,
+    image: "https://th.bing.com/th/id/OIG.5AAsEgdKQuXQ54Nt2tCQ?pid=ImgGn",
+    isFavorite: true,
     intoCart: false,
   },
 
   {
     id: 96,
     mode: "nightmare",
-    type: "Location",
-    name: "Desolate Wasteland",
+    type: "custom",
+    element: "Location",
+    name: "Terres Désolées",
     description:
-      "Enter the Desolate Wasteland, a barren and desolate landscape devoid of life. Traverse its treacherous terrain, face harsh elements, and confront your inner fears.",
+      "Explorez les Terres Désolées, un paysage aride et désolé dépourvu de vie. Parcourez son terrain dangereux, affrontez les éléments impitoyables et confrontez vos peurs intérieures.",
     detail:
-      "The Desolate Wasteland stretches as far as the eye can see, a desolate and inhospitable realm. Its scorched earth is littered with remnants of a forgotten civilization, now reduced to ruins. Harsh winds whip through the barren landscape, carrying with them the whispers of lost souls. The sun beats down relentlessly, casting a relentless heat upon the parched ground. Survival becomes a constant struggle as you navigate treacherous terrain and face the harsh elements. The Desolate Wasteland is a place of isolation and despair, where only the strongest will endure.",
+      "Les Terres Désolées s'étendent à perte de vue, un royaume désolé et inhospitalier. Sa terre brûlée est jonchée de vestiges d'une civilisation oubliée, réduite maintenant à des ruines. Les vents violents fouettent le paysage désolé, emportant avec eux les murmures des âmes perdues. Le soleil brille impitoyablement, projetant une chaleur implacable sur le sol desséché. La survie devient une lutte constante alors que vous parcourez un terrain traître et faites face aux éléments impitoyables. Les Terres Désolées sont un lieu d'isolement et de désespoir, où seuls les plus forts survivront.",
     price: 14,
-    image: "https://example.com/desolate-wasteland.jpg",
+    image: "https://th.bing.com/th/id/OIG.7NMVLvzZIxwsRtL23hUp?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
-
   {
     id: 97,
     mode: "dream",
-    type: "Vehicle",
-    name: "Celestial Airship",
+    type: "custom",
+    element: "Vehicle",
+    name: "Dirigeable Céleste",
     description:
-      "Embark on a breathtaking journey aboard the Celestial Airship, a magnificent vessel that soars through the skies. Experience the freedom of flight and witness breathtaking vistas from above.",
+      "Embarquez pour un voyage époustouflant à bord du Dirigeable Céleste, un magnifique vaisseau qui vole à travers les cieux. Découvrez la liberté du vol et contemplez des panoramas à couper le souffle depuis les hauteurs.",
     detail:
-      "The Celestial Airship is a marvel of engineering and imagination. Its majestic form glides effortlessly through the clouds, propelled by enchanted propellers. Step aboard and marvel at the intricate clockwork mechanisms that power this wondrous vessel. As you ascend into the sky, panoramic windows offer breathtaking views of landscapes below, from rolling hills to towering mountains. Onboard amenities provide luxurious comfort, ensuring an unforgettable journey through the boundless skies.",
+      "Le Dirigeable Céleste est une merveille d'ingénierie et d'imagination. Sa forme majestueuse glisse sans effort à travers les nuages, propulsée par des hélices enchantées. Montez à bord et émerveillez-vous devant les mécanismes complexes et horlogers qui alimentent ce vaisseau prodigieux. En vous élevant dans le ciel, les fenêtres panoramiques offrent une vue imprenable sur les paysages en contrebas, des collines vallonnées aux montagnes imposantes. Les équipements à bord offrent un confort luxueux, garantissant un voyage inoubliable à travers les cieux infinis.",
     price: 18,
-    image: "https://example.com/celestial-airship.jpg",
+    image: "https://th.bing.com/th/id/OIG.WJ7uifSWTC5PoHcwWoAm?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
   {
     id: 98,
     mode: "dream",
-    type: "Vehicle",
-    name: "Time-Traveling Car",
+    type: "custom",
+    element: "Vehicle",
+    name: "Voiture à Voyage Temporel",
     description:
-      "Embark on a thrilling adventure with the Time-Traveling Car, a remarkable vehicle that can traverse through time. Explore historical eras, witness pivotal moments, and unravel the fabric of history.",
+      "Partez pour une aventure palpitante avec la Voiture à Voyage Temporel, un véhicule remarquable capable de traverser le temps. Explorez des époques historiques, assistez à des moments décisifs et dévoilez les fils de l'histoire.",
     detail:
-      "The Time-Traveling Car is a masterpiece of technology and innovation. Its sleek design conceals the powerful time manipulation apparatus that propels it through the ages. Buckle up and prepare for a journey through history as you navigate ancient civilizations, pivotal battles, and monumental events. Experience the sights, sounds, and even the smells of bygone eras, as the Time-Traveling Car brings the past to life in vivid detail. But be cautious, as altering history carries its own risks and consequences.",
+      "La Voiture à Voyage Temporel est un chef-d'œuvre de technologie et d'innovation. Son design élégant dissimule un appareil puissant de manipulation temporelle qui le propulse à travers les âges. Attachez votre ceinture et préparez-vous à un voyage à travers l'histoire, en naviguant entre les civilisations anciennes, les batailles décisives et les événements monumentaux. Vivez les visuels, les sons et même les odeurs des époques révolues, car la Voiture à Voyage Temporel fait revivre le passé dans les moindres détails. Mais attention, altérer l'histoire comporte ses propres risques et conséquences.",
     price: 15,
-    image: "https://example.com/time-traveling-car.jpg",
+    image: "https://th.bing.com/th/id/OIG.0vepOXtzFZpXsX161uI4?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
   {
     id: 99,
     mode: "dream",
-    type: "Vehicle",
-    name: "Solar-powered Hoverboard",
+    type: "custom",
+    element: "Vehicle",
+    name: "Hoverboard Solaire",
     description:
-      "Glide effortlessly on the Solar-powered Hoverboard, a futuristic means of transportation powered by renewable energy. Zip through city streets, perform gravity-defying tricks, and embrace the thrill of high-speed travel.",
+      "Glissez sans effort sur l'Hoverboard Solaire, un moyen de transport futuriste alimenté par l'énergie renouvelable. Parcourez les rues de la ville, réalisez des cascades défiant la gravité et profitez de l'excitation des déplacements à grande vitesse.",
     detail:
-      "The Solar-powered Hoverboard combines sleek design with cutting-edge technology. Harnessing the power of the sun, its solar panels convert sunlight into energy, propelling you forward with speed and grace. Effortlessly navigate bustling city streets, gracefully weaving through traffic. With precision control and intuitive handling, you can perform awe-inspiring tricks and maneuvers, defying gravity with every twist and turn. Embrace the exhilaration of eco-friendly travel as you glide through a world of possibilities.",
+      "L'Hoverboard Solaire allie un design élégant à une technologie de pointe. Grâce à ses panneaux solaires, il convertit la lumière du soleil en énergie, vous propulsant vers l'avant avec rapidité et grâce. Naviguez sans effort dans les rues animées de la ville, en vous faufilant avec grâce entre les véhicules. Avec un contrôle précis et une maniabilité intuitive, vous pouvez réaliser des cascades et des manœuvres époustouflantes, défiant la gravité à chaque virage. Profitez de l'excitation des déplacements respectueux de l'environnement alors que vous glissez à travers un monde de possibilités.",
     price: 12,
-    image: "https://example.com/solar-powered-hoverboard.jpg",
+    image: "https://th.bing.com/th/id/OIG.oxJcDPDmz9itLyPK0iX.?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
   {
     id: 100,
     mode: "nightmare",
-    type: "Vehicle",
-    name: "Shadowy Carriage",
+    type: "custom",
+    element: "Vehicle",
+    name: "Calèche Ténébreuse",
     description:
-      "Embark on a chilling journey aboard the Shadowy Carriage, a sinister vehicle that traverses the realms of darkness. Explore haunted landscapes, encounter malevolent entities, and confront your deepest fears.",
+      "Embarquez pour un voyage glaçant à bord de la Calèche Ténébreuse, un véhicule sinistre qui traverse les royaumes des ténèbres. Explorez des paysages hantés, rencontrez des entités malveillantes et affrontez vos peurs les plus profondes.",
     detail:
-      "The Shadowy Carriage is a macabre creation, shrouded in darkness and mystery. Pulled by spectral horses, it glides silently through the night, leaving a trail of ethereal mist in its wake. Inside, the carriage exudes an oppressive atmosphere, with velvet curtains that conceal windows revealing eerie sights. As you venture into the unknown, you'll encounter haunted forests, desolate graveyards, and other realms steeped in darkness. The Shadowy Carriage is a vehicle of nightmares, where every journey is a terrifying test of courage.",
-    price: 19,
-    image: "https://example.com/shadowy-carriage.jpg",
-    isFavorite: false,
+      "La Calèche Ténébreuse est une création macabre, enveloppée de ténèbres et de mystère. Tirée par des chevaux spectraux, elle glisse silencieusement à travers la nuit, laissant une traînée de brume éthérée sur son passage. À l'intérieur, la calèche dégage une atmosphère oppressante, avec des rideaux de velours qui dissimulent des secrets inavoués. Explorez des paysages hantés, où des arbres tordus se dressent dans l'obscurité et des ombres effrayantes se faufilent entre les tombes. Faites face à des entités malveillantes et à des spectres vengeurs lors de votre voyage à travers les royaumes des ténèbres.",
+    price: 25,
+    image: "https://th.bing.com/th/id/OIG.7vr95SDUqrmWnlzRmpjv?pid=ImgGn",
+    isFavorite: true,
     intoCart: false,
   },
   {
     id: 101,
     mode: "nightmare",
-    type: "Vehicle",
-    name: "Demonic Motorcycle",
+    type: "custom",
+    element: "Vehicle",
+    name: "Moto Démoniaque",
     description:
-      "Ride the Demonic Motorcycle, a wickedly powerful vehicle that blurs the line between the living and the underworld. Feel the raw power coursing through your veins as you traverse forbidden realms and confront otherworldly beings.",
+      "Montez sur la Moto Démoniaque, un véhicule puissant qui brouille la frontière entre le monde des vivants et celui des enfers. Ressentez la puissance brute qui circule dans vos veines alors que vous traversez des royaumes interdits et affrontez des êtres surnaturels.",
     detail:
-      "The Demonic Motorcycle is a machine of infernal origin, its design inspired by dark forces. Its roaring engine echoes through the night, while flames dance along its sleek frame. With unholy speed and agility, it tears through dimensions, traversing realms that few dare to explore. Prepare to face monstrous creatures, navigate treacherous landscapes, and challenge the very fabric of reality. The Demonic Motorcycle is a vehicle of nightmares, where danger and thrill become inseparable.",
+      "La Moto Démoniaque est une machine d'origine infernale, dont le design s'inspire de forces obscures. Son moteur rugissant résonne dans la nuit, tandis que des flammes dansent le long de sa silhouette élégante. Avec une vitesse et une agilité impies, elle traverse les dimensions, explorant des royaumes que peu osent découvrir. Préparez-vous à affronter des créatures monstrueuses, à traverser des paysages traîtres et à remettre en question la réalité elle-même. La Moto Démoniaque est un véhicule cauchemardesque où le danger et l'excitation deviennent indissociables.",
     price: 17,
-    image: "https://example.com/demonic-motorcycle.jpg",
+    image: "https://th.bing.com/th/id/OIG.dEe._QxgQPPH8eQdlpXx?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
   {
     id: 102,
     mode: "nightmare",
-    type: "Vehicle",
-    name: "Hijacked Tank",
+    type: "custom",
+    element: "Vehicle",
+    name: "Tank Détourné",
     description:
-      "Take control of the Hijacked Tank, a colossal war machine turned instrument of destruction. Conquer enemy lines, unleash devastating firepower, and leave a trail of chaos in your wake.",
+      "Prenez le contrôle du Tank Détourné, une machine de guerre colossale transformée en instrument de destruction. Conquérez les lignes ennemies, déchaînez une puissance de feu dévastatrice et laissez une traînée de chaos sur votre passage.",
     detail:
-      "The Hijacked Tank is a fearsome behemoth, a relic of warfare repurposed for chaos and carnage. Its heavily armored exterior bears the scars of countless battles, while its arsenal of weaponry can lay waste to entire armies. As you pilot this war machine, you become a force to be reckoned with. Crush obstacles, breach enemy lines, and sow destruction with each thunderous step. The Hijacked Tank is a vehicle of nightmares, where power and devastation merge into a terrifying symphony.",
+      "Le Tank Détourné est un redoutable colosse, un vestige de la guerre transformé en instrument de chaos et de carnage. Son extérieur fortement blindé porte les cicatrices de nombreuses batailles, tandis que son arsenal d'armes peut anéantir des armées entières. En pilotant cette machine de guerre, vous devenez une force à laquelle il faut se mesurer. Écrasez les obstacles, franchissez les lignes ennemies et semez la destruction à chaque pas tonitruant. Le Tank Détourné est un véhicule cauchemardesque où puissance et dévastation se fusionnent dans une symphonie terrifiante.",
     price: 16,
-    image: "https://example.com/hijacked-tank.jpg",
+    image: "https://th.bing.com/th/id/OIG.13jKgyuzhuKCQvU63j1t?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
-
   {
     id: 103,
     mode: "dream",
-    type: "Action",
-    name: "Ethereal Duel",
+    type: "custom",
+    element: "Action",
+    name: "Duel Éthéré",
     description:
-      "Engage in an ethereal duel, where mastery of the arcane arts and lightning-fast reflexes decide your fate. Unleash devastating spells, maneuver with precision, and prove yourself as the ultimate sorcerer duelist.",
+      "Engagez-vous dans un duel éthéré où la maîtrise des arts arcaniques et des réflexes éclairs décident de votre destin. Déchaînez des sorts dévastateurs, manœuvrez avec précision et prouvez que vous êtes le dueliste de sorcier ultime.",
     detail:
-      "In the world of ethereal duels, skilled sorcerers face off in an intense battle of magic and wits. Wield ancient spells with finesse, conjuring fireballs, summoning protective barriers, and harnessing the forces of nature to your advantage. With lightning-fast reflexes, dodge enemy attacks and unleash devastating counterattacks. As you progress, unlock new spells and abilities, expanding your arsenal and paving your way to becoming a legendary sorcerer duelist.",
+      "Dans le monde des duels éthérés, des sorciers talentueux s'affrontent dans une bataille intense de magie et d'intelligence. Maniez des sorts anciens avec finesse, invoquez des boules de feu, créez des barrières protectrices et exploitez les forces de la nature à votre avantage. Avec des réflexes fulgurants, esquivez les attaques ennemies et déchaînez des contre-attaques dévastatrices. Au fur et à mesure de votre progression, débloquez de nouveaux sorts et capacités, élargissant ainsi votre arsenal et ouvrant la voie à devenir un dueliste de sorcier légendaire.",
     price: 14,
-    image: "https://example.com/ethereal-duel.jpg",
+    image: "https://th.bing.com/th/id/OIG.8TmpeVlZZNrZc6ZEOK2p?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
   {
     id: 104,
     mode: "dream",
-    type: "Action",
-    name: "Epic Heist",
+    type: "custom",
+    element: "Action",
+    name: "Hold-up Épique",
     description:
-      "Embark on an epic heist, assembling a team of skilled individuals to pull off daring, high-stakes robberies. Plan meticulously, execute flawlessly, and outsmart the most sophisticated security systems.",
+      "Lancez-vous dans un hold-up épique, rassemblant une équipe d'individus compétents pour réaliser des vols audacieux à haut risque. Planifiez méticuleusement, exécutez sans faille et trompez les systèmes de sécurité les plus sophistiqués.",
     detail:
-      "In the world of high-stakes heists, you play the role of a mastermind assembling a team of specialists. Each member brings unique skills, from hacking and safecracking to acrobatics and stealth. Plan your approach meticulously, gathering intel, studying security systems, and identifying vulnerabilities. Coordinate your team's actions, synchronizing their efforts to perfection. As you infiltrate secure locations, overcome obstacles, and evade capture, the thrill of the heist reaches its peak. Success brings unimaginable wealth, but failure carries dire consequences.",
+      "Dans le monde des hold-ups à haut risque, vous jouez le rôle d'un cerveau criminel rassemblant une équipe de spécialistes. Chaque membre apporte des compétences uniques, du piratage à l'ouverture des coffres-forts en passant par l'acrobatie et la discrétion. Planifiez votre approche méticuleusement, recueillez des informations, étudiez les systèmes de sécurité et identifiez les vulnérabilités. Coordonnez les actions de votre équipe, synchronisez leurs efforts à la perfection. Alors que vous vous infiltrez dans des lieux sécurisés, surmontez les obstacles et échappez à la capture, le frisson du hold-up atteint son paroxysme. Le succès apporte une richesse inimaginable, mais l'échec entraîne des conséquences désastreuses.",
     price: 13,
-    image: "https://example.com/epic-heist.jpg",
+    image: "https://th.bing.com/th/id/OIG.whqRBk8tThlLSodSo2E5?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
   {
     id: 105,
     mode: "dream",
-    type: "Action",
-    name: "Legendary Battle",
+    type: "custom",
+    element: "Action",
+    name: "Bataille Légendaire",
     description:
-      "Enter the arena of a legendary battle, where heroes clash and destinies are forged. Wield mighty weapons, unleash devastating combos, and prove your worth as the ultimate champion.",
+      "Entrez dans l'arène d'une bataille légendaire, où les héros s'affrontent et les destins se forgent. Maniez de puissantes armes, déchaînez des combos dévastateurs et prouvez votre valeur en tant que champion ultime.",
     detail:
-      "In the realm of legendary battles, heroes from different worlds converge to settle their differences. Armed with powerful weapons and imbued with extraordinary abilities, they engage in epic confrontations. Execute lightning-fast combos, unleash devastating special attacks, and utilize strategic maneuvers to outwit your opponents. With each victory, your legend grows, and your name becomes etched in the annals of history. Are you ready to step into the arena and claim your place among the greatest champions?",
+      "Dans le royaume des batailles légendaires, des héros de différents mondes convergent pour régler leurs différends. Armés de puissantes armes et dotés de capacités extraordinaires, ils s'engagent dans des confrontations épiques. Exécutez des combos éclair, déchaînez des attaques spéciales dévastatrices et utilisez des manœuvres stratégiques pour déjouer vos adversaires. À chaque victoire, votre légende grandit et votre nom s'inscrit dans les annales de l'histoire. Êtes-vous prêt à entrer dans l'arène et à revendiquer votre place parmi les plus grands champions ?",
     price: 15,
-    image: "https://example.com/legendary-battle.jpg",
+    image: "https://th.bing.com/th/id/OIG..G.3_cnuzpAkiXqYspYV?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
   {
     id: 106,
     mode: "nightmare",
-    type: "Action",
-    name: "Apocalyptic Chaos",
+    type: "custom",
+    element: "Action",
+    name: "Chaos Apocalyptique",
     description:
-      "Plunge into a world of apocalyptic chaos, where survival is a constant struggle against hordes of nightmarish creatures. Fight for your life, scavenge for resources, and uncover the dark secrets of the fallen world.",
+      "Plongez dans un monde de chaos apocalyptique, où la survie est une lutte constante contre des hordes de créatures cauchemardesques. Battez-vous pour votre vie, recherchez des ressources et découvrez les sombres secrets du monde déchu.",
     detail:
-      "In the aftermath of a cataclysmic event, the world has descended into chaos. Nightmarish creatures roam the desolate landscapes, and survival becomes a daily battle. Armed with improvised weapons, you must navigate treacherous environments, scavenge for supplies, and defend against relentless attacks. As you unravel the mysteries of the fallen world, you discover the harrowing truth behind the cataclysm and the role you must play in shaping its future.",
+      "Après un événement cataclysmique, le monde a sombré dans le chaos. Des créatures cauchemardesques parcourent les paysages désolés et la survie devient un combat quotidien. Armé d'armes improvisées, vous devez naviguer dans des environnements périlleux, chercher des fournitures et vous défendre contre des attaques incessantes. Alors que vous dévoilez les mystères du monde déchu, vous découvrez la vérité effrayante derrière le cataclysme et le rôle que vous devez jouer pour façonner son avenir.",
     price: 18,
-    image: "https://example.com/apocalyptic-chaos.jpg",
+    image: "https://th.bing.com/th/id/OIG.3SJMWi2vZrH7RX1DljQ3?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
   {
     id: 107,
     mode: "nightmare",
-    type: "Action",
-    name: "Infernal Conquest",
+    type: "custom",
+    element: "Action",
+    name: "Conquête Infernale",
     description:
-      "Embark on a journey of infernal conquest, as demonic forces ravage the world. Unleash hellish powers, command legions of darkness, and fulfill your insatiable thirst for dominion.",
+      "Lancez-vous dans un voyage de conquête infernale alors que des forces démoniaques ravagent le monde. Libérez des pouvoirs infernaux, commandez des légions des ténèbres et assouvissez votre soif insatiable de domination.",
     detail:
-      "In the realm of infernal conquest, you play as a powerful demon lord, hell-bent on spreading chaos and subjugating the world. Harness dark magic, summon demonic minions, and unleash devastating spells upon your enemies. As you conquer territories, you establish your dominion and bend lesser beings to your will. But be wary, for rival demon lords seek to thwart your ambitions and claim the world for themselves. It's a battle for ultimate power, where only the strongest will emerge victorious.",
+      "Dans le royaume de la conquête infernale, vous incarnez un puissant seigneur démon, déterminé à répandre le chaos et à subjuguer le monde. Maîtrisez la magie noire, invoquez des sbires démoniaques et déchaînez des sorts dévastateurs sur vos ennemis. En conquérant des territoires, vous établissez votre domination et pliez les êtres inférieurs à votre volonté. Mais méfiez-vous, car d'autres seigneurs démoniaques cherchent à contrecarrer vos ambitions et à revendiquer le monde pour eux-mêmes. C'est une bataille pour le pouvoir ultime, où seuls les plus forts sortiront victorieux.",
     price: 20,
-    image: "https://example.com/infernal-conquest.jpg",
+    image: "https://th.bing.com/th/id/OIG.Gk4CIrJ5bH76.QtVnSGq?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
   {
     id: 108,
     mode: "nightmare",
-    type: "Action",
-    name: "Death's Embrace",
+    type: "custom",
+    element: "Action",
+    name: "Étreinte de la Mort",
     description:
-      "Step into the realm of Death's Embrace, a place where darkness reigns and deadly battles unfold. Wield necromantic powers, command undead legions, and become a harbinger of destruction.",
+      "Plongez dans le royaume de l'Étreinte de la Mort, un lieu où règne les ténèbres et où des batailles mortelles se déroulent. Maniez des pouvoirs nécromantiques, commandez des légions d'êtres morts-vivants et devenez un messager de destruction.",
     detail:
-      "In the desolate realm of Death's Embrace, you take on the role of a necromancer, wielding forbidden powers over life and death. Raise armies of undead, imbue them with dark magic, and lead them into battle against the living. Unleash devastating curses, drain the life force of your enemies, and harness the forces of decay. As you delve deeper into the mysteries of necromancy, you become an unstoppable force, feared by all who dare to oppose you.",
+      "Dans le sombre royaume de l'Étreinte de la Mort, vous incarnez un nécromancien, maniant des pouvoirs interdits de vie et de mort. Élevez des armées de morts-vivants, imprégnez-les de magie noire et menez-les au combat contre les vivants. Déchaînez des malédictions dévastatrices, drainez la force vitale de vos ennemis et exploitez les forces de la décomposition. En approfondissant les mystères de la nécromancie, vous devenez une force irrésistible, crainte par tous ceux qui osent vous défier.",
     price: 19,
-    image: "https://example.com/deaths-embrace.jpg",
+    image: "https://th.bing.com/th/id/OIG.zV2u5EDcArCDetBXkWav?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
-
   {
     id: 109,
     mode: "dream",
-    type: "Weather",
-    name: "Celestial Aurora",
+    type: "custom",
+    element: "Weather",
+    name: "Aurore Céleste",
     description:
-      "Witness the awe-inspiring beauty of the celestial aurora, where colorful lights dance across the night sky. Immerse yourself in a mesmerizing display of nature's wonder.",
+      "Contemplez la beauté impressionnante de l'aurore céleste, où des lumières colorées dansent dans le ciel nocturne. Plongez-vous dans un spectacle fascinant de couleurs célestes et de merveilles naturelles.",
     detail:
-      "In the realm of celestial auroras, you find yourself in a world of breathtaking beauty. As day transitions into night, the sky becomes a canvas for a celestial spectacle. Vibrant hues of green, blue, and purple swirl and twirl, casting an enchanting glow upon the landscape. Stand in awe as shooting stars streak across the heavens, leaving trails of stardust in their wake. The celestial aurora is a manifestation of nature's splendor, a reminder of the wonders that exist beyond our reach.",
-    price: 17,
-    image: "https://example.com/celestial-aurora.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 110,
-    mode: "dream",
-    type: "Weather",
-    name: "Whispering Breeze",
-    description:
-      "Experience the gentle touch of the whispering breeze, as it carries the scents of blooming flowers and the promise of a new day. Allow it to soothe your soul and transport you to a realm of tranquility.",
-    detail:
-      "In the realm of the whispering breeze, tranquility reigns supreme. Close your eyes and feel the soft caress of the gentle wind against your skin. It carries with it the scents of blooming flowers, the songs of birds, and the promise of a new day. Let the soothing whispers of the breeze wash away your worries, transporting you to a place of serenity and peace. Embrace the tranquility and find solace in the embrace of nature's gentle touch.",
-    price: 16,
-    image: "https://example.com/whispering-breeze.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 111,
-    mode: "dream",
-    type: "Weather",
-    name: "Mystic Storm",
-    description:
-      "Brace yourself for the power of the mystic storm, where lightning illuminates the darkened skies and thunder echoes through the land. Experience the raw energy and primal force of nature.",
-    detail:
-      "In the realm of the mystic storm, nature unleashes its raw power and primal energy. Dark clouds gather, obscuring the sky with an ominous presence. Lightning streaks across the heavens, illuminating the landscape with its dazzling display. Thunder reverberates through the air, shaking the earth beneath your feet. Embrace the exhilaration and awe that comes with witnessing the untamed forces of nature. The mystic storm is a reminder of nature's might and the delicate balance between beauty and destruction.",
-    price: 18,
-    image: "https://example.com/mystic-storm.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 112,
-    mode: "nightmare",
-    type: "Weather",
-    name: "Eternal Blizzard",
-    description:
-      "Step into the realm of the eternal blizzard, where icy winds cut through the bone and frostbite awaits the unprepared. Survive the frozen wasteland and unravel the chilling secrets that lie within.",
-    detail:
-      "In the realm of the eternal blizzard, an icy desolation stretches as far as the eye can see. Biting winds howl, carrying with them the sting of frost that can freeze a person's very soul. Snowflakes swirl and dance, forming an unforgiving landscape of ice and snow. It is a world where survival is a constant battle against the elements, where the unwary can succumb to frostbite within moments. Unravel the chilling secrets that lie within this frozen wasteland and discover the true meaning of endurance.",
-    price: 20,
-    image: "https://example.com/eternal-blizzard.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 113,
-    mode: "nightmare",
-    type: "Weather",
-    name: "Crimson Tempest",
-    description:
-      "Enter the realm of the crimson tempest, where raging storms engulf the land in a fury of destruction. Brace yourself as lightning strikes and torrential rains threaten to wash away all traces of life.",
-    detail:
-      "In the realm of the crimson tempest, chaos reigns supreme. Dark storm clouds loom overhead, unleashing torrential rains that flood the land. Lightning crackles across the sky, illuminating the crimson-hued clouds with its fiery glow. The roar of thunder echoes through the air, a constant reminder of the power and fury of the tempest. It is a realm of destruction and chaos, where nothing is safe from the wrath of the storm. Brace yourself as you navigate this treacherous landscape and witness the raw power of nature's fury.",
-    price: 19,
-    image: "https://example.com/crimson-tempest.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 114,
-    mode: "nightmare",
-    type: "Weather",
-    name: "Desolate Sandstorm",
-    description:
-      "Venture into the realm of the desolate sandstorm, where relentless winds whip up swirling clouds of sand and visibility is reduced to mere inches. Survive the harsh desert and uncover the secrets buried within.",
-    detail:
-      "In the realm of the desolate sandstorm, the desert becomes a hostile and unforgiving landscape. Relentless winds whip up swirling clouds of sand, reducing visibility to mere inches. The scorching sun beats down mercilessly, draining the life out of all who dare to venture into this barren wasteland. It is a world of survival, where every step could lead to your demise. Uncover the secrets buried within the desert and test your will against the harsh elements of the desolate sandstorm.",
-    price: 17,
-    image: "https://example.com/desolate-sandstorm.jpg",
-    isFavorite: false,
+      "L'aurore céleste est un phénomène naturel extraordinaire qui se produit lorsque des particules chargées du soleil entrent en collision avec l'atmosphère terrestre. Les résultats sont des lumières colorées qui dansent dans le ciel nocturne, créant un spectacle à couper le souffle. Dans cette expérience immersive, vous pourrez contempler ces merveilles naturelles dans toute leur splendeur. Vous serez transporté dans des endroits pittoresques du globe où l'aurore céleste est particulièrement spectaculaire. C'est un voyage visuel et émotionnel qui vous laissera émerveillé devant la beauté de la nature.",
+    price: 15,
+    image: "https://th.bing.com/th/id/OIP.3FpRFSa4HWojvtpT7McG6wHaEK?pid=ImgDet",
+    isFavorite: true,
     intoCart: false,
   },
 
   {
-    id: 115,
-    mode: "dream",
-    type: "Item",
-    name: "Elixir of Serenity",
-    description:
-      "Discover the Elixir of Serenity, a potent concoction that brings inner peace and tranquility. Experience a moment of respite amidst the chaos and find solace in its calming properties.",
-    detail:
-      "The Elixir of Serenity is a rare and precious potion that holds the power to calm even the most troubled souls. With just a sip, it brings a sense of inner peace and tranquility, washing away worries and anxieties. Its gentle aroma soothes the senses, while its ethereal glow emanates a calming energy. Take a moment to pause, breathe in the serenity, and let the elixir transport you to a realm of tranquility amidst the chaos.",
-    price: 15,
-    image: "https://example.com/elixir-of-serenity.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 116,
-    mode: "dream",
-    type: "Item",
-    name: "Phoenix Feather",
-    description:
-      "Uncover the legendary Phoenix Feather, a symbol of rebirth and renewal. Harness its mystical properties and unlock your true potential.",
-    detail:
-      "The Phoenix Feather is a mythical artifact, believed to be a gift from the legendary phoenix itself. It possesses the power of rebirth and renewal, granting those who possess it the ability to rise from the ashes and start anew. The feather radiates a warm and comforting energy, symbolizing hope and resilience. Embrace the power of the Phoenix Feather and unlock your true potential as you embark on a journey of self-discovery and transformation.",
-    price: 16,
-    image: "https://example.com/phoenix-feather.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 117,
-    mode: "dream",
-    type: "Item",
-    name: "Mystic Amulet",
-    description:
-      "Embark on a quest to find the Mystic Amulet, a powerful talisman that grants its wearer protection and guidance. Tap into its mystical energies and unlock ancient secrets.",
-    detail:
-      "The Mystic Amulet is an ancient talisman imbued with mystical energies. It is said to have been crafted by ancient civilizations and holds the power to grant protection and guidance to its wearer. Adorned with intricate symbols and shimmering gemstones, the amulet exudes an aura of ancient wisdom. Tap into its mystical energies and unlock the secrets of the past as you embark on a quest of discovery and enlightenment.",
-    price: 14,
-    image: "https://example.com/mystic-amulet.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 118,
-    mode: "nightmare",
-    type: "Item",
-    name: "Cursed Relic",
-    description:
-      "Beware the Cursed Relic, a dark and malevolent artifact that brings misfortune and despair. Uncover its dark history and break the curse, if you dare.",
-    detail:
-      "The Cursed Relic is a sinister artifact, shrouded in darkness and mystery. Legends tell of its malevolent powers, capable of bringing misfortune and despair to anyone who possesses it. Its eerie aura sends chills down the spine, and its dark whispers haunt the dreams of those who dare to come near. Uncover the dark history of the Cursed Relic and embark on a perilous journey to break the curse, but beware, for the relic's power is not to be underestimated.",
-    price: 18,
-    image: "https://example.com/cursed-relic.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 119,
-    mode: "nightmare",
-    type: "Item",
-    name: "Shadow Dagger",
-    description:
-      "Embrace the darkness with the Shadow Dagger, a wicked blade that cuts through the veil between realms. Harness its sinister power and become a harbinger of chaos.",
-    detail:
-      "The Shadow Dagger is a wicked blade forged in the depths of darkness. Its ebony blade shimmers with an otherworldly glow, as if infused with the essence of shadows themselves. It cuts through the veil between realms, allowing its wielder to harness the sinister power of the shadows. Embrace the darkness and become a harbinger of chaos as you wield the Shadow Dagger and unleash its malevolent power upon your enemies.",
-    price: 19,
-    image: "https://example.com/shadow-dagger.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 120,
-    mode: "nightmare",
-    type: "Item",
-    name: "Soulstone Pendant",
-    description:
-      "Unleash the power of the Soulstone Pendant, a haunting talisman that captures the essence of lost souls. Harness their restless energy and wield it as your own.",
-    detail:
-      "The Soulstone Pendant is a haunting talisman that holds the essence of lost souls trapped within its ethereal confines. It glimmers with a ghostly light, and whispers of forgotten voices echo from within. By harnessing the restless energy of these trapped souls, the pendant grants its wearer access to a wellspring of power. Unleash the haunting energy of the Soulstone Pendant and wield it as your own, as you navigate the realms of the living and the dead.",
-    price: 17,
-    image: "https://example.com/soulstone-pendant.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
+  id: 110,
+  mode: "dream",
+  type: "custom",
+  element: "Weather",
+  name: "Brise Murmurante",
+  description:
+    "Expérimentez la douce caresse de la brise murmurante alors qu'elle porte les parfums des fleurs en fleurs et la promesse d'un nouveau jour. Laissez-la apaiser votre âme et vous transporter vers un royaume de tranquillité.",
+  detail:
+    "Dans le royaume de la brise murmurante, la tranquillité règne en maître. Fermez les yeux et ressentez la caresse douce du vent léger sur votre peau. Il transporte avec lui les parfums des fleurs en fleurs, les chants des oiseaux et la promesse d'un nouveau jour. Laissez les murmures apaisants de la brise emporter vos soucis, vous transportant vers un lieu de sérénité et de paix. Embrassez la tranquillité et trouvez refuge dans l'étreinte de la douceur de la nature.",
+  price: 16,
+  image: "https://th.bing.com/th/id/OIG.gAyWI0iToKfmBLFhd9Fs?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 111,
+  mode: "dream",
+  type: "custom",
+  element: "Weather",
+  name: "Tempête Mystique",
+  description:
+    "Préparez-vous à la puissance de la tempête mystique, où les éclairs illuminent le ciel obscurci et le tonnerre résonne à travers la terre. Expérimentez l'énergie brute et la force primordiale de la nature.",
+  detail:
+    "Dans le royaume de la tempête mystique, la nature déchaîne sa puissance brute et son énergie primordiale. De sombres nuages se rassemblent, obscurcissant le ciel d'une présence menaçante. Les éclairs zèbrent le ciel, illuminant le paysage de leur spectacle éblouissant. Le tonnerre résonne dans l'air, faisant trembler la terre sous vos pieds. Embrassez l'exaltation et l'émerveillement qui accompagnent la contemplation des forces indomptées de la nature. La tempête mystique est un rappel de la puissance de la nature et de l'équilibre délicat entre la beauté et la destruction.",
+  price: 18,
+  image: "https://th.bing.com/th/id/OIG.0uxJf6_KtvDWgjO5PaPh?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 112,
+  mode: "nightmare",
+  type: "custom",
+  element: "Weather",
+  name: "Blizzard Éternel",
+  description:
+    "Plongez dans le royaume du blizzard éternel, où les vents glacés traversent les os et le gel guette les imprudents. Survivez au désert glacé et découvrez les secrets glaçants qui s'y cachent.",
+  detail:
+    "Dans le royaume du blizzard éternel, un froid mordant saisit l'air et gèle tout sur son passage. Les vents glacés sifflent à travers les paysages gelés, transperçant les vêtements et pénétrant les os. Les flocons de neige tourbillonnent dans le ciel obscur, créant un paysage d'une beauté froide et impitoyable. Le gel recouvre chaque surface, créant une étendue glacée qui attend les imprudents. Explorez ce désert glacé et découvrez les secrets glaçants qui se cachent dans son sein. Le blizzard éternel est un défi à la fois beau et dangereux, une expérience qui teste votre résistance et votre détermination.",
+  price: 20,
+  image: "https://th.bing.com/th/id/OIP.V1wzzz7SGDjy6ymCgY1UUwHaK2?pid=ImgDet&rs=1",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 113,
+  mode: "nightmare",
+  type: "custom",
+  element: "Weather",
+  name: "Tempête Pourpre",
+  description:
+    "Entrez dans le royaume de la tempête pourpre, où des tempêtes dévastatrices engloutissent la terre dans une furie destructrice. Préparez-vous à l'éclair qui frappe et aux pluies torrentielles menaçant de tout emporter.",
+  detail:
+    "Dans le royaume de la tempête pourpre, le chaos règne en maître. De sombres nuages d'orage planent au-dessus, déversant des pluies torrentielles qui inondent la terre. Les éclairs crépitent dans le ciel, illuminant les nuages teintés de pourpre de leur lueur ardente. Le grondement du tonnerre résonne dans l'air, un rappel constant de la puissance et de la fureur de la tempête. C'est un royaume de destruction et de chaos, où rien n'est à l'abri de la colère de la tempête. Préparez-vous à naviguer dans ce paysage périlleux et à contempler la puissance brute de la fureur de la nature.",
+  price: 19,
+  image: "https://th.bing.com/th/id/OIG.Ki0XJLnDGvw_4VlNuWeR?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 114,
+  mode: "nightmare",
+  type: "custom",
+  element: "Weather",
+  name: "Tempête de Sable Désolée",
+  description:
+    "Aventurez-vous dans le royaume de la tempête de sable désolée, où des vents implacables soulèvent des nuages de sable tourbillonnants et réduisent la visibilité à quelques centimètres. Survivez au désert hostile et découvrez les secrets enfouis en son sein.",
+  detail:
+    "Dans le royaume de la tempête de sable désolée, le désert devient un paysage hostile et impitoyable. Des vents implacables soulèvent des nuages de sable tourbillonnants, réduisant la visibilité à quelques centimètres à peine. Le soleil brûlant frappe impitoyablement, épuisant la vie de tous ceux qui osent s'aventurer dans ce désert aride. C'est un monde de survie, où chaque pas peut mener à votre perte. Découvrez les secrets enfouis dans le désert et mettez votre volonté à l'épreuve face aux éléments impitoyables de la tempête de sable désolée.",
+  price: 17,
+  image: "https://th.bing.com/th/id/OIG.adwJHv3JGXwUmd09mIRS?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 115,
+  mode: "dream",
+  type: "custom",
+  element: "Item",
+  name: "Élixir de Sérénité",
+  description:
+    "Découvrez l'Élixir de Sérénité, une potion puissante qui apporte la paix intérieure et la tranquillité. Vivez un moment de répit au milieu du chaos et trouvez le réconfort dans ses propriétés apaisantes.",
+  detail:
+    "L'Élixir de Sérénité est une potion rare et précieuse qui a le pouvoir d'apaiser les âmes les plus tourmentées. En en prenant juste une gorgée, il apporte une sensation de paix intérieure et de tranquillité, faisant disparaître les soucis et les angoisses. Son doux parfum apaise les sens, tandis que sa lueur éthérée émane une énergie apaisante. Prenez un moment pour faire une pause, respirez la sérénité et laissez l'élixir vous transporter vers un royaume de tranquillité au milieu du chaos.",
+  price: 15,
+  image: "https://th.bing.com/th/id/OIG.9os53JESOb6bXzvcMXkG?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 116,
+  mode: "dream",
+  type: "custom",
+  element: "Item",
+  name: "Plume de Phénix",
+  description:
+    "Découvrez la légendaire Plume de Phénix, symbole de renaissance et de renouveau. Utilisez ses propriétés mystiques et débloquez votre véritable potentiel.",
+  detail:
+    "La Plume de Phénix est un artefact mythique, considéré comme un don du légendaire phénix lui-même. Elle possède le pouvoir de renaissance et de renouveau, accordant à ceux qui la possèdent la capacité de renaître de leurs cendres et de commencer une nouvelle vie. La plume rayonne d'une énergie chaleureuse et réconfortante, symbolisant l'espoir et la résilience. Embrassez le pouvoir de la Plume de Phénix et débloquez votre véritable potentiel alors que vous vous lancez dans un voyage de découverte de soi et de transformation.",
+  price: 16,
+  image: "https://th.bing.com/th/id/OIG.u81ybCqx_bQDeJzIFanS?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 117,
+  mode: "dream",
+  type: "custom",
+  element: "Item",
+  name: "Amulette Mystique",
+  description:
+    "Lancez-vous dans une quête pour trouver l'Amulette Mystique, un talisman puissant qui accorde protection et guidance à son porteur. Exploitez ses énergies mystiques et dévoilez des secrets anciens.",
+  detail:
+    "L'Amulette Mystique est un talisman antique imprégné d'énergies mystiques. On dit qu'elle a été fabriquée par d'anciennes civilisations et qu'elle détient le pouvoir d'accorder protection et guidance à son porteur. Ornée de symboles complexes et de gemmes scintillantes, l'amulette dégage une aura de sagesse ancienne. Exploitez ses énergies mystiques et dévoilez les secrets du passé alors que vous vous lancez dans une quête de découverte et d'illumination.",
+  price: 14,
+  image: "https://th.bing.com/th/id/OIG.9Ax..AaC17KvGkOrdK2Y?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 118,
+  mode: "nightmare",
+  type: "custom",
+  element: "Item",
+  name: "Relique Maudite",
+  description:
+    "Méfiez-vous de la Relique Maudite, un artefact sombre et malveillant qui apporte malheur et désespoir. Découvrez son sombre passé et brisez la malédiction, si vous l'osez.",
+  detail:
+    "La Relique Maudite est un artefact sinistre, enveloppé de ténèbres et de mystère. Les légendes racontent ses pouvoirs malveillants, capables d'apporter malheur et désespoir à quiconque la possède. Son aura lugubre donne des frissons dans le dos, et ses murmures sombres hantent les rêves de ceux qui osent s'en approcher. Découvrez le sombre passé de la Relique Maudite et lancez-vous dans un voyage périlleux pour briser la malédiction, mais méfiez-vous, car le pouvoir de la relique ne doit pas être sous-estimé.",
+  price: 18,
+  image: "https://th.bing.com/th/id/OIG.Fdd3USduJIIONYuPSMgU?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 119,
+  mode: "nightmare",
+  type: "custom",
+  element: "Item",
+  name: "Dague des Ombres",
+  description:
+    "Embrassez les ténèbres avec la Dague des Ombres, une lame maléfique qui tranche le voile entre les royaumes. Utilisez son pouvoir sinistre et devenez le messager du chaos.",
+  detail:
+    "La Dague des Ombres est une lame maléfique forgée dans les profondeurs de l'obscurité. Sa lame d'ébène scintille d'une lueur d'outre-monde, comme si elle était imprégnée de l'essence des ombres elles-mêmes. Elle tranche le voile entre les royaumes, permettant à son possesseur d'utiliser le pouvoir sinistre des ombres. Embrassez les ténèbres et devenez le messager du chaos en brandissant la Dague des Ombres et en libérant son pouvoir maléfique sur vos ennemis.",
+  price: 19,
+  image: "https://th.bing.com/th/id/OIG.tz3U4ydftkiAX7LMgAkQ?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
+{
+  id: 120,
+  mode: "nightmare",
+  type: "custom",
+  element: "Item",
+  name: "Pendentif de Pierre d'Âme",
+  description:
+    "Libérez le pouvoir du Pendentif de Pierre d'Âme, un talisman troublant qui capture l'essence des âmes perdues. Maîtrisez son énergie mystérieuse et déchaînez son potentiel.",
+  detail:
+    "Le Pendentif de Pierre d'Âme est un talisman troublant, réputé pour sa capacité à capturer et à contenir l'essence des âmes perdues. Les légendes racontent que le pendentif est en réalité un portail vers le royaume des morts, et que ceux qui le portent peuvent maîtriser l'énergie mystérieuse des âmes capturées. Son aura éthérée brille d'une lueur inquiétante, attirant l'attention de ceux qui sont attirés par les mystères de l'au-delà. Libérez le pouvoir du Pendentif de Pierre d'Âme et déchaînez son potentiel alors que vous explorez les limites de la vie et de la mort.",
+  price: 21,
+  image: "https://th.bing.com/th/id/OIG.Jg0XbaBSQDNHFJewt9aF?pid=ImgGn",
+  isFavorite: false,
+  intoCart: false,
+},
 ];
 
 const getAll = (req, res) => {
