@@ -1,8 +1,11 @@
 const express = require("express");
+const cors = require("cors");
 
 const port = process.env.PORT || 3001;
 
 const app = express();
+
+app.use(cors("*"));
 
 app.get("/", (req, res) => {
   res.send("Welcome on the Dream IT API !");
