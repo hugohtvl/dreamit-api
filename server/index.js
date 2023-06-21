@@ -1247,12 +1247,14 @@ const all = [
     type: "custom",
     element: "vehicle",
     name: "Navire pirate",
-    description: "Naviguez à bord du légendaire Black Pearl lors d'une aventure pirate à haut risque. Naviguez sur des eaux traîtres, découvrez des trésors cachés et affrontez des ennemis redoutables. Pouvez-vous conquérir les mers et devenir un véritable pirate du Black Pearl ?",
-    detail: "Le Black Pearl, un navire légendaire qui inspire la peur aux marins et aux pirates, est un spectacle à voir. Avec sa silhouette élancée et menaçante, il fend les vagues avec une grâce et une vitesse inégalées. La coque ébène du navire, usée par d'innombrables batailles et voyages, dégage une atmosphère de mystère et de danger. Ses mâts imposants, ornés de voiles noires déchirées, semblent danser avec le vent, guidant le navire vers sa prochaine conquête. Le pont est orné de figures en bois finement sculptées, représentant des créatures mythiques et de féroces pirates, ajoutant une aura de légendes anciennes à la présence du navire. Les canons du Black Pearl, entretenus avec soin et étincelants de puissance, sont prêts à déchaîner la destruction sur quiconque oserait défier sa suprématie. De la proue à la poupe, le navire dégage un esprit indomptable, incarnant l'essence même de la piraterie en haute mer.",
+    description:
+      "Naviguez à bord du légendaire Black Pearl lors d'une aventure pirate à haut risque. Naviguez sur des eaux traîtres, découvrez des trésors cachés et affrontez des ennemis redoutables. Pouvez-vous conquérir les mers et devenir un véritable pirate du Black Pearl ?",
+    detail:
+      "Le Black Pearl, un navire légendaire qui inspire la peur aux marins et aux pirates, est un spectacle à voir. Avec sa silhouette élancée et menaçante, il fend les vagues avec une grâce et une vitesse inégalées. La coque ébène du navire, usée par d'innombrables batailles et voyages, dégage une atmosphère de mystère et de danger. Ses mâts imposants, ornés de voiles noires déchirées, semblent danser avec le vent, guidant le navire vers sa prochaine conquête. Le pont est orné de figures en bois finement sculptées, représentant des créatures mythiques et de féroces pirates, ajoutant une aura de légendes anciennes à la présence du navire. Les canons du Black Pearl, entretenus avec soin et étincelants de puissance, sont prêts à déchaîner la destruction sur quiconque oserait défier sa suprématie. De la proue à la poupe, le navire dégage un esprit indomptable, incarnant l'essence même de la piraterie en haute mer.",
     price: 20,
     image: "https://th.bing.com/th/id/OIG.nGjYDy2LTb4O7V7Z1rc9?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 74,
@@ -1260,12 +1262,14 @@ const all = [
     type: "custom",
     element: "Protagonist",
     name: "Elijah Stormrider",
-    description: "Maîtrisez le pouvoir des éléments avec Elijah Stormrider, un protagoniste charismatique et énigmatique. Déchaînez les tempêtes, contrôlez les vents et découvrez l'étendue réelle de votre maîtrise élémentaire.",
-    detail: "Elijah Stormrider possède une affinité rare avec les éléments, capable de plier les forces de la nature à sa volonté. Suivez son parcours alors qu'il dévoile d'anciens secrets, lutte contre les forces obscures et s'efforce de protéger un monde au bord de la destruction.",
+    description:
+      "Maîtrisez le pouvoir des éléments avec Elijah Stormrider, un protagoniste charismatique et énigmatique. Déchaînez les tempêtes, contrôlez les vents et découvrez l'étendue réelle de votre maîtrise élémentaire.",
+    detail:
+      "Elijah Stormrider possède une affinité rare avec les éléments, capable de plier les forces de la nature à sa volonté. Suivez son parcours alors qu'il dévoile d'anciens secrets, lutte contre les forces obscures et s'efforce de protéger un monde au bord de la destruction.",
     price: 12,
     image: "https://th.bing.com/th/id/OIG.Er86lBv1f00XrehkTHn.?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 75,
@@ -1273,12 +1277,14 @@ const all = [
     type: "custom",
     element: "Protagonist",
     name: "Luna Shadowcaster",
-    description: "Embrassez les ténèbres intérieures avec Luna Shadowcaster, une protagoniste mystérieuse et redoutable. Maîtrisez la magie des ombres, manipulez les illusions et marchez sur la ligne entre lumière et obscurité.",
-    detail: "Luna Shadowcaster plonge dans les arts arcaniques, maîtrisant les secrets des ombres et des illusions. Rejoignez-la dans un voyage de découverte de soi et affrontez les démons intérieurs qui menacent de la consumer.",
+    description:
+      "Embrassez les ténèbres intérieures avec Luna Shadowcaster, une protagoniste mystérieuse et redoutable. Maîtrisez la magie des ombres, manipulez les illusions et marchez sur la ligne entre lumière et obscurité.",
+    detail:
+      "Luna Shadowcaster plonge dans les arts arcaniques, maîtrisant les secrets des ombres et des illusions. Rejoignez-la dans un voyage de découverte de soi et affrontez les démons intérieurs qui menacent de la consumer.",
     price: 15,
     image: "https://th.bing.com/th/id/OIG.ZlE5Tj8zuLKU9kuVI8BK?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 76,
@@ -1286,12 +1292,14 @@ const all = [
     type: "custom",
     element: "Protagonist",
     name: "Aurora Dawnbreaker",
-    description: "Embrassez la lumière radieuse avec Aurora Dawnbreaker, une protagoniste noble et droite. Canalisez l'énergie divine, bannissez les ténèbres et faites respecter la justice dans un monde en proie au mal.",
-    detail: "Aurora Dawnbreaker est un phare d'espoir dans un monde voilé de ténèbres. Avec sa foi inébranlable et le pouvoir de la lumière, elle lutte contre les forces du mal, apportant paix et salut à ceux dans le besoin.",
+    description:
+      "Embrassez la lumière radieuse avec Aurora Dawnbreaker, une protagoniste noble et droite. Canalisez l'énergie divine, bannissez les ténèbres et faites respecter la justice dans un monde en proie au mal.",
+    detail:
+      "Aurora Dawnbreaker est un phare d'espoir dans un monde voilé de ténèbres. Avec sa foi inébranlable et le pouvoir de la lumière, elle lutte contre les forces du mal, apportant paix et salut à ceux dans le besoin.",
     price: 18,
     image: "https://th.bing.com/th/id/OIG.tt6jEgz9OleEfRWXOutE?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 77,
@@ -1299,12 +1307,14 @@ const all = [
     type: "custom",
     element: "Protagonist",
     name: "Dusk Shadowblade",
-    description: "Embrassez les ombres qui consument votre âme avec Dusk Shadowblade, un protagoniste tourmenté et implacable. Incarnez les ténèbres, maniez des pouvoirs interdits et plongez le monde dans une nuit éternelle.",
-    detail: "Dusk Shadowblade marche sur un chemin périlleux, abandonnant la lumière pour l'attrait de l'obscurité. Animé par une soif de pouvoir, il cherche à remodeler le monde à son image, peu importe les conséquences.",
+    description:
+      "Embrassez les ombres qui consument votre âme avec Dusk Shadowblade, un protagoniste tourmenté et implacable. Incarnez les ténèbres, maniez des pouvoirs interdits et plongez le monde dans une nuit éternelle.",
+    detail:
+      "Dusk Shadowblade marche sur un chemin périlleux, abandonnant la lumière pour l'attrait de l'obscurité. Animé par une soif de pouvoir, il cherche à remodeler le monde à son image, peu importe les conséquences.",
     price: 14,
     image: "https://th.bing.com/th/id/OIG.YtamFHdgAQKM3d8etW40?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 78,
@@ -1312,12 +1322,14 @@ const all = [
     type: "custom",
     element: "Protagonist",
     name: "Raven Nightshade",
-    description: "Embrassez l'attrait de l'obscurité avec Raven Nightshade, une protagoniste séduisante et rusée. Manipulez les ombres, tissez des enchantements et plongez dans le chaos et l'intrigue de la nuit.",
-    detail: "Raven Nightshade est une maîtresse de la tromperie et de la subversion, utilisant ses charmes et ses capacités mystiques pour manipuler ceux qui l'entourent. Plongez dans un monde de secrets et d'intrigue.",
+    description:
+      "Embrassez l'attrait de l'obscurité avec Raven Nightshade, une protagoniste séduisante et rusée. Manipulez les ombres, tissez des enchantements et plongez dans le chaos et l'intrigue de la nuit.",
+    detail:
+      "Raven Nightshade est une maîtresse de la tromperie et de la subversion, utilisant ses charmes et ses capacités mystiques pour manipuler ceux qui l'entourent. Plongez dans un monde de secrets et d'intrigue.",
     price: 16,
     image: "https://th.bing.com/th/id/OIG.Hz3eZ0qzvcLgN4ZUnie0?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
 
   {
@@ -1326,12 +1338,14 @@ const all = [
     type: "custom",
     element: "Protagonist",
     name: "Malachi Darkthorn",
-    description: "Embrassez les ténèbres qui résident en vous avec Malachi Darkthorn, un protagoniste tourmenté et énigmatique. Contrôlez la magie noire, invoquez des serviteurs obscurs et semez le chaos dans le royaume des mortels.",
-    detail: "Malachi Darkthorn est un héros déchu consumé par les ténèbres, cherchant vengeance et pouvoir à tout prix. Libérez sa colère sur le monde alors qu'il tente de réécrire le destin qui l'a lié.",
+    description:
+      "Embrassez les ténèbres qui résident en vous avec Malachi Darkthorn, un protagoniste tourmenté et énigmatique. Contrôlez la magie noire, invoquez des serviteurs obscurs et semez le chaos dans le royaume des mortels.",
+    detail:
+      "Malachi Darkthorn est un héros déchu consumé par les ténèbres, cherchant vengeance et pouvoir à tout prix. Libérez sa colère sur le monde alors qu'il tente de réécrire le destin qui l'a lié.",
     price: 17,
     image: "https://th.bing.com/th/id/OIG.nKbkc85HQ_oFlaUFkpJu?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 80,
@@ -1339,12 +1353,14 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Morgana Nightshade",
-    description: "Méfiez-vous de la présence malfaisante de Morgana Nightshade, une sombre sorcière aux intentions néfastes. Déchaînez des sorts dévastateurs, invoquez des serviteurs sombres et mettez votre courage à l'épreuve face à son pouvoir redoutable.",
-    detail: "Morgana Nightshade, une maîtresse de la magie noire, cherche à plonger le monde dans les ténèbres éternelles. En tant qu'adversaire principal de votre voyage, elle ne reculera devant rien pour atteindre ses objectifs maléfiques.",
+    description:
+      "Méfiez-vous de la présence malfaisante de Morgana Nightshade, une sombre sorcière aux intentions néfastes. Déchaînez des sorts dévastateurs, invoquez des serviteurs sombres et mettez votre courage à l'épreuve face à son pouvoir redoutable.",
+    detail:
+      "Morgana Nightshade, une maîtresse de la magie noire, cherche à plonger le monde dans les ténèbres éternelles. En tant qu'adversaire principal de votre voyage, elle ne reculera devant rien pour atteindre ses objectifs maléfiques.",
     price: 10,
     image: "https://th.bing.com/th/id/OIG.wyIeSy75LLUQDchCO6R4?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 81,
@@ -1352,12 +1368,14 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Lucius Bloodfang",
-    description: "Préparez-vous à affronter le redoutable Lucius Bloodfang, un seigneur vampire assoiffé de pouvoir et de domination. Engagez des batailles épiques, évitez ses crocs mortels et défiez son règne de terreur.",
-    detail: "Lucius Bloodfang, un vampire séculaire, commande une armée de morts-vivants et cherche à asservir le royaume des mortels. Votre confrontation ultime avec lui mettra à l'épreuve votre force, votre ruse et votre bravoure.",
+    description:
+      "Préparez-vous à affronter le redoutable Lucius Bloodfang, un seigneur vampire assoiffé de pouvoir et de domination. Engagez des batailles épiques, évitez ses crocs mortels et défiez son règne de terreur.",
+    detail:
+      "Lucius Bloodfang, un vampire séculaire, commande une armée de morts-vivants et cherche à asservir le royaume des mortels. Votre confrontation ultime avec lui mettra à l'épreuve votre force, votre ruse et votre bravoure.",
     price: 13,
     image: "https://th.bing.com/th/id/OIG.EX1LGq2cZhW_kXMtBykp?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 82,
@@ -1365,12 +1383,14 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Sylvia Shadowweaver",
-    description: "Méfiez-vous de l'énigmatique Sylvia Shadowweaver, une maîtresse de la manipulation et de la tromperie. Démêlez ses intrigues complexes, surpassez ses pièges rusés et mettez fin à son règne de chaos.",
-    detail: "Sylvia Shadowweaver, une génie de l'intrigue, tire les ficelles depuis les ombres, orchestrant le chaos et la discorde. Découvrez ses véritables motivations et affrontez-la dans un combat d'intelligence et de volonté.",
+    description:
+      "Méfiez-vous de l'énigmatique Sylvia Shadowweaver, une maîtresse de la manipulation et de la tromperie. Démêlez ses intrigues complexes, surpassez ses pièges rusés et mettez fin à son règne de chaos.",
+    detail:
+      "Sylvia Shadowweaver, une génie de l'intrigue, tire les ficelles depuis les ombres, orchestrant le chaos et la discorde. Découvrez ses véritables motivations et affrontez-la dans un combat d'intelligence et de volonté.",
     price: 11,
     image: "https://th.bing.com/th/id/OIG.2xt1C9BaN5FblMizIG8P?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 83,
@@ -1378,12 +1398,15 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Draven Darkheart",
-    description: "Méfiez-vous de la présence malfaisante de Draven Darkheart, un nécromancien insatiable assoiffé d'âmes. Confrontez ses sbires morts-vivants, déchiffrez ses rituels sombres et mettez fin à son règne de terreur.",
-    detail: "Draven Darkheart, un nécromancien d'un pouvoir immense, cherche à conquérir la mort elle-même. Déchaînez votre puissance et affrontez les forces des ténèbres en le confrontant dans un combat entre la vie et la mort.",
+    description:
+      "Méfiez-vous de la présence malfaisante de Draven Darkheart, un nécromancien insatiable assoiffé d'âmes. Confrontez ses sbires morts-vivants, déchiffrez ses rituels sombres et mettez fin à son règne de terreur.",
+    detail:
+      "Draven Darkheart, un nécromancien d'un pouvoir immense, cherche à conquérir la mort elle-même. Déchaînez votre puissance et affrontez les forces des ténèbres en le confrontant dans un combat entre la vie et la mort.",
     price: 19,
-    image: "https://i.pinimg.com/474x/3c/43/17/3c4317a1a2254833d3f6d2749a3a2ed0.jpg",
+    image:
+      "https://i.pinimg.com/474x/3c/43/17/3c4317a1a2254833d3f6d2749a3a2ed0.jpg",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 84,
@@ -1391,12 +1414,15 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Isabella Nightshade",
-    description: "Méfiez-vous de l'enchanteresse mais mortelle Isabella Nightshade, une succube séductrice assoiffée d'âmes. Résistez à son charme, déjouez ses illusions et échappez à son emprise.",
-    detail: "Isabella Nightshade, une succube d'une beauté et d'un charme immenses, se repaît des désirs et des faiblesses des mortels. Succombez à ses tentations et vous serez piégé à jamais dans son sombre royaume.",
+    description:
+      "Méfiez-vous de l'enchanteresse mais mortelle Isabella Nightshade, une succube séductrice assoiffée d'âmes. Résistez à son charme, déjouez ses illusions et échappez à son emprise.",
+    detail:
+      "Isabella Nightshade, une succube d'une beauté et d'un charme immenses, se repaît des désirs et des faiblesses des mortels. Succombez à ses tentations et vous serez piégé à jamais dans son sombre royaume.",
     price: 18,
-    image: "https://i.pinimg.com/originals/8c/bd/91/8cbd91e9679bd883024c80eb18e15eab.jpg",
+    image:
+      "https://i.pinimg.com/originals/8c/bd/91/8cbd91e9679bd883024c80eb18e15eab.jpg",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 85,
@@ -1404,12 +1430,15 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Vesper Shadowcaster",
-    description: "Affrontez les ténèbres ultimes avec Vesper Shadowcaster, un antagoniste redoutable et malveillant. Commandez des sbires obscurs, déchaînez des malédictions dévastatrices et plongez le monde dans une nuit éternelle.",
-    detail: "Vesper Shadowcaster est l'incarnation du pur mal, maîtrisant des pouvoirs sombres qui rivalisent avec ceux des dieux. Faites face au test ultime de votre courage et de vos compétences en affrontant l'essence même des ténèbres.",
+    description:
+      "Affrontez les ténèbres ultimes avec Vesper Shadowcaster, un antagoniste redoutable et malveillant. Commandez des sbires obscurs, déchaînez des malédictions dévastatrices et plongez le monde dans une nuit éternelle.",
+    detail:
+      "Vesper Shadowcaster est l'incarnation du pur mal, maîtrisant des pouvoirs sombres qui rivalisent avec ceux des dieux. Faites face au test ultime de votre courage et de vos compétences en affrontant l'essence même des ténèbres.",
     price: 10,
-    image: "https://i.pinimg.com/736x/17/5d/92/175d92d0e1c0ef5bc0481e5a15b68637.jpg",
+    image:
+      "https://i.pinimg.com/736x/17/5d/92/175d92d0e1c0ef5bc0481e5a15b68637.jpg",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 86,
@@ -1417,12 +1446,14 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Lucius Dreadborne",
-    description: "Embrassez l'attrait de la malveillance avec Lucius Dreadborne, un antagoniste rusé et manipulateur. Conspirez dans les ombres, déchaînez le chaos et trompez vos adversaires à chaque tournant.",
-    detail: "Lucius Dreadborne est un cerveau machiavélique doté d'une vision grandiose de chaos et de destruction. Engagez-vous dans une bataille d'intelligence et de stratégie en orchestrant un réseau de tromperie et en déclenchant le chaos dans le monde.",
+    description:
+      "Embrassez l'attrait de la malveillance avec Lucius Dreadborne, un antagoniste rusé et manipulateur. Conspirez dans les ombres, déchaînez le chaos et trompez vos adversaires à chaque tournant.",
+    detail:
+      "Lucius Dreadborne est un cerveau machiavélique doté d'une vision grandiose de chaos et de destruction. Engagez-vous dans une bataille d'intelligence et de stratégie en orchestrant un réseau de tromperie et en déclenchant le chaos dans le monde.",
     price: 13,
     image: "https://th.bing.com/th/id/OIG.4.jDFi1x0oXBHtaTBrqi?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 87,
@@ -1430,12 +1461,14 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Sylvia Nightshade",
-    description: "Plongez dans la beauté sombre et le pouvoir de Sylvia Nightshade, une antagoniste séduisante et perfide. Manipulez les esprits, tissez des enchantements et profitez du chaos et de la destruction que vous déclenchez.",
-    detail: "Sylvia Nightshade est une maîtresse de la manipulation et de la séduction, utilisant son charme et son attrait mystique pour plier les autres à sa volonté. Explorez les profondeurs de ses désirs sombres et assistez à la dévastation qu'elle laisse derrière elle.",
+    description:
+      "Plongez dans la beauté sombre et le pouvoir de Sylvia Nightshade, une antagoniste séduisante et perfide. Manipulez les esprits, tissez des enchantements et profitez du chaos et de la destruction que vous déclenchez.",
+    detail:
+      "Sylvia Nightshade est une maîtresse de la manipulation et de la séduction, utilisant son charme et son attrait mystique pour plier les autres à sa volonté. Explorez les profondeurs de ses désirs sombres et assistez à la dévastation qu'elle laisse derrière elle.",
     price: 15,
     image: "https://th.bing.com/th/id/OIG.CCTYvR6q.fIjO_xthMrl?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 88,
@@ -1443,12 +1476,14 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Ragnar Deathbringer",
-    description: "Embrassez l'incarnation de la mort avec Ragnar Deathbringer, un antagoniste impitoyable et implacable. Commandez une horde de morts-vivants, maniez des pouvoirs nécromantiques et provoquez la fin de toute vie.",
-    detail: "Ragnar Deathbringer est un nécromancien d'un pouvoir inégalé, sa magie noire capable de lever des armées de morts. Soyez témoin de la dévastation qu'il répand dans son règne de terreur à travers le pays, ne laissant derrière lui que mort et désespoir.",
+    description:
+      "Embrassez l'incarnation de la mort avec Ragnar Deathbringer, un antagoniste impitoyable et implacable. Commandez une horde de morts-vivants, maniez des pouvoirs nécromantiques et provoquez la fin de toute vie.",
+    detail:
+      "Ragnar Deathbringer est un nécromancien d'un pouvoir inégalé, sa magie noire capable de lever des armées de morts. Soyez témoin de la dévastation qu'il répand dans son règne de terreur à travers le pays, ne laissant derrière lui que mort et désespoir.",
     price: 16,
     image: "https://th.bing.com/th/id/OIG.KX8BT.1Cy9Q.FxwhVCG1?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 89,
@@ -1456,12 +1491,14 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Seraphina Shadowbane",
-    description: "Embrassez les ombres qui consument votre âme avec Seraphina Shadowbane, une antagoniste impitoyable et vengeresse. Maîtrisez les arts de l'ombre, invoquez des créatures cauchemardesques et plongez le monde dans l'obscurité éternelle.",
-    detail: "Seraphina Shadowbane est une experte dans l'art de manipuler les ombres, utilisant des pouvoirs interdits pour détruire ses ennemis. Suivez son parcours de vengeance et découvrez les secrets sinistres qu'elle cache dans les ténèbres.",
+    description:
+      "Embrassez les ombres qui consument votre âme avec Seraphina Shadowbane, une antagoniste impitoyable et vengeresse. Maîtrisez les arts de l'ombre, invoquez des créatures cauchemardesques et plongez le monde dans l'obscurité éternelle.",
+    detail:
+      "Seraphina Shadowbane est une experte dans l'art de manipuler les ombres, utilisant des pouvoirs interdits pour détruire ses ennemis. Suivez son parcours de vengeance et découvrez les secrets sinistres qu'elle cache dans les ténèbres.",
     price: 14,
     image: "https://th.bing.com/th/id/OIG.bPu0pUcSfxz-kEPfCNAhIA?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
   {
     id: 90,
@@ -1469,14 +1506,16 @@ const all = [
     type: "custom",
     element: "Antagonist",
     name: "Malachi Voidbringer",
-    description: "Embrassez le vide qui consume tout avec Malachi Voidbringer, un antagoniste mystérieux et énigmatique. Maîtrisez les énergies sombres, manipulez la réalité et dévoilez l'essence même de l'existence.",
-    detail: "Malachi Voidbringer est un sorcier doté du pouvoir de modeler la réalité selon sa volonté, utilisant les forces du vide pour remodeler le monde. Plongez dans les profondeurs de ses connaissances arcaniques et assistez au chaos qui suit son sillage.",
+    description:
+      "Embrassez le vide qui consume tout avec Malachi Voidbringer, un antagoniste mystérieux et énigmatique. Maîtrisez les énergies sombres, manipulez la réalité et dévoilez l'essence même de l'existence.",
+    detail:
+      "Malachi Voidbringer est un sorcier doté du pouvoir de modeler la réalité selon sa volonté, utilisant les forces du vide pour remodeler le monde. Plongez dans les profondeurs de ses connaissances arcaniques et assistez au chaos qui suit son sillage.",
     price: 21,
     image: "https://th.bing.com/th/id/OIG.9YbAVXt0omnLqmc9v6N7OQ?pid=ImgGn",
     isFavorite: false,
-    intoCart: false
+    intoCart: false,
   },
-  
+
   {
     id: 91,
     mode: "dream",
@@ -1492,7 +1531,7 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
-  
+
   {
     id: 92,
     mode: "dream",
@@ -1761,176 +1800,178 @@ const all = [
     detail:
       "L'aurore céleste est un phénomène naturel extraordinaire qui se produit lorsque des particules chargées du soleil entrent en collision avec l'atmosphère terrestre. Les résultats sont des lumières colorées qui dansent dans le ciel nocturne, créant un spectacle à couper le souffle. Dans cette expérience immersive, vous pourrez contempler ces merveilles naturelles dans toute leur splendeur. Vous serez transporté dans des endroits pittoresques du globe où l'aurore céleste est particulièrement spectaculaire. C'est un voyage visuel et émotionnel qui vous laissera émerveillé devant la beauté de la nature.",
     price: 15,
-    image: "https://th.bing.com/th/id/OIP.3FpRFSa4HWojvtpT7McG6wHaEK?pid=ImgDet",
+    image:
+      "https://th.bing.com/th/id/OIP.3FpRFSa4HWojvtpT7McG6wHaEK?pid=ImgDet",
     isFavorite: true,
     intoCart: false,
   },
 
   {
-  id: 110,
-  mode: "dream",
-  type: "custom",
-  element: "Weather",
-  name: "Brise Murmurante",
-  description:
-    "Expérimentez la douce caresse de la brise murmurante alors qu'elle porte les parfums des fleurs en fleurs et la promesse d'un nouveau jour. Laissez-la apaiser votre âme et vous transporter vers un royaume de tranquillité.",
-  detail:
-    "Dans le royaume de la brise murmurante, la tranquillité règne en maître. Fermez les yeux et ressentez la caresse douce du vent léger sur votre peau. Il transporte avec lui les parfums des fleurs en fleurs, les chants des oiseaux et la promesse d'un nouveau jour. Laissez les murmures apaisants de la brise emporter vos soucis, vous transportant vers un lieu de sérénité et de paix. Embrassez la tranquillité et trouvez refuge dans l'étreinte de la douceur de la nature.",
-  price: 16,
-  image: "https://th.bing.com/th/id/OIG.gAyWI0iToKfmBLFhd9Fs?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 111,
-  mode: "dream",
-  type: "custom",
-  element: "Weather",
-  name: "Tempête Mystique",
-  description:
-    "Préparez-vous à la puissance de la tempête mystique, où les éclairs illuminent le ciel obscurci et le tonnerre résonne à travers la terre. Expérimentez l'énergie brute et la force primordiale de la nature.",
-  detail:
-    "Dans le royaume de la tempête mystique, la nature déchaîne sa puissance brute et son énergie primordiale. De sombres nuages se rassemblent, obscurcissant le ciel d'une présence menaçante. Les éclairs zèbrent le ciel, illuminant le paysage de leur spectacle éblouissant. Le tonnerre résonne dans l'air, faisant trembler la terre sous vos pieds. Embrassez l'exaltation et l'émerveillement qui accompagnent la contemplation des forces indomptées de la nature. La tempête mystique est un rappel de la puissance de la nature et de l'équilibre délicat entre la beauté et la destruction.",
-  price: 18,
-  image: "https://th.bing.com/th/id/OIG.0uxJf6_KtvDWgjO5PaPh?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 112,
-  mode: "nightmare",
-  type: "custom",
-  element: "Weather",
-  name: "Blizzard Éternel",
-  description:
-    "Plongez dans le royaume du blizzard éternel, où les vents glacés traversent les os et le gel guette les imprudents. Survivez au désert glacé et découvrez les secrets glaçants qui s'y cachent.",
-  detail:
-    "Dans le royaume du blizzard éternel, un froid mordant saisit l'air et gèle tout sur son passage. Les vents glacés sifflent à travers les paysages gelés, transperçant les vêtements et pénétrant les os. Les flocons de neige tourbillonnent dans le ciel obscur, créant un paysage d'une beauté froide et impitoyable. Le gel recouvre chaque surface, créant une étendue glacée qui attend les imprudents. Explorez ce désert glacé et découvrez les secrets glaçants qui se cachent dans son sein. Le blizzard éternel est un défi à la fois beau et dangereux, une expérience qui teste votre résistance et votre détermination.",
-  price: 20,
-  image: "https://th.bing.com/th/id/OIP.V1wzzz7SGDjy6ymCgY1UUwHaK2?pid=ImgDet&rs=1",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 113,
-  mode: "nightmare",
-  type: "custom",
-  element: "Weather",
-  name: "Tempête Pourpre",
-  description:
-    "Entrez dans le royaume de la tempête pourpre, où des tempêtes dévastatrices engloutissent la terre dans une furie destructrice. Préparez-vous à l'éclair qui frappe et aux pluies torrentielles menaçant de tout emporter.",
-  detail:
-    "Dans le royaume de la tempête pourpre, le chaos règne en maître. De sombres nuages d'orage planent au-dessus, déversant des pluies torrentielles qui inondent la terre. Les éclairs crépitent dans le ciel, illuminant les nuages teintés de pourpre de leur lueur ardente. Le grondement du tonnerre résonne dans l'air, un rappel constant de la puissance et de la fureur de la tempête. C'est un royaume de destruction et de chaos, où rien n'est à l'abri de la colère de la tempête. Préparez-vous à naviguer dans ce paysage périlleux et à contempler la puissance brute de la fureur de la nature.",
-  price: 19,
-  image: "https://th.bing.com/th/id/OIG.Ki0XJLnDGvw_4VlNuWeR?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 114,
-  mode: "nightmare",
-  type: "custom",
-  element: "Weather",
-  name: "Tempête de Sable Désolée",
-  description:
-    "Aventurez-vous dans le royaume de la tempête de sable désolée, où des vents implacables soulèvent des nuages de sable tourbillonnants et réduisent la visibilité à quelques centimètres. Survivez au désert hostile et découvrez les secrets enfouis en son sein.",
-  detail:
-    "Dans le royaume de la tempête de sable désolée, le désert devient un paysage hostile et impitoyable. Des vents implacables soulèvent des nuages de sable tourbillonnants, réduisant la visibilité à quelques centimètres à peine. Le soleil brûlant frappe impitoyablement, épuisant la vie de tous ceux qui osent s'aventurer dans ce désert aride. C'est un monde de survie, où chaque pas peut mener à votre perte. Découvrez les secrets enfouis dans le désert et mettez votre volonté à l'épreuve face aux éléments impitoyables de la tempête de sable désolée.",
-  price: 17,
-  image: "https://th.bing.com/th/id/OIG.adwJHv3JGXwUmd09mIRS?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 115,
-  mode: "dream",
-  type: "custom",
-  element: "Item",
-  name: "Élixir de Sérénité",
-  description:
-    "Découvrez l'Élixir de Sérénité, une potion puissante qui apporte la paix intérieure et la tranquillité. Vivez un moment de répit au milieu du chaos et trouvez le réconfort dans ses propriétés apaisantes.",
-  detail:
-    "L'Élixir de Sérénité est une potion rare et précieuse qui a le pouvoir d'apaiser les âmes les plus tourmentées. En en prenant juste une gorgée, il apporte une sensation de paix intérieure et de tranquillité, faisant disparaître les soucis et les angoisses. Son doux parfum apaise les sens, tandis que sa lueur éthérée émane une énergie apaisante. Prenez un moment pour faire une pause, respirez la sérénité et laissez l'élixir vous transporter vers un royaume de tranquillité au milieu du chaos.",
-  price: 15,
-  image: "https://th.bing.com/th/id/OIG.9os53JESOb6bXzvcMXkG?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 116,
-  mode: "dream",
-  type: "custom",
-  element: "Item",
-  name: "Plume de Phénix",
-  description:
-    "Découvrez la légendaire Plume de Phénix, symbole de renaissance et de renouveau. Utilisez ses propriétés mystiques et débloquez votre véritable potentiel.",
-  detail:
-    "La Plume de Phénix est un artefact mythique, considéré comme un don du légendaire phénix lui-même. Elle possède le pouvoir de renaissance et de renouveau, accordant à ceux qui la possèdent la capacité de renaître de leurs cendres et de commencer une nouvelle vie. La plume rayonne d'une énergie chaleureuse et réconfortante, symbolisant l'espoir et la résilience. Embrassez le pouvoir de la Plume de Phénix et débloquez votre véritable potentiel alors que vous vous lancez dans un voyage de découverte de soi et de transformation.",
-  price: 16,
-  image: "https://th.bing.com/th/id/OIG.u81ybCqx_bQDeJzIFanS?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 117,
-  mode: "dream",
-  type: "custom",
-  element: "Item",
-  name: "Amulette Mystique",
-  description:
-    "Lancez-vous dans une quête pour trouver l'Amulette Mystique, un talisman puissant qui accorde protection et guidance à son porteur. Exploitez ses énergies mystiques et dévoilez des secrets anciens.",
-  detail:
-    "L'Amulette Mystique est un talisman antique imprégné d'énergies mystiques. On dit qu'elle a été fabriquée par d'anciennes civilisations et qu'elle détient le pouvoir d'accorder protection et guidance à son porteur. Ornée de symboles complexes et de gemmes scintillantes, l'amulette dégage une aura de sagesse ancienne. Exploitez ses énergies mystiques et dévoilez les secrets du passé alors que vous vous lancez dans une quête de découverte et d'illumination.",
-  price: 14,
-  image: "https://th.bing.com/th/id/OIG.9Ax..AaC17KvGkOrdK2Y?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 118,
-  mode: "nightmare",
-  type: "custom",
-  element: "Item",
-  name: "Relique Maudite",
-  description:
-    "Méfiez-vous de la Relique Maudite, un artefact sombre et malveillant qui apporte malheur et désespoir. Découvrez son sombre passé et brisez la malédiction, si vous l'osez.",
-  detail:
-    "La Relique Maudite est un artefact sinistre, enveloppé de ténèbres et de mystère. Les légendes racontent ses pouvoirs malveillants, capables d'apporter malheur et désespoir à quiconque la possède. Son aura lugubre donne des frissons dans le dos, et ses murmures sombres hantent les rêves de ceux qui osent s'en approcher. Découvrez le sombre passé de la Relique Maudite et lancez-vous dans un voyage périlleux pour briser la malédiction, mais méfiez-vous, car le pouvoir de la relique ne doit pas être sous-estimé.",
-  price: 18,
-  image: "https://th.bing.com/th/id/OIG.Fdd3USduJIIONYuPSMgU?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 119,
-  mode: "nightmare",
-  type: "custom",
-  element: "Item",
-  name: "Dague des Ombres",
-  description:
-    "Embrassez les ténèbres avec la Dague des Ombres, une lame maléfique qui tranche le voile entre les royaumes. Utilisez son pouvoir sinistre et devenez le messager du chaos.",
-  detail:
-    "La Dague des Ombres est une lame maléfique forgée dans les profondeurs de l'obscurité. Sa lame d'ébène scintille d'une lueur d'outre-monde, comme si elle était imprégnée de l'essence des ombres elles-mêmes. Elle tranche le voile entre les royaumes, permettant à son possesseur d'utiliser le pouvoir sinistre des ombres. Embrassez les ténèbres et devenez le messager du chaos en brandissant la Dague des Ombres et en libérant son pouvoir maléfique sur vos ennemis.",
-  price: 19,
-  image: "https://th.bing.com/th/id/OIG.tz3U4ydftkiAX7LMgAkQ?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
-{
-  id: 120,
-  mode: "nightmare",
-  type: "custom",
-  element: "Item",
-  name: "Pendentif de Pierre d'Âme",
-  description:
-    "Libérez le pouvoir du Pendentif de Pierre d'Âme, un talisman troublant qui capture l'essence des âmes perdues. Maîtrisez son énergie mystérieuse et déchaînez son potentiel.",
-  detail:
-    "Le Pendentif de Pierre d'Âme est un talisman troublant, réputé pour sa capacité à capturer et à contenir l'essence des âmes perdues. Les légendes racontent que le pendentif est en réalité un portail vers le royaume des morts, et que ceux qui le portent peuvent maîtriser l'énergie mystérieuse des âmes capturées. Son aura éthérée brille d'une lueur inquiétante, attirant l'attention de ceux qui sont attirés par les mystères de l'au-delà. Libérez le pouvoir du Pendentif de Pierre d'Âme et déchaînez son potentiel alors que vous explorez les limites de la vie et de la mort.",
-  price: 21,
-  image: "https://th.bing.com/th/id/OIG.Jg0XbaBSQDNHFJewt9aF?pid=ImgGn",
-  isFavorite: false,
-  intoCart: false,
-},
+    id: 110,
+    mode: "dream",
+    type: "custom",
+    element: "Weather",
+    name: "Brise Murmurante",
+    description:
+      "Expérimentez la douce caresse de la brise murmurante alors qu'elle porte les parfums des fleurs en fleurs et la promesse d'un nouveau jour. Laissez-la apaiser votre âme et vous transporter vers un royaume de tranquillité.",
+    detail:
+      "Dans le royaume de la brise murmurante, la tranquillité règne en maître. Fermez les yeux et ressentez la caresse douce du vent léger sur votre peau. Il transporte avec lui les parfums des fleurs en fleurs, les chants des oiseaux et la promesse d'un nouveau jour. Laissez les murmures apaisants de la brise emporter vos soucis, vous transportant vers un lieu de sérénité et de paix. Embrassez la tranquillité et trouvez refuge dans l'étreinte de la douceur de la nature.",
+    price: 16,
+    image: "https://th.bing.com/th/id/OIG.gAyWI0iToKfmBLFhd9Fs?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 111,
+    mode: "dream",
+    type: "custom",
+    element: "Weather",
+    name: "Tempête Mystique",
+    description:
+      "Préparez-vous à la puissance de la tempête mystique, où les éclairs illuminent le ciel obscurci et le tonnerre résonne à travers la terre. Expérimentez l'énergie brute et la force primordiale de la nature.",
+    detail:
+      "Dans le royaume de la tempête mystique, la nature déchaîne sa puissance brute et son énergie primordiale. De sombres nuages se rassemblent, obscurcissant le ciel d'une présence menaçante. Les éclairs zèbrent le ciel, illuminant le paysage de leur spectacle éblouissant. Le tonnerre résonne dans l'air, faisant trembler la terre sous vos pieds. Embrassez l'exaltation et l'émerveillement qui accompagnent la contemplation des forces indomptées de la nature. La tempête mystique est un rappel de la puissance de la nature et de l'équilibre délicat entre la beauté et la destruction.",
+    price: 18,
+    image: "https://th.bing.com/th/id/OIG.0uxJf6_KtvDWgjO5PaPh?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 112,
+    mode: "nightmare",
+    type: "custom",
+    element: "Weather",
+    name: "Blizzard Éternel",
+    description:
+      "Plongez dans le royaume du blizzard éternel, où les vents glacés traversent les os et le gel guette les imprudents. Survivez au désert glacé et découvrez les secrets glaçants qui s'y cachent.",
+    detail:
+      "Dans le royaume du blizzard éternel, un froid mordant saisit l'air et gèle tout sur son passage. Les vents glacés sifflent à travers les paysages gelés, transperçant les vêtements et pénétrant les os. Les flocons de neige tourbillonnent dans le ciel obscur, créant un paysage d'une beauté froide et impitoyable. Le gel recouvre chaque surface, créant une étendue glacée qui attend les imprudents. Explorez ce désert glacé et découvrez les secrets glaçants qui se cachent dans son sein. Le blizzard éternel est un défi à la fois beau et dangereux, une expérience qui teste votre résistance et votre détermination.",
+    price: 20,
+    image:
+      "https://th.bing.com/th/id/OIP.V1wzzz7SGDjy6ymCgY1UUwHaK2?pid=ImgDet&rs=1",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 113,
+    mode: "nightmare",
+    type: "custom",
+    element: "Weather",
+    name: "Tempête Pourpre",
+    description:
+      "Entrez dans le royaume de la tempête pourpre, où des tempêtes dévastatrices engloutissent la terre dans une furie destructrice. Préparez-vous à l'éclair qui frappe et aux pluies torrentielles menaçant de tout emporter.",
+    detail:
+      "Dans le royaume de la tempête pourpre, le chaos règne en maître. De sombres nuages d'orage planent au-dessus, déversant des pluies torrentielles qui inondent la terre. Les éclairs crépitent dans le ciel, illuminant les nuages teintés de pourpre de leur lueur ardente. Le grondement du tonnerre résonne dans l'air, un rappel constant de la puissance et de la fureur de la tempête. C'est un royaume de destruction et de chaos, où rien n'est à l'abri de la colère de la tempête. Préparez-vous à naviguer dans ce paysage périlleux et à contempler la puissance brute de la fureur de la nature.",
+    price: 19,
+    image: "https://th.bing.com/th/id/OIG.Ki0XJLnDGvw_4VlNuWeR?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 114,
+    mode: "nightmare",
+    type: "custom",
+    element: "Weather",
+    name: "Tempête de Sable Désolée",
+    description:
+      "Aventurez-vous dans le royaume de la tempête de sable désolée, où des vents implacables soulèvent des nuages de sable tourbillonnants et réduisent la visibilité à quelques centimètres. Survivez au désert hostile et découvrez les secrets enfouis en son sein.",
+    detail:
+      "Dans le royaume de la tempête de sable désolée, le désert devient un paysage hostile et impitoyable. Des vents implacables soulèvent des nuages de sable tourbillonnants, réduisant la visibilité à quelques centimètres à peine. Le soleil brûlant frappe impitoyablement, épuisant la vie de tous ceux qui osent s'aventurer dans ce désert aride. C'est un monde de survie, où chaque pas peut mener à votre perte. Découvrez les secrets enfouis dans le désert et mettez votre volonté à l'épreuve face aux éléments impitoyables de la tempête de sable désolée.",
+    price: 17,
+    image: "https://th.bing.com/th/id/OIG.adwJHv3JGXwUmd09mIRS?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 115,
+    mode: "dream",
+    type: "custom",
+    element: "Item",
+    name: "Élixir de Sérénité",
+    description:
+      "Découvrez l'Élixir de Sérénité, une potion puissante qui apporte la paix intérieure et la tranquillité. Vivez un moment de répit au milieu du chaos et trouvez le réconfort dans ses propriétés apaisantes.",
+    detail:
+      "L'Élixir de Sérénité est une potion rare et précieuse qui a le pouvoir d'apaiser les âmes les plus tourmentées. En en prenant juste une gorgée, il apporte une sensation de paix intérieure et de tranquillité, faisant disparaître les soucis et les angoisses. Son doux parfum apaise les sens, tandis que sa lueur éthérée émane une énergie apaisante. Prenez un moment pour faire une pause, respirez la sérénité et laissez l'élixir vous transporter vers un royaume de tranquillité au milieu du chaos.",
+    price: 15,
+    image: "https://th.bing.com/th/id/OIG.9os53JESOb6bXzvcMXkG?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 116,
+    mode: "dream",
+    type: "custom",
+    element: "Item",
+    name: "Plume de Phénix",
+    description:
+      "Découvrez la légendaire Plume de Phénix, symbole de renaissance et de renouveau. Utilisez ses propriétés mystiques et débloquez votre véritable potentiel.",
+    detail:
+      "La Plume de Phénix est un artefact mythique, considéré comme un don du légendaire phénix lui-même. Elle possède le pouvoir de renaissance et de renouveau, accordant à ceux qui la possèdent la capacité de renaître de leurs cendres et de commencer une nouvelle vie. La plume rayonne d'une énergie chaleureuse et réconfortante, symbolisant l'espoir et la résilience. Embrassez le pouvoir de la Plume de Phénix et débloquez votre véritable potentiel alors que vous vous lancez dans un voyage de découverte de soi et de transformation.",
+    price: 16,
+    image: "https://th.bing.com/th/id/OIG.u81ybCqx_bQDeJzIFanS?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 117,
+    mode: "dream",
+    type: "custom",
+    element: "Item",
+    name: "Amulette Mystique",
+    description:
+      "Lancez-vous dans une quête pour trouver l'Amulette Mystique, un talisman puissant qui accorde protection et guidance à son porteur. Exploitez ses énergies mystiques et dévoilez des secrets anciens.",
+    detail:
+      "L'Amulette Mystique est un talisman antique imprégné d'énergies mystiques. On dit qu'elle a été fabriquée par d'anciennes civilisations et qu'elle détient le pouvoir d'accorder protection et guidance à son porteur. Ornée de symboles complexes et de gemmes scintillantes, l'amulette dégage une aura de sagesse ancienne. Exploitez ses énergies mystiques et dévoilez les secrets du passé alors que vous vous lancez dans une quête de découverte et d'illumination.",
+    price: 14,
+    image: "https://th.bing.com/th/id/OIG.9Ax..AaC17KvGkOrdK2Y?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 118,
+    mode: "nightmare",
+    type: "custom",
+    element: "Item",
+    name: "Relique Maudite",
+    description:
+      "Méfiez-vous de la Relique Maudite, un artefact sombre et malveillant qui apporte malheur et désespoir. Découvrez son sombre passé et brisez la malédiction, si vous l'osez.",
+    detail:
+      "La Relique Maudite est un artefact sinistre, enveloppé de ténèbres et de mystère. Les légendes racontent ses pouvoirs malveillants, capables d'apporter malheur et désespoir à quiconque la possède. Son aura lugubre donne des frissons dans le dos, et ses murmures sombres hantent les rêves de ceux qui osent s'en approcher. Découvrez le sombre passé de la Relique Maudite et lancez-vous dans un voyage périlleux pour briser la malédiction, mais méfiez-vous, car le pouvoir de la relique ne doit pas être sous-estimé.",
+    price: 18,
+    image: "https://th.bing.com/th/id/OIG.Fdd3USduJIIONYuPSMgU?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 119,
+    mode: "nightmare",
+    type: "custom",
+    element: "Item",
+    name: "Dague des Ombres",
+    description:
+      "Embrassez les ténèbres avec la Dague des Ombres, une lame maléfique qui tranche le voile entre les royaumes. Utilisez son pouvoir sinistre et devenez le messager du chaos.",
+    detail:
+      "La Dague des Ombres est une lame maléfique forgée dans les profondeurs de l'obscurité. Sa lame d'ébène scintille d'une lueur d'outre-monde, comme si elle était imprégnée de l'essence des ombres elles-mêmes. Elle tranche le voile entre les royaumes, permettant à son possesseur d'utiliser le pouvoir sinistre des ombres. Embrassez les ténèbres et devenez le messager du chaos en brandissant la Dague des Ombres et en libérant son pouvoir maléfique sur vos ennemis.",
+    price: 19,
+    image: "https://th.bing.com/th/id/OIG.tz3U4ydftkiAX7LMgAkQ?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+  {
+    id: 120,
+    mode: "nightmare",
+    type: "custom",
+    element: "Item",
+    name: "Pendentif de Pierre d'Âme",
+    description:
+      "Libérez le pouvoir du Pendentif de Pierre d'Âme, un talisman troublant qui capture l'essence des âmes perdues. Maîtrisez son énergie mystérieuse et déchaînez son potentiel.",
+    detail:
+      "Le Pendentif de Pierre d'Âme est un talisman troublant, réputé pour sa capacité à capturer et à contenir l'essence des âmes perdues. Les légendes racontent que le pendentif est en réalité un portail vers le royaume des morts, et que ceux qui le portent peuvent maîtriser l'énergie mystérieuse des âmes capturées. Son aura éthérée brille d'une lueur inquiétante, attirant l'attention de ceux qui sont attirés par les mystères de l'au-delà. Libérez le pouvoir du Pendentif de Pierre d'Âme et déchaînez son potentiel alors que vous explorez les limites de la vie et de la mort.",
+    price: 21,
+    image: "https://th.bing.com/th/id/OIG.Jg0XbaBSQDNHFJewt9aF?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
 ];
 
 const getAll = (req, res) => {
