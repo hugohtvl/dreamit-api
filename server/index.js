@@ -1335,7 +1335,7 @@ const all = [
     detail:
       "Raven Nightshade est une maîtresse de la tromperie et de la subversion, utilisant ses charmes et ses capacités mystiques pour manipuler ceux qui l'entourent. Plongez dans un monde de secrets et d'intrigue.",
     price: 16,
-    image: "https://th.bing.com/th/id/OIG.Hz3eZ0qzvcLgN4ZUnie0?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.nxJh_Bk6Gwlea.EeCwvu?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1444,7 +1444,7 @@ const all = [
       "Vesper Shadowcaster est l'incarnation du pur mal, maîtrisant des pouvoirs sombres qui rivalisent avec ceux des dieux. Faites face au test ultime de votre courage et de vos compétences en affrontant l'essence même des ténèbres.",
     price: 10,
     image:
-      "https://i.pinimg.com/736x/17/5d/92/175d92d0e1c0ef5bc0481e5a15b68637.jpg",
+      "https://th.bing.com/th/id/OIG.6zblgimH2a1NlPSNDoWG?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1504,7 +1504,7 @@ const all = [
     detail:
       "Seraphina Shadowbane est une experte dans l'art de manipuler les ombres, utilisant des pouvoirs interdits pour détruire ses ennemis. Suivez son parcours de vengeance et découvrez les secrets sinistres qu'elle cache dans les ténèbres.",
     price: 14,
-    image: "https://th.bing.com/th/id/OIG.bPu0pUcSfxz-kEPfCNAhIA?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.FtUSWmN9x0ojEfQyVZiX?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1519,7 +1519,7 @@ const all = [
     detail:
       "Malachi Voidbringer est un sorcier doté du pouvoir de modeler la réalité selon sa volonté, utilisant les forces du vide pour remodeler le monde. Plongez dans les profondeurs de ses connaissances arcaniques et assistez au chaos qui suit son sillage.",
     price: 21,
-    image: "https://th.bing.com/th/id/OIG.9YbAVXt0omnLqmc9v6N7OQ?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.UiMSnBpvZg2jdzF71Ckb?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1551,7 +1551,7 @@ const all = [
     detail:
       "Cachée sous les vagues de l'océan, la Cité Perdue d'Atlantis est enveloppée de mystère et d'émerveillement. Des ruines antiques, ornées de sculptures et de statues complexes, témoignent d'une civilisation jadis grandiose. Des récifs coralliens grouillant de vie marine entourent les vestiges de cette cité engloutie, créant un paysage sous-marin d'une beauté captivante. Plongez dans les profondeurs de l'océan et explorez les merveilles cachées de l'Atlantide, là où la réalité et le mythe se rencontrent.",
     price: 25,
-    image: "https://th.bing.com/th/id/OIG.iSb9oZQuNJmiXeYJ%2fmw2Ow?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.5SU8joOxa1IxdqK3dz6Z?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1597,7 +1597,7 @@ const all = [
     detail:
       "Le Manoir Maudit est une demeure délabrée qui cache des secrets obscurs depuis des siècles. À votre arrivée, vous serez accueilli par une atmosphère oppressante et une aura de terreur. Les couloirs sombres sont habités par des esprits tourmentés qui errent sans relâche. Des murmures inquiétants résonnent dans les pièces vides, et des ombres effrayantes dansent dans la lueur des bougies. Chaque pas que vous ferez sera une épreuve, car le manoir est rempli de pièges mortels et de rencontres surnaturelles. Des spectres vengeurs aux créatures maléfiques, vous devrez rassembler votre courage pour survivre à cette expérience cauchemardesque.",
     price: 25,
-    image: "https://th.bing.com/th/id/OIG.5AAsEgdKQuXQ54Nt2tCQ?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.a1bGJFsGUL.7Stwt5w3m?pid=ImgGn",
     isFavorite: true,
     intoCart: false,
   },
@@ -1628,7 +1628,7 @@ const all = [
     detail:
       "Le Dirigeable Céleste est une merveille d'ingénierie et d'imagination. Sa forme majestueuse glisse sans effort à travers les nuages, propulsée par des hélices enchantées. Montez à bord et émerveillez-vous devant les mécanismes complexes et horlogers qui alimentent ce vaisseau prodigieux. En vous élevant dans le ciel, les fenêtres panoramiques offrent une vue imprenable sur les paysages en contrebas, des collines vallonnées aux montagnes imposantes. Les équipements à bord offrent un confort luxueux, garantissant un voyage inoubliable à travers les cieux infinis.",
     price: 18,
-    image: "https://th.bing.com/th/id/OIG.WJ7uifSWTC5PoHcwWoAm?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.dmGBIZMl4kJPVvOLiTPf?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1673,7 +1673,7 @@ const all = [
     detail:
       "La Calèche Ténébreuse est une création macabre, enveloppée de ténèbres et de mystère. Tirée par des chevaux spectraux, elle glisse silencieusement à travers la nuit, laissant une traînée de brume éthérée sur son passage. À l'intérieur, la calèche dégage une atmosphère oppressante, avec des rideaux de velours qui dissimulent des secrets inavoués. Explorez des paysages hantés, où des arbres tordus se dressent dans l'obscurité et des ombres effrayantes se faufilent entre les tombes. Faites face à des entités malveillantes et à des spectres vengeurs lors de votre voyage à travers les royaumes des ténèbres.",
     price: 25,
-    image: "https://th.bing.com/th/id/OIG.7vr95SDUqrmWnlzRmpjv?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.NY9A0TVmEGDag7quv1.y?pid=ImgGn",
     isFavorite: true,
     intoCart: false,
   },
@@ -1809,7 +1809,7 @@ const all = [
       "L'aurore céleste est un phénomène naturel extraordinaire qui se produit lorsque des particules chargées du soleil entrent en collision avec l'atmosphère terrestre. Les résultats sont des lumières colorées qui dansent dans le ciel nocturne, créant un spectacle à couper le souffle. Dans cette expérience immersive, vous pourrez contempler ces merveilles naturelles dans toute leur splendeur. Vous serez transporté dans des endroits pittoresques du globe où l'aurore céleste est particulièrement spectaculaire. C'est un voyage visuel et émotionnel qui vous laissera émerveillé devant la beauté de la nature.",
     price: 15,
     image:
-      "https://th.bing.com/th/id/OIP.3FpRFSa4HWojvtpT7McG6wHaEK?pid=ImgDet",
+      "https://th.bing.com/th/id/OIG.Vp5Km6VkNrpPNjueN0w1?pid=ImgGn",
     isFavorite: true,
     intoCart: false,
   },
@@ -1856,7 +1856,7 @@ const all = [
       "Dans le royaume du blizzard éternel, un froid mordant saisit l'air et gèle tout sur son passage. Les vents glacés sifflent à travers les paysages gelés, transperçant les vêtements et pénétrant les os. Les flocons de neige tourbillonnent dans le ciel obscur, créant un paysage d'une beauté froide et impitoyable. Le gel recouvre chaque surface, créant une étendue glacée qui attend les imprudents. Explorez ce désert glacé et découvrez les secrets glaçants qui se cachent dans son sein. Le blizzard éternel est un défi à la fois beau et dangereux, une expérience qui teste votre résistance et votre détermination.",
     price: 20,
     image:
-      "https://th.bing.com/th/id/OIP.V1wzzz7SGDjy6ymCgY1UUwHaK2?pid=ImgDet&rs=1",
+      "https://th.bing.com/th/id/OIG.4EahJWr4qx_LIim79O.3?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -1976,7 +1976,7 @@ const all = [
     detail:
       "Le Pendentif de Pierre d'Âme est un talisman troublant, réputé pour sa capacité à capturer et à contenir l'essence des âmes perdues. Les légendes racontent que le pendentif est en réalité un portail vers le royaume des morts, et que ceux qui le portent peuvent maîtriser l'énergie mystérieuse des âmes capturées. Son aura éthérée brille d'une lueur inquiétante, attirant l'attention de ceux qui sont attirés par les mystères de l'au-delà. Libérez le pouvoir du Pendentif de Pierre d'Âme et déchaînez son potentiel alors que vous explorez les limites de la vie et de la mort.",
     price: 21,
-    image: "https://th.bing.com/th/id/OIG.Jg0XbaBSQDNHFJewt9aF?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.pm47jb1V_0mdcSvp3RDr?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
