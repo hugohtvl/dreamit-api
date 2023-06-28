@@ -72,7 +72,7 @@ const all = [
     type: "ready-to-use",
     theme: "travel",
     element: "",
-    name: "Odyssée sombre",
+    name: "Odyssée Sombre",
     description:
       "Embarquez pour un voyage cauchemardesque à travers des royaumes hantés et des paysages maudits. Faites face à des créatures sinistres, dévoilez des mystères glaçants et parcourez des chemins traîtres. Pouvez-vous survivre aux horreurs qui se cachent dans l'ombre ?",
     detail:
@@ -352,7 +352,7 @@ const all = [
     detail:
       "Préparez-vous pour l'escapade en road trip ultime alors que vous vous embarquez dans un voyage de découverte. Parcourez les autoroutes pittoresques, serpentant à travers des paysages à couper le souffle et passant devant des sites emblématiques. Explorez des villes charmantes, dégustez des cuisines locales et connectez-vous avec d'autres voyageurs en chemin. Que vous conduisiez une décapotable classique ou un SUV robuste, chaque mile sera rempli d'excitation et de nouvelles expériences. Préparez-vous à créer des souvenirs inoubliables et à embrasser la liberté de la route ouverte.",
     price: 45,
-    image: "https://example.com/road_trip.jpg",
+    image: "https://th.bing.com/th/id/OIG.pYtPLj6wMo2zyvgCy0p5?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
@@ -431,7 +431,7 @@ const all = [
     type: "ready-to-use",
     theme: "detective fiction",
     element: "",
-    name: "Mystérieux Énigme",
+    name: "Mystérieuse Énigme",
     description:
       "Enfilez les chaussures d'un détective brillant et résolvez des mystères déconcertants. Découvrez des indices, dévoilez des secrets cachés et trompez des criminels rusés. Êtes-vous prêt à percer le mystérieux énigme ?",
     detail:
