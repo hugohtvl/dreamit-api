@@ -1253,22 +1253,7 @@ const all = [
     id: 73,
     mode: "dream",
     type: "custom",
-    element: "vehicle",
-    name: "Navire pirate",
-    description:
-      "Naviguez à bord du légendaire Black Pearl lors d'une aventure pirate à haut risque. Naviguez sur des eaux traîtres, découvrez des trésors cachés et affrontez des ennemis redoutables. Pouvez-vous conquérir les mers et devenir un véritable pirate du Black Pearl ?",
-    detail:
-      "Le Black Pearl, un navire légendaire qui inspire la peur aux marins et aux pirates, est un spectacle à voir. Avec sa silhouette élancée et menaçante, il fend les vagues avec une grâce et une vitesse inégalées. La coque ébène du navire, usée par d'innombrables batailles et voyages, dégage une atmosphère de mystère et de danger. Ses mâts imposants, ornés de voiles noires déchirées, semblent danser avec le vent, guidant le navire vers sa prochaine conquête. Le pont est orné de figures en bois finement sculptées, représentant des créatures mythiques et de féroces pirates, ajoutant une aura de légendes anciennes à la présence du navire. Les canons du Black Pearl, entretenus avec soin et étincelants de puissance, sont prêts à déchaîner la destruction sur quiconque oserait défier sa suprématie. De la proue à la poupe, le navire dégage un esprit indomptable, incarnant l'essence même de la piraterie en haute mer.",
-    price: 20,
-    image: "https://th.bing.com/th/id/OIG.nGjYDy2LTb4O7V7Z1rc9?pid=ImgGn",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 74,
-    mode: "dream",
-    type: "custom",
-    element: "Protagonist",
+    element: "protagonist",
     name: "Elijah Stormrider",
     description:
       "Maîtrisez le pouvoir des éléments avec Elijah Stormrider, un protagoniste charismatique et énigmatique. Déchaînez les tempêtes, contrôlez les vents et découvrez l'étendue réelle de votre maîtrise élémentaire.",
@@ -1279,11 +1264,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 75,
+    id: 74,
     mode: "dream",
     type: "custom",
-    element: "Protagonist",
+    element: "protagonist",
     name: "Luna Shadowcaster",
     description:
       "Embrassez les ténèbres intérieures avec Luna Shadowcaster, une protagoniste mystérieuse et redoutable. Maîtrisez la magie des ombres, manipulez les illusions et marchez sur la ligne entre lumière et obscurité.",
@@ -1294,11 +1280,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 76,
+    id: 75,
     mode: "dream",
     type: "custom",
-    element: "Protagonist",
+    element: "protagonist",
     name: "Aurora Dawnbreaker",
     description:
       "Embrassez la lumière radieuse avec Aurora Dawnbreaker, une protagoniste noble et droite. Canalisez l'énergie divine, bannissez les ténèbres et faites respecter la justice dans un monde en proie au mal.",
@@ -1309,11 +1296,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 77,
-    mode: "dream",
+    id: 76,
+    mode: "nightmare",
     type: "custom",
-    element: "Protagonist",
+    element: "protagonist",
     name: "Dusk Shadowblade",
     description:
       "Embrassez les ombres qui consument votre âme avec Dusk Shadowblade, un protagoniste tourmenté et implacable. Incarnez les ténèbres, maniez des pouvoirs interdits et plongez le monde dans une nuit éternelle.",
@@ -1324,11 +1312,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 78,
-    mode: "dream",
+    id: 77,
+    mode: "nightmare",
     type: "custom",
-    element: "Protagonist",
+    element: "protagonist",
     name: "Raven Nightshade",
     description:
       "Embrassez l'attrait de l'obscurité avec Raven Nightshade, une protagoniste séduisante et rusée. Manipulez les ombres, tissez des enchantements et plongez dans le chaos et l'intrigue de la nuit.",
@@ -1341,10 +1330,10 @@ const all = [
   },
 
   {
-    id: 79,
+    id: 78,
     mode: "nightmare",
     type: "custom",
-    element: "Protagonist",
+    element: "protagonist",
     name: "Malachi Darkthorn",
     description:
       "Embrassez les ténèbres qui résident en vous avec Malachi Darkthorn, un protagoniste tourmenté et énigmatique. Contrôlez la magie noire, invoquez des serviteurs obscurs et semez le chaos dans le royaume des mortels.",
@@ -1355,26 +1344,28 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
+  {
+    id: 79,
+    mode: "dream",
+    type: "custom",
+    element: "antagonist",
+    name: "Ragnar Deathbringer",
+    description:
+      "Embrassez l'incarnation de la mort avec Ragnar Deathbringer, un antagoniste impitoyable et implacable. Commandez une horde de morts-vivants, maniez des pouvoirs nécromantiques et provoquez la fin de toute vie.",
+    detail:
+      "Ragnar Deathbringer est un nécromancien d'un pouvoir inégalé, sa magie noire capable de lever des armées de morts. Soyez témoin de la dévastation qu'il répand dans son règne de terreur à travers le pays, ne laissant derrière lui que mort et désespoir.",
+    price: 16,
+    image: "https://th.bing.com/th/id/OIG.KX8BT.1Cy9Q.FxwhVCG1?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+
   {
     id: 80,
     mode: "dream",
     type: "custom",
-    element: "Antagonist",
-    name: "Morgana Nightshade",
-    description:
-      "Méfiez-vous de la présence malfaisante de Morgana Nightshade, une sombre sorcière aux intentions néfastes. Déchaînez des sorts dévastateurs, invoquez des serviteurs sombres et mettez votre courage à l'épreuve face à son pouvoir redoutable.",
-    detail:
-      "Morgana Nightshade, une maîtresse de la magie noire, cherche à plonger le monde dans les ténèbres éternelles. En tant qu'adversaire principal de votre voyage, elle ne reculera devant rien pour atteindre ses objectifs maléfiques.",
-    price: 10,
-    image: "https://th.bing.com/th/id/OIG.wyIeSy75LLUQDchCO6R4?pid=ImgGn",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 81,
-    mode: "dream",
-    type: "custom",
-    element: "Antagonist",
+    element: "antagonist",
     name: "Lucius Bloodfang",
     description:
       "Préparez-vous à affronter le redoutable Lucius Bloodfang, un seigneur vampire assoiffé de pouvoir et de domination. Engagez des batailles épiques, évitez ses crocs mortels et défiez son règne de terreur.",
@@ -1385,26 +1376,28 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 82,
+    id: 81,
     mode: "dream",
     type: "custom",
-    element: "Antagonist",
-    name: "Sylvia Shadowweaver",
+    element: "antagonist",
+    name: "Vesper Shadowcaster",
     description:
-      "Méfiez-vous de l'énigmatique Sylvia Shadowweaver, une maîtresse de la manipulation et de la tromperie. Démêlez ses intrigues complexes, surpassez ses pièges rusés et mettez fin à son règne de chaos.",
+      "Affrontez les ténèbres ultimes avec Vesper Shadowcaster, un antagoniste redoutable et malveillant. Commandez des sbires obscurs, déchaînez des malédictions dévastatrices et plongez le monde dans une nuit éternelle.",
     detail:
-      "Sylvia Shadowweaver, une génie de l'intrigue, tire les ficelles depuis les ombres, orchestrant le chaos et la discorde. Découvrez ses véritables motivations et affrontez-la dans un combat d'intelligence et de volonté.",
-    price: 11,
-    image: "https://th.bing.com/th/id/OIG.2xt1C9BaN5FblMizIG8P?pid=ImgGn",
+      "Vesper Shadowcaster est l'incarnation du pur mal, maîtrisant des pouvoirs sombres qui rivalisent avec ceux des dieux. Faites face au test ultime de votre courage et de vos compétences en affrontant l'essence même des ténèbres.",
+    price: 10,
+    image: "https://th.bing.com/th/id/OIG.6zblgimH2a1NlPSNDoWG?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 83,
+    id: 82,
     mode: "nightmare",
     type: "custom",
-    element: "Antagonist",
+    element: "antagonist",
     name: "Draven Darkheart",
     description:
       "Méfiez-vous de la présence malfaisante de Draven Darkheart, un nécromancien insatiable assoiffé d'âmes. Confrontez ses sbires morts-vivants, déchiffrez ses rituels sombres et mettez fin à son règne de terreur.",
@@ -1416,43 +1409,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 84,
+    id: 83,
     mode: "nightmare",
     type: "custom",
-    element: "Antagonist",
-    name: "Isabella Nightshade",
-    description:
-      "Méfiez-vous de l'enchanteresse mais mortelle Isabella Nightshade, une succube séductrice assoiffée d'âmes. Résistez à son charme, déjouez ses illusions et échappez à son emprise.",
-    detail:
-      "Isabella Nightshade, une succube d'une beauté et d'un charme immenses, se repaît des désirs et des faiblesses des mortels. Succombez à ses tentations et vous serez piégé à jamais dans son sombre royaume.",
-    price: 18,
-    image:
-      "https://i.pinimg.com/originals/8c/bd/91/8cbd91e9679bd883024c80eb18e15eab.jpg",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 85,
-    mode: "dream",
-    type: "custom",
-    element: "Antagonist",
-    name: "Vesper Shadowcaster",
-    description:
-      "Affrontez les ténèbres ultimes avec Vesper Shadowcaster, un antagoniste redoutable et malveillant. Commandez des sbires obscurs, déchaînez des malédictions dévastatrices et plongez le monde dans une nuit éternelle.",
-    detail:
-      "Vesper Shadowcaster est l'incarnation du pur mal, maîtrisant des pouvoirs sombres qui rivalisent avec ceux des dieux. Faites face au test ultime de votre courage et de vos compétences en affrontant l'essence même des ténèbres.",
-    price: 10,
-    image:
-      "https://th.bing.com/th/id/OIG.6zblgimH2a1NlPSNDoWG?pid=ImgGn",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 86,
-    mode: "dream",
-    type: "custom",
-    element: "Antagonist",
+    element: "antagonist",
     name: "Lucius Dreadborne",
     description:
       "Embrassez l'attrait de la malveillance avec Lucius Dreadborne, un antagoniste rusé et manipulateur. Conspirez dans les ombres, déchaînez le chaos et trompez vos adversaires à chaque tournant.",
@@ -1463,11 +1425,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 87,
-    mode: "dream",
+    id: 84,
+    mode: "nightmare",
     type: "custom",
-    element: "Antagonist",
+    element: "antagonist",
     name: "Sylvia Nightshade",
     description:
       "Plongez dans la beauté sombre et le pouvoir de Sylvia Nightshade, une antagoniste séduisante et perfide. Manipulez les esprits, tissez des enchantements et profitez du chaos et de la destruction que vous déclenchez.",
@@ -1478,57 +1441,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
-  {
-    id: 88,
-    mode: "nightmare",
-    type: "custom",
-    element: "Antagonist",
-    name: "Ragnar Deathbringer",
-    description:
-      "Embrassez l'incarnation de la mort avec Ragnar Deathbringer, un antagoniste impitoyable et implacable. Commandez une horde de morts-vivants, maniez des pouvoirs nécromantiques et provoquez la fin de toute vie.",
-    detail:
-      "Ragnar Deathbringer est un nécromancien d'un pouvoir inégalé, sa magie noire capable de lever des armées de morts. Soyez témoin de la dévastation qu'il répand dans son règne de terreur à travers le pays, ne laissant derrière lui que mort et désespoir.",
-    price: 16,
-    image: "https://th.bing.com/th/id/OIG.KX8BT.1Cy9Q.FxwhVCG1?pid=ImgGn",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 89,
-    mode: "nightmare",
-    type: "custom",
-    element: "Antagonist",
-    name: "Seraphina Shadowbane",
-    description:
-      "Embrassez les ombres qui consument votre âme avec Seraphina Shadowbane, une antagoniste impitoyable et vengeresse. Maîtrisez les arts de l'ombre, invoquez des créatures cauchemardesques et plongez le monde dans l'obscurité éternelle.",
-    detail:
-      "Seraphina Shadowbane est une experte dans l'art de manipuler les ombres, utilisant des pouvoirs interdits pour détruire ses ennemis. Suivez son parcours de vengeance et découvrez les secrets sinistres qu'elle cache dans les ténèbres.",
-    price: 14,
-    image: "https://th.bing.com/th/id/OIG.FtUSWmN9x0ojEfQyVZiX?pid=ImgGn",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 90,
-    mode: "nightmare",
-    type: "custom",
-    element: "Antagonist",
-    name: "Malachi Voidbringer",
-    description:
-      "Embrassez le vide qui consume tout avec Malachi Voidbringer, un antagoniste mystérieux et énigmatique. Maîtrisez les énergies sombres, manipulez la réalité et dévoilez l'essence même de l'existence.",
-    detail:
-      "Malachi Voidbringer est un sorcier doté du pouvoir de modeler la réalité selon sa volonté, utilisant les forces du vide pour remodeler le monde. Plongez dans les profondeurs de ses connaissances arcaniques et assistez au chaos qui suit son sillage.",
-    price: 21,
-    image: "https://th.bing.com/th/id/OIG.UiMSnBpvZg2jdzF71Ckb?pid=ImgGn",
-    isFavorite: false,
-    intoCart: false,
-  },
 
   {
-    id: 91,
+    id: 85,
     mode: "dream",
     type: "custom",
-    element: "Location",
+    element: "location",
     name: "Forêt Enchantée",
     description:
       "Plongez dans la mystérieuse Forêt Enchantée, où les arbres anciens chuchotent des secrets et les créatures magiques errent en toute liberté. Perdez-vous dans la beauté et l'émerveillement de ce royaume éthéré.",
@@ -1541,10 +1459,10 @@ const all = [
   },
 
   {
-    id: 92,
+    id: 86,
     mode: "dream",
     type: "custom",
-    element: "Location",
+    element: "location",
     name: "Cité Perdue d'Atlantis",
     description:
       "Découvrez la légendaire Cité Perdue d'Atlantis, une majestueuse utopie sous-marine remplie de ruines anciennes et de trésors inexplorés. Plongez dans les profondeurs et dévoilez les secrets de cette civilisation légendaire.",
@@ -1557,10 +1475,10 @@ const all = [
   },
 
   {
-    id: 93,
+    id: 87,
     mode: "dream",
     type: "custom",
-    element: "Location",
+    element: "location",
     name: "Observatoire Étoilé",
     description:
       "Embarquez pour un voyage céleste à l'Observatoire Étoilé. Contemplez des galaxies lointaines, assistez à des pluies de météores à couper le souffle et découvrez les mystères de l'univers.",
@@ -1571,11 +1489,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 94,
+    id: 88,
     mode: "nightmare",
     type: "custom",
-    element: "Location",
+    element: "location",
     name: "Asile Abandonné",
     description:
       "Entrez dans l'Asile Abandonné, un lieu de ténèbres et de désespoir. Parcourez ses couloirs hantés, affrontez des esprits agités et découvrez les sinistres secrets qui s'y cachent.",
@@ -1586,11 +1505,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 95,
+    id: 89,
     mode: "nightmare",
     type: "custom",
-    element: "Location",
+    element: "location",
     name: "Manoir Maudit",
     description:
       "Explorez le Manoir Maudit, un lieu infesté de fantômes et de présences maléfiques. Affrontez vos pires peurs et tentez de survivre à l'horreur qui se cache dans chaque pièce sombre.",
@@ -1603,10 +1523,10 @@ const all = [
   },
 
   {
-    id: 96,
+    id: 90,
     mode: "nightmare",
     type: "custom",
-    element: "Location",
+    element: "location",
     name: "Terres Désolées",
     description:
       "Explorez les Terres Désolées, un paysage aride et désolé dépourvu de vie. Parcourez son terrain dangereux, affrontez les éléments impitoyables et confrontez vos peurs intérieures.",
@@ -1617,11 +1537,28 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 97,
+    id: 91,
     mode: "dream",
     type: "custom",
-    element: "Vehicle",
+    element: "vehicle",
+    name: "Navire pirate",
+    description:
+      "Naviguez à bord du légendaire Black Pearl lors d'une aventure pirate à haut risque. Naviguez sur des eaux traîtres, découvrez des trésors cachés et affrontez des ennemis redoutables. Pouvez-vous conquérir les mers et devenir un véritable pirate du Black Pearl ?",
+    detail:
+      "Le Black Pearl, un navire légendaire qui inspire la peur aux marins et aux pirates, est un spectacle à voir. Avec sa silhouette élancée et menaçante, il fend les vagues avec une grâce et une vitesse inégalées. La coque ébène du navire, usée par d'innombrables batailles et voyages, dégage une atmosphère de mystère et de danger. Ses mâts imposants, ornés de voiles noires déchirées, semblent danser avec le vent, guidant le navire vers sa prochaine conquête. Le pont est orné de figures en bois finement sculptées, représentant des créatures mythiques et de féroces pirates, ajoutant une aura de légendes anciennes à la présence du navire. Les canons du Black Pearl, entretenus avec soin et étincelants de puissance, sont prêts à déchaîner la destruction sur quiconque oserait défier sa suprématie. De la proue à la poupe, le navire dégage un esprit indomptable, incarnant l'essence même de la piraterie en haute mer.",
+    price: 20,
+    image: "https://th.bing.com/th/id/OIG.nGjYDy2LTb4O7V7Z1rc9?pid=ImgGn",
+    isFavorite: false,
+    intoCart: false,
+  },
+
+  {
+    id: 92,
+    mode: "dream",
+    type: "custom",
+    element: "vehicle",
     name: "Dirigeable Céleste",
     description:
       "Embarquez pour un voyage époustouflant à bord du Dirigeable Céleste, un magnifique vaisseau qui vole à travers les cieux. Découvrez la liberté du vol et contemplez des panoramas à couper le souffle depuis les hauteurs.",
@@ -1632,11 +1569,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 98,
+    id: 93,
     mode: "dream",
     type: "custom",
-    element: "Vehicle",
+    element: "vehicle",
     name: "Voiture à Voyage Temporel",
     description:
       "Partez pour une aventure palpitante avec la Voiture à Voyage Temporel, un véhicule remarquable capable de traverser le temps. Explorez des époques historiques, assistez à des moments décisifs et dévoilez les fils de l'histoire.",
@@ -1647,26 +1585,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 99,
-    mode: "dream",
-    type: "custom",
-    element: "Vehicle",
-    name: "Hoverboard Solaire",
-    description:
-      "Glissez sans effort sur l'Hoverboard Solaire, un moyen de transport futuriste alimenté par l'énergie renouvelable. Parcourez les rues de la ville, réalisez des cascades défiant la gravité et profitez de l'excitation des déplacements à grande vitesse.",
-    detail:
-      "L'Hoverboard Solaire allie un design élégant à une technologie de pointe. Grâce à ses panneaux solaires, il convertit la lumière du soleil en énergie, vous propulsant vers l'avant avec rapidité et grâce. Naviguez sans effort dans les rues animées de la ville, en vous faufilant avec grâce entre les véhicules. Avec un contrôle précis et une maniabilité intuitive, vous pouvez réaliser des cascades et des manœuvres époustouflantes, défiant la gravité à chaque virage. Profitez de l'excitation des déplacements respectueux de l'environnement alors que vous glissez à travers un monde de possibilités.",
-    price: 12,
-    image: "https://th.bing.com/th/id/OIG.oxJcDPDmz9itLyPK0iX.?pid=ImgGn",
-    isFavorite: false,
-    intoCart: false,
-  },
-  {
-    id: 100,
+    id: 94,
     mode: "nightmare",
     type: "custom",
-    element: "Vehicle",
+    element: "vehicle",
     name: "Calèche Ténébreuse",
     description:
       "Embarquez pour un voyage glaçant à bord de la Calèche Ténébreuse, un véhicule sinistre qui traverse les royaumes des ténèbres. Explorez des paysages hantés, rencontrez des entités malveillantes et affrontez vos peurs les plus profondes.",
@@ -1677,11 +1601,12 @@ const all = [
     isFavorite: true,
     intoCart: false,
   },
+
   {
-    id: 101,
+    id: 95,
     mode: "nightmare",
     type: "custom",
-    element: "Vehicle",
+    element: "vehicle",
     name: "Moto Démoniaque",
     description:
       "Montez sur la Moto Démoniaque, un véhicule puissant qui brouille la frontière entre le monde des vivants et celui des enfers. Ressentez la puissance brute qui circule dans vos veines alors que vous traversez des royaumes interdits et affrontez des êtres surnaturels.",
@@ -1692,11 +1617,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 102,
+    id: 96,
     mode: "nightmare",
     type: "custom",
-    element: "Vehicle",
+    element: "vehicle",
     name: "Tank Détourné",
     description:
       "Prenez le contrôle du Tank Détourné, une machine de guerre colossale transformée en instrument de destruction. Conquérez les lignes ennemies, déchaînez une puissance de feu dévastatrice et laissez une traînée de chaos sur votre passage.",
@@ -1707,11 +1633,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 103,
+    id: 97,
     mode: "dream",
     type: "custom",
-    element: "Action",
+    element: "action",
     name: "Duel Éthéré",
     description:
       "Engagez-vous dans un duel éthéré où la maîtrise des arts arcaniques et des réflexes éclairs décident de votre destin. Déchaînez des sorts dévastateurs, manœuvrez avec précision et prouvez que vous êtes le dueliste de sorcier ultime.",
@@ -1722,11 +1649,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 104,
+    id: 98,
     mode: "dream",
     type: "custom",
-    element: "Action",
+    element: "action",
     name: "Hold-up Épique",
     description:
       "Lancez-vous dans un hold-up épique, rassemblant une équipe d'individus compétents pour réaliser des vols audacieux à haut risque. Planifiez méticuleusement, exécutez sans faille et trompez les systèmes de sécurité les plus sophistiqués.",
@@ -1737,11 +1665,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 105,
+    id: 99,
     mode: "dream",
     type: "custom",
-    element: "Action",
+    element: "action",
     name: "Bataille Légendaire",
     description:
       "Entrez dans l'arène d'une bataille légendaire, où les héros s'affrontent et les destins se forgent. Maniez de puissantes armes, déchaînez des combos dévastateurs et prouvez votre valeur en tant que champion ultime.",
@@ -1752,11 +1681,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 106,
+    id: 100,
     mode: "nightmare",
     type: "custom",
-    element: "Action",
+    element: "action",
     name: "Chaos Apocalyptique",
     description:
       "Plongez dans un monde de chaos apocalyptique, où la survie est une lutte constante contre des hordes de créatures cauchemardesques. Battez-vous pour votre vie, recherchez des ressources et découvrez les sombres secrets du monde déchu.",
@@ -1767,11 +1697,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 107,
+    id: 101,
     mode: "nightmare",
     type: "custom",
-    element: "Action",
+    element: "action",
     name: "Conquête Infernale",
     description:
       "Lancez-vous dans un voyage de conquête infernale alors que des forces démoniaques ravagent le monde. Libérez des pouvoirs infernaux, commandez des légions des ténèbres et assouvissez votre soif insatiable de domination.",
@@ -1782,11 +1713,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 108,
+    id: 102,
     mode: "nightmare",
     type: "custom",
-    element: "Action",
+    element: "action",
     name: "Étreinte de la Mort",
     description:
       "Plongez dans le royaume de l'Étreinte de la Mort, un lieu où règne les ténèbres et où des batailles mortelles se déroulent. Maniez des pouvoirs nécromantiques, commandez des légions d'êtres morts-vivants et devenez un messager de destruction.",
@@ -1797,28 +1729,28 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 109,
+    id: 103,
     mode: "dream",
     type: "custom",
-    element: "Weather",
+    element: "weather",
     name: "Aurore Céleste",
     description:
       "Contemplez la beauté impressionnante de l'aurore céleste, où des lumières colorées dansent dans le ciel nocturne. Plongez-vous dans un spectacle fascinant de couleurs célestes et de merveilles naturelles.",
     detail:
       "L'aurore céleste est un phénomène naturel extraordinaire qui se produit lorsque des particules chargées du soleil entrent en collision avec l'atmosphère terrestre. Les résultats sont des lumières colorées qui dansent dans le ciel nocturne, créant un spectacle à couper le souffle. Dans cette expérience immersive, vous pourrez contempler ces merveilles naturelles dans toute leur splendeur. Vous serez transporté dans des endroits pittoresques du globe où l'aurore céleste est particulièrement spectaculaire. C'est un voyage visuel et émotionnel qui vous laissera émerveillé devant la beauté de la nature.",
     price: 15,
-    image:
-      "https://th.bing.com/th/id/OIG.Vp5Km6VkNrpPNjueN0w1?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.Vp5Km6VkNrpPNjueN0w1?pid=ImgGn",
     isFavorite: true,
     intoCart: false,
   },
 
   {
-    id: 110,
+    id: 104,
     mode: "dream",
     type: "custom",
-    element: "Weather",
+    element: "weather",
     name: "Brise Murmurante",
     description:
       "Expérimentez la douce caresse de la brise murmurante alors qu'elle porte les parfums des fleurs en fleurs et la promesse d'un nouveau jour. Laissez-la apaiser votre âme et vous transporter vers un royaume de tranquillité.",
@@ -1829,11 +1761,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 111,
+    id: 105,
     mode: "dream",
     type: "custom",
-    element: "Weather",
+    element: "weather",
     name: "Tempête Mystique",
     description:
       "Préparez-vous à la puissance de la tempête mystique, où les éclairs illuminent le ciel obscurci et le tonnerre résonne à travers la terre. Expérimentez l'énergie brute et la force primordiale de la nature.",
@@ -1844,27 +1777,28 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 112,
+    id: 106,
     mode: "nightmare",
     type: "custom",
-    element: "Weather",
+    element: "weather",
     name: "Blizzard Éternel",
     description:
       "Plongez dans le royaume du blizzard éternel, où les vents glacés traversent les os et le gel guette les imprudents. Survivez au désert glacé et découvrez les secrets glaçants qui s'y cachent.",
     detail:
       "Dans le royaume du blizzard éternel, un froid mordant saisit l'air et gèle tout sur son passage. Les vents glacés sifflent à travers les paysages gelés, transperçant les vêtements et pénétrant les os. Les flocons de neige tourbillonnent dans le ciel obscur, créant un paysage d'une beauté froide et impitoyable. Le gel recouvre chaque surface, créant une étendue glacée qui attend les imprudents. Explorez ce désert glacé et découvrez les secrets glaçants qui se cachent dans son sein. Le blizzard éternel est un défi à la fois beau et dangereux, une expérience qui teste votre résistance et votre détermination.",
     price: 20,
-    image:
-      "https://th.bing.com/th/id/OIG.4EahJWr4qx_LIim79O.3?pid=ImgGn",
+    image: "https://th.bing.com/th/id/OIG.4EahJWr4qx_LIim79O.3?pid=ImgGn",
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 113,
+    id: 107,
     mode: "nightmare",
     type: "custom",
-    element: "Weather",
+    element: "weather",
     name: "Tempête Pourpre",
     description:
       "Entrez dans le royaume de la tempête pourpre, où des tempêtes dévastatrices engloutissent la terre dans une furie destructrice. Préparez-vous à l'éclair qui frappe et aux pluies torrentielles menaçant de tout emporter.",
@@ -1875,11 +1809,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 114,
+    id: 108,
     mode: "nightmare",
     type: "custom",
-    element: "Weather",
+    element: "weather",
     name: "Tempête de Sable Désolée",
     description:
       "Aventurez-vous dans le royaume de la tempête de sable désolée, où des vents implacables soulèvent des nuages de sable tourbillonnants et réduisent la visibilité à quelques centimètres. Survivez au désert hostile et découvrez les secrets enfouis en son sein.",
@@ -1890,11 +1825,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 115,
+    id: 109,
     mode: "dream",
     type: "custom",
-    element: "Item",
+    element: "item",
     name: "Élixir de Sérénité",
     description:
       "Découvrez l'Élixir de Sérénité, une potion puissante qui apporte la paix intérieure et la tranquillité. Vivez un moment de répit au milieu du chaos et trouvez le réconfort dans ses propriétés apaisantes.",
@@ -1905,11 +1841,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 116,
+    id: 110,
     mode: "dream",
     type: "custom",
-    element: "Item",
+    element: "item",
     name: "Plume de Phénix",
     description:
       "Découvrez la légendaire Plume de Phénix, symbole de renaissance et de renouveau. Utilisez ses propriétés mystiques et débloquez votre véritable potentiel.",
@@ -1920,11 +1857,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 117,
+    id: 111,
     mode: "dream",
     type: "custom",
-    element: "Item",
+    element: "item",
     name: "Amulette Mystique",
     description:
       "Lancez-vous dans une quête pour trouver l'Amulette Mystique, un talisman puissant qui accorde protection et guidance à son porteur. Exploitez ses énergies mystiques et dévoilez des secrets anciens.",
@@ -1935,11 +1873,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 118,
+    id: 112,
     mode: "nightmare",
     type: "custom",
-    element: "Item",
+    element: "item",
     name: "Relique Maudite",
     description:
       "Méfiez-vous de la Relique Maudite, un artefact sombre et malveillant qui apporte malheur et désespoir. Découvrez son sombre passé et brisez la malédiction, si vous l'osez.",
@@ -1950,11 +1889,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 119,
+    id: 113,
     mode: "nightmare",
     type: "custom",
-    element: "Item",
+    element: "item",
     name: "Dague des Ombres",
     description:
       "Embrassez les ténèbres avec la Dague des Ombres, une lame maléfique qui tranche le voile entre les royaumes. Utilisez son pouvoir sinistre et devenez le messager du chaos.",
@@ -1965,11 +1905,12 @@ const all = [
     isFavorite: false,
     intoCart: false,
   },
+
   {
-    id: 120,
+    id: 114,
     mode: "nightmare",
     type: "custom",
-    element: "Item",
+    element: "item",
     name: "Pendentif de Pierre d'Âme",
     description:
       "Libérez le pouvoir du Pendentif de Pierre d'Âme, un talisman troublant qui capture l'essence des âmes perdues. Maîtrisez son énergie mystérieuse et déchaînez son potentiel.",
