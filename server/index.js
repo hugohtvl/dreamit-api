@@ -54,3 +54,13 @@ app.listen(port, (err) => {
     console.log(`Server is listening on ${port}`);
   }
 });
+
+
+//pour pouvoir ajouter de nouveaux utilisateurs
+app.use(express.json()); // Ajoutez cette ligne pour pouvoir lire les données JSON envoyées dans le corps de la requête
+
+app.post("/api/users", (req, res) => {
+  const newUser = req.body;
+  users.push(newUser);
+  res.status(201).json(newUser);
+});
