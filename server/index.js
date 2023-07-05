@@ -64,3 +64,17 @@ app.post("/api/users", (req, res) => {
   users.push(newUser);
   res.status(201).json(newUser);
 });
+
+
+// Ajouter une commande à un utilisateur
+app.post("/api/users/:pseudo/commandes", (req, res) => {
+  const userPseudo = req.params.pseudo;
+  const newCommande = req.body;
+  const user = users.find(user => user.pseudo === userPseudo);
+  if (user) {
+    user.commandes.push(newCommande);
+    res.status(201).json(newCommande);
+  } else {
+    res.status(404).json({ message: `Aucun user avec le pseudo ${userPseudo}` });
+  }
+});
