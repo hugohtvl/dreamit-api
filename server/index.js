@@ -78,3 +78,43 @@ app.post("/api/users/:pseudo/commandes", (req, res) => {
     res.status(404).json({ message: `Aucun user avec le pseudo ${userPseudo}` });
   }
 });
+
+//ajouter des éléments à favoris
+app.post("/api/users/:pseudo/favoris", (req, res) => {
+  const userPseudo = req.params.pseudo;
+  const newFavoris = req.body;
+  const newFavorisId = newFavoris.id;
+  const user = users.find(user => user.pseudo === userPseudo);
+  const favoriIndex=user.favoris.findIndex(favori => favori.id == newFavorisId);
+  if (user) {
+    if(favoriIndex == -1){
+    user.favoris.push(newFavoris);
+    res.status(201).json(newFavoris);
+    } else {
+      res.status(404).json({ message: "Ce favoris existe déjà !" });
+    }
+  } else {
+    res.status(404).json({ message: `Aucun user avec le pseudo ${userPseudo}` });
+  }
+});
+
+//supprimer des éléments à favoris
+app.delete("/api/users/:pseudo/favoris/:idCard", (req,res) => {
+  const userPseudo = req.params.pseudo;
+  const idFavorisToDelete = req.params.idCard;
+  const user = users.find(user => user.pseudo === userPseudo);
+  if (user) {
+    const favoriIndex = user.favoris.findIndex(favori => favori.id == idFavorisToDelete);
+    if(favoriIndex !== -1){
+      console.log("user.favoris",user.favoris);
+      console.log("user.favoris[0]",user.favoris[0]);
+      user.favoris.splice(favoriIndex,1);
+      res.status(204).end();
+    }else {
+      res.status(404).json({ message: `Aucun favoris d'id ${favoriIndex} pour l'utilisateur ${userPseudo}` });
+    }
+    
+  } else {
+    res.status(404).json({ message: `Aucun user avec le pseudo ${userPseudo}` });
+  }
+})
