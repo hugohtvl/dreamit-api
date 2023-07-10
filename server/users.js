@@ -1,6 +1,5 @@
 const all = require("./all.json");
 
-
 const users = [
   {
     id: 1,
